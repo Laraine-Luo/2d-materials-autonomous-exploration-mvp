@@ -1,0 +1,21 @@
+round,policy,material_id,formula,predicted_band_gap_ev,uncertainty_ev,true_band_gap_ev,formation_energy_ev_atom,stable,target_hit,absolute_error_ev,selection_reason,budget_used,budget_total
+1,iterative,demo-2d-0003,VN2,1.80394,0.28096,0.64236,-0.46584,True,False,1.16158,target score plus uncertainty; model retrained after feedback,1,20
+2,iterative,demo-2d-0158,InN2,1.87283,0.58852,1.85701,-0.84323,True,True,0.01582,target score plus uncertainty; model retrained after feedback,2,20
+3,iterative,demo-2d-0008,MoN2,1.54524,0.36717,1.60697,-0.67282,True,True,0.06173,target score plus uncertainty; model retrained after feedback,3,20
+4,iterative,demo-2d-0106,TiO2,1.4785,0.53692,1.42323,-0.58775,True,False,0.05527,target score plus uncertainty; model retrained after feedback,4,20
+5,iterative,demo-2d-0112,MoSe2,1.7549,0.30229,1.68775,-0.31798,True,True,0.06715,target score plus uncertainty; model retrained after feedback,5,20
+6,iterative,demo-2d-0077,GaSe2,1.48242,0.36587,2.03204,-0.57914,True,True,0.54962,target score plus uncertainty; model retrained after feedback,6,20
+7,iterative,demo-2d-0155,VS2,1.95474,0.41919,2.36417,-0.66362,True,True,0.40943,target score plus uncertainty; model retrained after feedback,7,20
+8,iterative,demo-2d-0131,VO2,2.28727,0.29998,1.55398,-0.83114,True,True,0.73329,target score plus uncertainty; model retrained after feedback,8,20
+9,iterative,demo-2d-0108,SnN2,2.22262,0.27896,2.24455,-0.89695,True,True,0.02193,target score plus uncertainty; model retrained after feedback,9,20
+10,iterative,demo-2d-0016,MoO2,1.93983,0.26024,2.17754,-0.63946,True,True,0.23771,target score plus uncertainty; model retrained after feedback,10,20
+11,iterative,demo-2d-0096,MoO2,1.81659,0.27615,1.63711,-0.86487,True,True,0.17948,target score plus uncertainty; model retrained after feedback,11,20
+12,iterative,demo-2d-0025,WS2,2.47404,0.31214,2.68133,-1.06291,True,False,0.20729,target score plus uncertainty; model retrained after feedback,12,20
+13,iterative,demo-2d-0081,WO2,2.30612,0.22776,1.73157,-0.4479,True,True,0.57455,target score plus uncertainty; model retrained after feedback,13,20
+14,iterative,demo-2d-0114,TiTe2,1.79495,0.28691,1.5229,-0.75829,True,True,0.27205,target score plus uncertainty; model retrained after feedback,14,20
+15,iterative,demo-2d-0036,SnO2,2.15441,0.21323,2.01181,-1.19124,True,True,0.1426,target score plus uncertainty; model retrained after feedback,15,20
+16,iterative,demo-2d-0157,GaSe2,1.53049,0.22786,1.4032,-0.66902,True,False,0.12729,target score plus uncertainty; model retrained after feedback,16,20
+17,iterative,demo-2d-0038,InN2,1.59635,0.19463,1.42055,-0.5765,True,False,0.1758,target score plus uncertainty; model retrained after feedback,17,20
+18,iterative,demo-2d-0113,WN2,2.49317,0.2099,2.49442,-0.69433,True,True,0.00125,target score plus uncertainty; model retrained after feedback,18,20
+19,iterative,demo-2d-0047,BiSe2,1.69681,0.19316,1.39307,-0.59627,True,False,0.30374,target score plus uncertainty; model retrained after feedback,19,20
+20,iterative,demo-2d-0129,WTe2,2.27063,0.13298,2.11354,-0.83482,True,True,0.15709,target score plus uncertainty; model retrained after feedback,20,20
