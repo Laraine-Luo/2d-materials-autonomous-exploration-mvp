@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "dataset_path": "data/sample_materials.csv",
+  "initial_samples": 12,
+  "query_budget": 20,
+  "batch_size": 1,
+  "target_band_gap_min_ev": 1.5,
+  "target_band_gap_max_ev": 2.5,
+  "stability_max_formation_energy_ev_atom": -0.2,
+  "uncertainty_weight": 0.35,
+  "ridge_alpha": 0.1,
+  "bootstrap_models": 12
+}
+
