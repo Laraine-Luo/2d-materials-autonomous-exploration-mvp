@@ -1,0 +1,26 @@
+{
+  "analysis_type": "post_result_exploratory_mechanism_analysis",
+  "confirmatory_or_causal_claim_allowed": false,
+  "seed_count": 20,
+  "query_rows": 180,
+  "initial_material_ids": [
+    "mp-1023924",
+    "mp-1027525",
+    "mp-1434"
+  ],
+  "observations": {
+    "static_topn_target_rate": 0.666667,
+    "iterative_target_rate": 0.583333,
+    "static_topn_mean_selected_uncertainty_ev": 0.06185,
+    "iterative_mean_selected_uncertainty_ev": 0.078513,
+    "static_topn_unique_query_sequences": 2,
+    "iterative_unique_query_sequences": 8
+  },
+  "hypotheses_for_future_preregistration": [
+    "the frozen initial model already ranks the two target candidates effectively in this cohort",
+    "the uncertainty term redirects iterative queries toward below-target candidates",
+    "three feedback steps in a four-candidate pool are too few for retraining to recover the exploration cost",
+    "the five structural features and bootstrap spread are insufficiently calibrated for this target"
+  ],
+  "claim_limit": "observational explanation inside one fixed seven-record MP MoS2 cohort; no causal or general strategy claim"
+}

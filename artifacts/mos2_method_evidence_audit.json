@@ -1,0 +1,612 @@
+{
+  "retrieved_at_utc": "2026-08-07T17:42:38.482024+00:00",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "credential_recorded": false,
+  "materials_requested": 12,
+  "electronic_structure_task_ids_requested": 12,
+  "task_documents_returned": 12,
+  "thermo_documents_returned": 32,
+  "band_gap_method_resolved_count": 12,
+  "stability_method_resolved_count": 12,
+  "manual_review_required_count": 12,
+  "records": [
+    {
+      "material_id": "mp-1434",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafdjlh",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1434-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9661425452083326,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1434-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9661425452083326,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1434-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.2013557354166668,
+          "energy_above_hull": 0.00019976333333371343,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-2815",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafxgpx",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-2815-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.964449816875001,
+          "energy_above_hull": 0.0016927283333316723,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-2815-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.964449816875001,
+          "energy_above_hull": 0.0016927283333316723,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-2815-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.2015554987500003,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-1018809",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafjilg",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1018809-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9637533052083332,
+          "energy_above_hull": 0.002389239999999404,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1018809-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9637533052083332,
+          "energy_above_hull": 0.002389239999999404,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1018809-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.2002801470833333,
+          "energy_above_hull": 0.001275351666667035,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-1027525",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaacgmbn",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1027525-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9624610102083343,
+          "energy_above_hull": 0.003681534999998348,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1027525-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9624610102083343,
+          "energy_above_hull": 0.003681534999998348,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1027525-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.200966215416667,
+          "energy_above_hull": 0.0005892833333334124,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-1025874",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafaych",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1025874-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9617292007638886,
+          "energy_above_hull": 0.004413344444444078,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1025874-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9617292007638886,
+          "energy_above_hull": 0.004413344444444078,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1025874-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.2007876320833333,
+          "energy_above_hull": 0.0007678666666670608,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-1023939",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaaficae",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023939-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9589067502083329,
+          "energy_above_hull": 0.007235794999999712,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023939-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9589067502083329,
+          "energy_above_hull": 0.007235794999999712,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1023939-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.2004619637500002,
+          "energy_above_hull": 0.0010935349999998678,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-1023924",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafblyn",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023924-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9517026318749989,
+          "energy_above_hull": 0.01443991333333372,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023924-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.9517026318749989,
+          "energy_above_hull": 0.01443991333333372,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1023924-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.1995409354166675,
+          "energy_above_hull": 0.0020145633333328306,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-990083",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaaceiqh",
+          "run_type": "GGA",
+          "task_type": "Static"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-990083-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.7997857265046293,
+          "energy_above_hull": 0.16635681870370433,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-990083-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.0351986800462962,
+          "energy_above_hull": 0.16635681870370433,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-1405065",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaaduxrd",
+          "run_type": "GGA",
+          "task_type": "NSCF Uniform"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1405065-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.6985995093750006,
+          "energy_above_hull": 0.2675430358333326,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1405065-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.9340124629166672,
+          "energy_above_hull": 0.2675430358333335,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-558544",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafbymo",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-558544-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.6864253585416643,
+          "energy_above_hull": 0.27971718666666945,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-558544-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.9218383120833332,
+          "energy_above_hull": 0.2797171866666668,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-1238797",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafcmtt",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1238797-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.6698387318749989,
+          "energy_above_hull": 0.2963038133333349,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1238797-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.6698387318749989,
+          "energy_above_hull": 0.2963038133333349,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1238797-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.9235577654166663,
+          "energy_above_hull": 0.27799773333333366,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    },
+    {
+      "material_id": "mp-1042086",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafbblj",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1042086-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.31864154854166554,
+          "energy_above_hull": 0.6475009966666683,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1042086-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.5540545020833333,
+          "energy_above_hull": 0.6475009966666674,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "manual_review_required": true
+    }
+  ],
+  "interpretation": "Method evidence was collected on separate Band Gap and stability paths. No record is automatically approved."
+}

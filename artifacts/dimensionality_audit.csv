@@ -1,0 +1,23 @@
+material_id,formula,dimensionality_status,training_eligible,manual_review_required,band_gap_ev,band_gap_deviation_from_confirmed_mean_ev,formation_energy_ev_atom,energy_above_hull_ev_atom,is_stable_mp_flag,exclusion_reason
+demo-2d-0000,MoS2,uncertain_2d,False,True,1.74762,0.00787,-0.77218,0.01057,True,awaiting manual 2D review
+demo-2d-0013,GaN2,uncertain_2d,False,True,2.05615,0.3164,-0.50206,0.03518,False,awaiting manual 2D review
+demo-2d-0017,WSe2,non_2d,False,False,1.58999,-0.14976,-0.53085,0.0,True,classified as non-2D
+demo-2d-0026,TiO2,uncertain_2d,False,True,1.84183,0.10208,-0.70133,0.0,True,awaiting manual 2D review
+demo-2d-0034,TiTe2,non_2d,False,False,2.12009,0.38034,-0.65118,0.0,True,classified as non-2D
+demo-2d-0039,BiTe2,uncertain_2d,False,True,1.96012,0.22037,-0.75988,0.0,True,awaiting manual 2D review
+demo-2d-0051,VO2,non_2d,False,False,1.81118,0.07143,-0.7315,0.0,True,classified as non-2D
+demo-2d-0052,SnSe2,uncertain_2d,False,True,1.25386,-0.48589,-0.60434,0.0,True,awaiting manual 2D review
+demo-2d-0065,WS2,uncertain_2d,False,True,2.07743,0.33768,-0.53105,0.02653,False,awaiting manual 2D review
+demo-2d-0068,SnN2,non_2d,False,False,2.39237,0.65262,-0.87978,0.0,True,classified as non-2D
+demo-2d-0078,InN2,uncertain_2d,False,True,1.92839,0.18864,-0.61227,0.03461,False,awaiting manual 2D review
+demo-2d-0085,GaS2,non_2d,False,False,2.13238,0.39263,-0.92822,0.0,True,classified as non-2D
+demo-2d-0091,VO2,uncertain_2d,False,True,1.28053,-0.45922,-0.35042,0.03489,False,awaiting manual 2D review
+demo-2d-0102,InSe2,non_2d,False,False,1.35911,-0.38064,-0.71793,0.00315,True,classified as non-2D
+demo-2d-0104,MoTe2,uncertain_2d,False,True,1.77806,0.03831,-0.62195,0.0064,True,awaiting manual 2D review
+demo-2d-0117,GaSe2,uncertain_2d,False,True,1.76712,0.02737,-0.38249,0.06143,False,awaiting manual 2D review
+demo-2d-0119,BiTe2,non_2d,False,False,1.64784,-0.09191,-0.4268,0.10635,False,classified as non-2D
+demo-2d-0130,TiS2,uncertain_2d,False,True,3.21155,1.4718,-0.76441,0.0,True,awaiting manual 2D review
+demo-2d-0136,MoO2,non_2d,False,False,1.10909,-0.63066,-0.66416,0.0,True,classified as non-2D
+demo-2d-0143,BiN2,uncertain_2d,False,True,1.97819,0.23844,-0.6014,0.00836,True,awaiting manual 2D review
+demo-2d-0153,WN2,non_2d,False,False,1.51649,-0.22326,-0.90778,0.0,True,classified as non-2D
+demo-2d-0156,SnO2,uncertain_2d,False,True,2.34009,0.60034,-0.60416,0.06419,False,awaiting manual 2D review

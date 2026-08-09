@@ -1,0 +1,223 @@
+{
+  "passport_version": "0.1.0",
+  "material_id": "mp-1023939",
+  "formula": "MoS2",
+  "chemical_system": "Mo-S",
+  "materials_project_index_path": "Materials Explorer > Mo-S > MoS2 > mp-1023939",
+  "source_database": "Materials Project",
+  "source_surface": "official API",
+  "database_version_observed_on_web": "v2026.04.13",
+  "web_index_evidence": {
+    "crystal_system": "Trigonal",
+    "space_group": "P-3m1",
+    "sites": 6,
+    "energy_above_hull_ev_atom_display": "<0.01",
+    "band_gap_ev_display": "1.55"
+  },
+  "official_api_evidence": {
+    "status": "received",
+    "identity_match": "pass",
+    "database_version_frozen": "pass",
+    "origins_task_id": null,
+    "thermo_run_type": null,
+    "required_properties_verified": true
+  },
+  "manual_audit": {
+    "dimensionality_review": "confirmed_2d",
+    "dimensionality_evidence": [
+      "larsen_robocrys_support; gorai_failure_retained",
+      "see artifacts/mos2_dimensionality_evidence_audit.json",
+      "see artifacts/mos2_uncertain_robocrys_audit.json where applicable"
+    ],
+    "calculation_method_review": "pass",
+    "reviewer": "project_owner_user",
+    "reviewed_at": "2026-08-08T03:38:39.824720+00:00",
+    "calculation_method_evidence": {
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "r2SCAN",
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN"
+    },
+    "decision_source": "continued after explicit 9-in/3-out proposal in Codex task",
+    "rationale": "Accepted combined MP-only dimensionality and method evidence proposal; non-2D and method-attention records remain retained as counterexamples."
+  },
+  "exploration_status_training_eligible": true,
+  "exploration_status_query_state": "unobserved",
+  "exploration_status_discovery_level": "D0",
+  "exploration_status_manual_review_required": false,
+  "promotion_decision": "promoted",
+  "blocking_reasons": [],
+  "claim_boundary": "Web index evidence only; not a training record, D2 candidate, strategy result or new-material claim.",
+  "source_database_version": "2026.04.13",
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          3.18454084,
+          -3e-08,
+          -0.0
+        ],
+        [
+          -1.59227248,
+          2.7578935,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          21.67053472
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 3.1845408400000004,
+      "b": 3.1845420719324156,
+      "c": 21.67053472,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.0000305398368,
+      "volume": 190.32416775902382
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.666667,
+          0.333333,
+          0.44786727
+        ],
+        "properties": {},
+        "label": "Mo",
+        "xyz": [
+          1.5922713256044398,
+          0.9192968940354901,
+          9.705523224486614
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.333333,
+          0.666667,
+          0.15018773
+        ],
+        "properties": {},
+        "label": "Mo",
+        "xyz": [
+          -2.965604440153184e-06,
+          1.8385965759645102,
+          3.2546484174829855
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.333333,
+          0.666667,
+          0.51940211
+        ],
+        "properties": {},
+        "label": "S",
+        "xyz": [
+          -2.965604440153184e-06,
+          1.8385965759645102,
+          11.255721458396259
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.666667,
+          0.333333,
+          0.2217765
+        ],
+        "properties": {},
+        "label": "S",
+        "xyz": [
+          1.5922713256044398,
+          0.9192968940354901,
+          4.806015343330079
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.333333,
+          0.666667,
+          0.3762785
+        ],
+        "properties": {},
+        "label": "S",
+        "xyz": [
+          -2.965604440153184e-06,
+          1.8385965759645102,
+          8.15415629863952
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.666667,
+          0.333333,
+          0.07865289
+        ],
+        "properties": {},
+        "label": "S",
+        "xyz": [
+          1.5922713256044398,
+          0.9192968940354901,
+          1.7044501835733408
+        ]
+      }
+    ]
+  },
+  "band_gap_ev": 1.5539,
+  "formation_energy_ev_atom": -0.9589067502083329,
+  "energy_above_hull_ev_atom": 0.007235794999999712,
+  "is_stable_mp_flag": false,
+  "source_calculation_method": "band_gap:GGA; stability:GGA_GGA+U_R2SCAN"
+}

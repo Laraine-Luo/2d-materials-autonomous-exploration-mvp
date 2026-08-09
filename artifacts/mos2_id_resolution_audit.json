@@ -1,0 +1,66 @@
+{
+  "resolved_at_utc": "2026-08-07T17:31:03.170981+00:00",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "resolution_method": "MPRester.get_material_id_from_task_id(web_index_id)",
+  "credential_recorded": false,
+  "web_ids_submitted": 12,
+  "ids_resolved": 12,
+  "unique_current_ids": 12,
+  "all_resolved_one_to_one": true,
+  "formula_query_count": 12,
+  "resolved_ids_equal_formula_query_ids": true,
+  "resolved_only": [],
+  "formula_query_only": [],
+  "mappings": [
+    {
+      "web_index_id": "mp-1434",
+      "current_api_material_id": "mp-1434"
+    },
+    {
+      "web_index_id": "mp-2815",
+      "current_api_material_id": "mp-2815"
+    },
+    {
+      "web_index_id": "mp-1018809",
+      "current_api_material_id": "mp-1018809"
+    },
+    {
+      "web_index_id": "mp-1027525",
+      "current_api_material_id": "mp-1027525"
+    },
+    {
+      "web_index_id": "mp-1025874",
+      "current_api_material_id": "mp-1025874"
+    },
+    {
+      "web_index_id": "mp-1023939",
+      "current_api_material_id": "mp-1023939"
+    },
+    {
+      "web_index_id": "mp-1023924",
+      "current_api_material_id": "mp-1023924"
+    },
+    {
+      "web_index_id": "mp-990083",
+      "current_api_material_id": "mp-990083"
+    },
+    {
+      "web_index_id": "mp-1405065",
+      "current_api_material_id": "mp-1405065"
+    },
+    {
+      "web_index_id": "mp-558544",
+      "current_api_material_id": "mp-558544"
+    },
+    {
+      "web_index_id": "mp-1238797",
+      "current_api_material_id": "mp-1238797"
+    },
+    {
+      "web_index_id": "mp-1042086",
+      "current_api_material_id": "mp-1042086"
+    }
+  ],
+  "interpretation": "Legacy/task-ID resolution is one-to-one, but formula-query membership is audited separately. A mismatch is candidate-space drift, not an identity mapping between the two sets."
+}

@@ -1,0 +1,1533 @@
+{
+  "retrieved_at_utc": "2026-08-08T12:55:46.242780+00:00",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "credential_recorded": false,
+  "method_paths": {
+    "band_gap": "summary.origins[electronic_structure].task_id -> tasks.run_type/task_type",
+    "stability": "thermo.thermo_type -> thermo.entries[*].parameters.run_type"
+  },
+  "records": [
+    {
+      "material_id": "mp-1018807",
+      "formula": "MoSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafxglk",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1018807-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7466114493750003,
+          "energy_above_hull": 0.003325393333334148,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1018807-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7466114493750003,
+          "energy_above_hull": 0.003325393333334148,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1018807-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.9852317232291661,
+          "energy_above_hull": 0.0024883516666669436,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023925",
+      "formula": "WS2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafbebl",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023925-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.8761316268749985,
+          "energy_above_hull": 0.007448381666669945,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023925-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.8761316268749985,
+          "energy_above_hull": 0.007448381666669945,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1023925-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.1527970704166666,
+          "energy_above_hull": 0.0011733683333332579,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "WS₂ is Molybdenite-like structured and crystallizes in the trigonal P̅3m1 space group. The structure is two-dimensional and consists of two WS₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. W⁴⁺ is bonded to six equivalent S²⁻ atoms to form distorted edge-sharing WS₆ pentagonal pyramids. All W-S bond lengths are 2.41 Å. S²⁻ is bonded in a 3-coordinate geometry to three equivalent W⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023933",
+      "formula": "WSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaaemxgp",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023933-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.5954563027083329,
+          "energy_above_hull": 0.008163203333332092,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023933-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.5954563027083329,
+          "energy_above_hull": 0.008163203333332092,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1023933-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.8717024715624989,
+          "energy_above_hull": 0.0005090083333341155,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "WSe₂ is Molybdenite-like structured and crystallizes in the trigonal P̅3m1 space group. The structure is two-dimensional and consists of two WSe₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. W⁴⁺ is bonded to six equivalent Se²⁻ atoms to form distorted edge-sharing WSe₆ pentagonal pyramids. All W-Se bond lengths are 2.54 Å. Se²⁻ is bonded in a 3-coordinate geometry to three equivalent W⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023934",
+      "formula": "MoSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafbjln",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023934-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7338328527083343,
+          "energy_above_hull": 0.01610399000000129,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023934-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7338328527083343,
+          "energy_above_hull": 0.01610399000000129,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1023934-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.9865608648958322,
+          "energy_above_hull": 0.0011592100000008543,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023935",
+      "formula": "MoTe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafbmvw",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023935-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.2857607366666694,
+          "energy_above_hull": 0.021611029999995424,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023935-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.2857607366666694,
+          "energy_above_hull": 0.021611029999995424,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1023935-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.2719464911111113,
+          "energy_above_hull": 0.0034250866666667434,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023936",
+      "formula": "WSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafbjao",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023936-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.587869466041667,
+          "energy_above_hull": 0.015750040000000354,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023936-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.587869466041667,
+          "energy_above_hull": 0.015750040000000354,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1023936-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.8707643748958324,
+          "energy_above_hull": 0.0014471050000004482,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023937",
+      "formula": "WS2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafbkds",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023937-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.8694221118750013,
+          "energy_above_hull": 0.014157896666667114,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023937-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.8694221118750013,
+          "energy_above_hull": 0.014157896666667114,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1023937-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.1520189320833332,
+          "energy_above_hull": 0.0019515066666677683,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023938",
+      "formula": "MoTe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaaepkpa",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023938-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.2959342366666675,
+          "energy_above_hull": 0.011437529999998475,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023938-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.2959342366666675,
+          "energy_above_hull": 0.011437529999998475,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1023938-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.2741730194444448,
+          "energy_above_hull": 0.001198558333332933,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "MoTe₂ is Molybdenite-like structured and crystallizes in the trigonal P̅3m1 space group. The structure is two-dimensional and consists of two MoTe₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. Mo⁴⁺ is bonded to six equivalent Te²⁻ atoms to form distorted edge-sharing MoTe₆ pentagonal pyramids. There are three shorter (2.72 Å) and three longer (2.73 Å) Mo-Te bond lengths. Te²⁻ is bonded in a 3-coordinate geometry to three equivalent Mo⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023940",
+      "formula": "MoSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaaemxzo",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023940-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7420059710416685,
+          "energy_above_hull": 0.00793087166666595,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1023940-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7420059710416685,
+          "energy_above_hull": 0.00793087166666595,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1023940-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.9873491248958324,
+          "energy_above_hull": 0.00037095000000064715,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "MoSe₂ is Molybdenite-like structured and crystallizes in the trigonal P̅3m1 space group. The structure is two-dimensional and consists of two MoSe₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. Mo⁴⁺ is bonded to six equivalent Se²⁻ atoms to form distorted edge-sharing MoSe₆ pentagonal pyramids. All Mo-Se bond lengths are 2.53 Å. Se²⁻ is bonded in a 3-coordinate geometry to three equivalent Mo⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1025571",
+      "formula": "WS2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafaybx",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1025571-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.8784126318749972,
+          "energy_above_hull": 0.005167376666669554,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1025571-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.8784126318749972,
+          "energy_above_hull": 0.005167376666669554,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1025571-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.15303710763889,
+          "energy_above_hull": 0.0009333311111117126,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "WS₂ is Molybdenite-like structured and crystallizes in the trigonal P3m1 space group. The structure is two-dimensional and consists of three WS₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. W⁴⁺ is bonded to six equivalent S²⁻ atoms to form distorted edge-sharing WS₆ pentagonal pyramids. All W-S bond lengths are 2.41 Å. S²⁻ is bonded in a 3-coordinate geometry to three equivalent W⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1025572",
+      "formula": "WSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaacgjzz",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1025572-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.5980825260416667,
+          "energy_above_hull": 0.005536979999998692,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1025572-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.5980825260416667,
+          "energy_above_hull": 0.005536979999998692,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1025572-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.871952794895833,
+          "energy_above_hull": 0.0002586850000012575,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "WSe₂ is Molybdenite-like structured and crystallizes in the hexagonal P̅6m2 space group. The structure is two-dimensional and consists of three WSe₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. W⁴⁺ is bonded to six equivalent Se²⁻ atoms to form distorted edge-sharing WSe₆ pentagonal pyramids. All W-Se bond lengths are 2.54 Å. Se²⁻ is bonded in a 3-coordinate geometry to three equivalent W⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1025576",
+      "formula": "MoTe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaacgkad",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1025576-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.2996313800000002,
+          "energy_above_hull": 0.007740386666664989,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1025576-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.2996313800000002,
+          "energy_above_hull": 0.007740386666664989,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1025576-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.27494404666666683,
+          "energy_above_hull": 0.00042753111111082376,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "MoTe₂ is Molybdenite-like structured and crystallizes in the hexagonal P̅6m2 space group. The structure is two-dimensional and consists of three MoTe₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. Mo⁴⁺ is bonded to six equivalent Te²⁻ atoms to form distorted edge-sharing MoTe₆ pentagonal pyramids. All Mo-Te bond lengths are 2.73 Å. Te²⁻ is bonded in a 3-coordinate geometry to three equivalent Mo⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1025799",
+      "formula": "MoSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaacgkef",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1025799-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7446227493750004,
+          "energy_above_hull": 0.005314093333332437,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1025799-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7446227493750004,
+          "energy_above_hull": 0.005314093333332437,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1025799-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.9876082393402785,
+          "energy_above_hull": 0.00011183555555582814,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "MoSe₂ is Molybdenite-like structured and crystallizes in the hexagonal P̅6m2 space group. The structure is two-dimensional and consists of three MoSe₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. Mo⁴⁺ is bonded to six equivalent Se²⁻ atoms to form distorted edge-sharing MoSe₆ pentagonal pyramids. All Mo-Se bond lengths are 2.53 Å. Se²⁻ is bonded in a 3-coordinate geometry to three equivalent Mo⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1027692",
+      "formula": "MoSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaacgmie",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1027692-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7459753043750013,
+          "energy_above_hull": 0.003961538333335568,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1027692-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7459753043750013,
+          "energy_above_hull": 0.003961538333335568,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1027692-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.987720074895833,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "MoSe₂ is Molybdenite-like structured and crystallizes in the trigonal P̅3m1 space group. The structure is two-dimensional and consists of four MoSe₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. Mo⁴⁺ is bonded to six equivalent Se²⁻ atoms to form distorted edge-sharing MoSe₆ pentagonal pyramids. All Mo-Se bond lengths are 2.53 Å. Se²⁻ is bonded in a 3-coordinate geometry to three equivalent Mo⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1028441",
+      "formula": "WS2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaacgnkc",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1028441-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.8797867568750016,
+          "energy_above_hull": 0.0037932516666643323,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1028441-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.8797867568750016,
+          "energy_above_hull": 0.0037932516666643323,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1028441-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.1531781220833335,
+          "energy_above_hull": 0.0007923166666667925,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "WS₂ is Molybdenite-like structured and crystallizes in the trigonal P̅3m1 space group. The structure is two-dimensional and consists of four WS₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. W⁴⁺ is bonded to six equivalent S²⁻ atoms to form distorted edge-sharing WS₆ pentagonal pyramids. All W-S bond lengths are 2.41 Å. S²⁻ is bonded in a 3-coordinate geometry to three equivalent W⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1028698",
+      "formula": "WSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaacgnur",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1028698-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.5993674243749988,
+          "energy_above_hull": 0.004252081666667351,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1028698-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.5993674243749988,
+          "energy_above_hull": 0.004252081666667351,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1028698-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.8720542548958328,
+          "energy_above_hull": 0.0001572250000005937,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "WSe₂ is Molybdenite-like structured and crystallizes in the trigonal P̅3m1 space group. The structure is two-dimensional and consists of four WSe₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. W⁴⁺ is bonded to six equivalent Se²⁻ atoms to form distorted edge-sharing WSe₆ pentagonal pyramids. All W-Se bond lengths are 2.54 Å. Se²⁻ is bonded in a 3-coordinate geometry to three equivalent W⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1030319",
+      "formula": "MoTe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaacgqei",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1030319-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.30146815416666567,
+          "energy_above_hull": 0.005903612499999156,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1030319-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.30146815416666567,
+          "energy_above_hull": 0.005903612499999156,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1030319-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.27537157777777804,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "uncertain_2d",
+      "robocrys_evidence": {
+        "dimensionality": 2,
+        "version": "0.87.0rc7",
+        "description": "MoTe₂ is Molybdenite-like structured and crystallizes in the trigonal P̅3m1 space group. The structure is two-dimensional and consists of four MoTe₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. Mo⁴⁺ is bonded to six equivalent Te²⁻ atoms to form distorted edge-sharing MoTe₆ pentagonal pyramids. All Mo-Te bond lengths are 2.73 Å. Te²⁻ is bonded in a 3-coordinate geometry to three equivalent Mo⁴⁺ atoms.",
+        "recommendation": "recommended_confirmed_2d"
+      },
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1120746",
+      "formula": "MoTe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaaekwwh",
+          "run_type": "r2SCAN",
+          "task_type": "Structure Optimization"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1120746-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.2743772716666702,
+          "energy_above_hull": 0.03299449499999696,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1120746-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.2743772716666702,
+          "energy_above_hull": 0.03299449499999696,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1120746-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.25669780277777815,
+          "energy_above_hull": 0.018673774999999893,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1634",
+      "formula": "MoSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafyhid",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1634-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7499368427083345,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1634-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7499368427083345,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1634-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.9875353482291658,
+          "energy_above_hull": 0.00018472666666724535,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1821",
+      "formula": "WSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafxigr",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1821-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.6036195060416674,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-1821-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.6036195060416674,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-1821-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.8722114798958328,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-224",
+      "formula": "WS2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafwxoa",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-224-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.883580008541666,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-224-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.883580008541666,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-224-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.1537449387499994,
+          "energy_above_hull": 0.00022550000000087778,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-602",
+      "formula": "MoTe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafsaee",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-602-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.30737176666666716,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-602-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.30737176666666716,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-602-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.27410558777777777,
+          "energy_above_hull": 0.0012659900000002722,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-7459",
+      "formula": "MoTe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafimzl",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-7459-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.2934826949999992,
+          "energy_above_hull": 0.013889071666667974,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-7459-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.2934826949999992,
+          "energy_above_hull": 0.013889071666667974,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-7459-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.2605856169444441,
+          "energy_above_hull": 0.014785960833333611,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-7581",
+      "formula": "MoSe2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafisqa",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-7581-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7492486493750002,
+          "energy_above_hull": 0.0006881933333353629,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-7581-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.7492486493750002,
+          "energy_above_hull": 0.0006881933333353629,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-7581-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -0.9875702848958324,
+          "energy_above_hull": 0.00014979000000092668,
+          "is_stable": false
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-9813",
+      "formula": "WS2",
+      "band_gap_origin_methods": [
+        {
+          "task_id": "aaafbwet",
+          "run_type": "GGA",
+          "task_type": "NSCF Line"
+        }
+      ],
+      "stability_thermo_methods": [
+        {
+          "thermo_type": "r2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-9813-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.8826962018750019,
+          "energy_above_hull": 0.0008838066666640998,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U_R2SCAN",
+          "entries": [
+            {
+              "entry_type": "r2SCAN",
+              "entry_id": "mp-9813-r2SCAN",
+              "run_type": "r2SCAN"
+            }
+          ],
+          "formation_energy_per_atom": -0.8826962018750019,
+          "energy_above_hull": 0.0008838066666640998,
+          "is_stable": false
+        },
+        {
+          "thermo_type": "GGA_GGA+U",
+          "entries": [
+            {
+              "entry_type": "GGA",
+              "entry_id": "mp-9813-GGA",
+              "run_type": "GGA"
+            }
+          ],
+          "formation_energy_per_atom": -1.1539704387499998,
+          "energy_above_hull": 0.0,
+          "is_stable": true
+        }
+      ],
+      "band_gap_method_resolved": true,
+      "stability_method_resolved": true,
+      "dimensionality_proposal": "confirmed_2d",
+      "robocrys_evidence": null,
+      "manual_review_required": true,
+      "training_eligible": false
+    }
+  ],
+  "status": "success",
+  "materials_requested": 25,
+  "electronic_task_ids_requested": 25,
+  "task_documents_returned": 25,
+  "thermo_documents_returned": 75,
+  "robocrys_requested": 12,
+  "robocrys_returned": 12,
+  "band_gap_method_resolved_count": 25,
+  "stability_method_resolved_count": 25,
+  "robocrys_recommended_2d_count": 12,
+  "interpretation": "Method and Robocrys evidence collected; every record still requires recorded human review."
+}

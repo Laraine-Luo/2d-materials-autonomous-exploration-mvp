@@ -1,0 +1,77 @@
+{
+  "run_id": "mp-mos2-3plus3plus1-v1",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "eligible_records": 7,
+  "feature_names": [
+    "n_sites",
+    "volume_per_atom_angstrom3",
+    "density_g_cm3",
+    "lattice_anisotropy",
+    "layer_component_count"
+  ],
+  "initial_selection": "deterministic farthest-point sampling on standardized structure features; no Band Gap labels",
+  "initial_material_ids": [
+    "mp-1023924",
+    "mp-1027525",
+    "mp-1434"
+  ],
+  "query_budget_per_policy": 3,
+  "target_band_gap_interval_ev": [
+    1.5,
+    2.5
+  ],
+  "strategy_results": [
+    {
+      "policy": "random",
+      "queries": 3,
+      "d2_hits": 2,
+      "target_hits": 2,
+      "hit_rate": 0.6667,
+      "mean_absolute_error_ev": 0.0478,
+      "queried_material_ids": [
+        "mp-1018809",
+        "mp-1025874",
+        "mp-1023939"
+      ],
+      "unqueried_material_ids": [
+        "mp-2815"
+      ]
+    },
+    {
+      "policy": "static_topn",
+      "queries": 3,
+      "d2_hits": 2,
+      "target_hits": 2,
+      "hit_rate": 0.6667,
+      "mean_absolute_error_ev": 0.0127,
+      "queried_material_ids": [
+        "mp-1025874",
+        "mp-1023939",
+        "mp-2815"
+      ],
+      "unqueried_material_ids": [
+        "mp-1018809"
+      ]
+    },
+    {
+      "policy": "iterative",
+      "queries": 3,
+      "d2_hits": 2,
+      "target_hits": 2,
+      "hit_rate": 0.6667,
+      "mean_absolute_error_ev": 0.0636,
+      "queried_material_ids": [
+        "mp-1018809",
+        "mp-1023939",
+        "mp-1025874"
+      ],
+      "unqueried_material_ids": [
+        "mp-2815"
+      ]
+    }
+  ],
+  "d3_assignable": false,
+  "claim_limit": "single seven-record stable MoS2 micro-run with one holdout; operability and traceability only; no D3 or general strategy-superiority claim",
+  "result_statement": "The preregistered Materials Project 3+3+1 micro-loop ran end to end on seven stable MoS2 records. Results are descriptive and cannot establish general strategy superiority."
+}

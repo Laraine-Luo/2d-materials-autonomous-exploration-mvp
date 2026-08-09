@@ -1,0 +1,96 @@
+{
+  "attempted_at_utc": "2026-08-07T17:30:20.712537+00:00",
+  "source_database": "Materials Project",
+  "base_url": "https://api.materialsproject.org",
+  "route": "/materials/summary/",
+  "query": {
+    "selector": "frozen_material_ids",
+    "formula_context": "MoS2",
+    "material_ids": [
+      "mp-1434",
+      "mp-2815",
+      "mp-1018809",
+      "mp-1027525",
+      "mp-1025874",
+      "mp-1023939",
+      "mp-1023924",
+      "mp-990083",
+      "mp-1405065",
+      "mp-558544",
+      "mp-1238797",
+      "mp-1042086"
+    ],
+    "fields": [
+      "material_id",
+      "formula_pretty",
+      "chemsys",
+      "structure",
+      "band_gap",
+      "formation_energy_per_atom",
+      "energy_above_hull",
+      "is_stable",
+      "last_updated",
+      "origins"
+    ]
+  },
+  "credential_recorded": false,
+  "response_status": "success",
+  "client_preference": [
+    "mp-api==0.46.4",
+    "REST fallback"
+  ],
+  "client_attempts": [
+    {
+      "client": "mp-api==0.46.4",
+      "status": "success"
+    }
+  ],
+  "database_version": "2026.04.13",
+  "requested_material_ids": [
+    "mp-1018809",
+    "mp-1023924",
+    "mp-1023939",
+    "mp-1025874",
+    "mp-1027525",
+    "mp-1042086",
+    "mp-1238797",
+    "mp-1405065",
+    "mp-1434",
+    "mp-2815",
+    "mp-558544",
+    "mp-990083"
+  ],
+  "returned_material_ids": [
+    "mp-1018809",
+    "mp-1023924",
+    "mp-1023939",
+    "mp-1025874",
+    "mp-1027525",
+    "mp-1042086",
+    "mp-1238797",
+    "mp-1405065",
+    "mp-1434",
+    "mp-2815",
+    "mp-558544",
+    "mp-990083"
+  ],
+  "identity_exact_match": true,
+  "records_returned": 12,
+  "returned_fields": [
+    "band_gap",
+    "chemsys",
+    "energy_above_hull",
+    "fields_not_requested",
+    "formation_energy_per_atom",
+    "formula_pretty",
+    "is_stable",
+    "last_updated",
+    "material_id",
+    "origins",
+    "structure",
+    "unavailable_fields"
+  ],
+  "missing_requested_fields": [],
+  "raw_response_location": ".local-data/materials_project_probe.json (git-ignored)",
+  "interpretation": "API transport and requested-field schema succeeded; 2D and method audits remain separate gates."
+}

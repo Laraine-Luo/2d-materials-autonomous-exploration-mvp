@@ -1,0 +1,133 @@
+{
+  "generated_at_utc": "2026-08-08T03:35:32.940363+00:00",
+  "database_version": "2026.04.13",
+  "automatic_approval": false,
+  "formal_loop_minimum": 8,
+  "proposed_eligible_count": 9,
+  "signed_eligible_count": 0,
+  "proposal_reaches_minimum": true,
+  "formal_loop_ready": false,
+  "records": [
+    {
+      "material_id": "mp-1434",
+      "dimensionality_proposal": "recommended_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "method_proposal": "recommended_pass",
+      "proposed_training_eligible": true,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-2815",
+      "dimensionality_proposal": "recommended_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "method_proposal": "recommended_pass",
+      "proposed_training_eligible": true,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-1018809",
+      "dimensionality_proposal": "recommended_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "method_proposal": "recommended_pass",
+      "proposed_training_eligible": true,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-1027525",
+      "dimensionality_proposal": "recommended_confirmed_2d",
+      "dimensionality_basis": "larsen_robocrys_support; gorai_failure_retained",
+      "method_proposal": "recommended_pass",
+      "proposed_training_eligible": true,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-1025874",
+      "dimensionality_proposal": "recommended_confirmed_2d",
+      "dimensionality_basis": "larsen_robocrys_support; gorai_failure_retained",
+      "method_proposal": "recommended_pass",
+      "proposed_training_eligible": true,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-1023939",
+      "dimensionality_proposal": "recommended_confirmed_2d",
+      "dimensionality_basis": "larsen_robocrys_support; gorai_failure_retained",
+      "method_proposal": "recommended_pass",
+      "proposed_training_eligible": true,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-1023924",
+      "dimensionality_proposal": "recommended_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "method_proposal": "recommended_pass",
+      "proposed_training_eligible": true,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-990083",
+      "dimensionality_proposal": "non_2d",
+      "dimensionality_basis": "two_algorithm_non_2d",
+      "method_proposal": "attention_required",
+      "proposed_training_eligible": false,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-1405065",
+      "dimensionality_proposal": "non_2d",
+      "dimensionality_basis": "two_algorithm_non_2d",
+      "method_proposal": "attention_required",
+      "proposed_training_eligible": false,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-558544",
+      "dimensionality_proposal": "recommended_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "method_proposal": "recommended_pass",
+      "proposed_training_eligible": true,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-1238797",
+      "dimensionality_proposal": "recommended_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "method_proposal": "recommended_pass",
+      "proposed_training_eligible": true,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    },
+    {
+      "material_id": "mp-1042086",
+      "dimensionality_proposal": "non_2d",
+      "dimensionality_basis": "two_algorithm_non_2d",
+      "method_proposal": "recommended_pass",
+      "proposed_training_eligible": false,
+      "human_dimensionality_decision": "pending",
+      "human_method_decision": "pending",
+      "final_training_eligible": false
+    }
+  ],
+  "interpretation": "The evidence proposal reaches the numerical minimum, but the formal loop remains blocked until human dimensionality and method decisions are recorded."
+}

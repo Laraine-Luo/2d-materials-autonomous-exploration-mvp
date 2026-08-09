@@ -1,0 +1,10 @@
+{
+  "attempted_at_utc": "2026-08-07T15:02:51Z",
+  "dependency": "mp-api==0.46.4",
+  "environment": ".venv (git-ignored)",
+  "status": "failed",
+  "error_stage": "package_index_dns_resolution",
+  "credential_recorded": false,
+  "interpretation": "The package could not be downloaded because the execution environment could not resolve the package index host. This is not evidence that the requested mp-api version is unavailable on PyPI.",
+  "next_action": "Run the documented install command in a network-enabled terminal, then rerun scripts/probe_materials_project.py."
+}

@@ -1,0 +1,31 @@
+{
+  "rule_version": "0.1.0",
+  "required_source_database": "Materials Project",
+  "required_source_surface": "official API",
+  "required_identity": ["material_id", "formula", "chemical_system", "structure"],
+  "required_properties": [
+    "band_gap_ev",
+    "formation_energy_ev_atom",
+    "energy_above_hull_ev_atom",
+    "is_stable_mp_flag"
+  ],
+  "required_audits": {
+    "api_identity_match": "pass",
+    "database_version_frozen": "pass",
+    "dimensionality_review": "confirmed_2d",
+    "calculation_method_review": "pass",
+    "missing_required_fields": 0
+  },
+  "default_state": {
+    "exploration_status_training_eligible": false,
+    "exploration_status_query_state": "manual_review",
+    "exploration_status_discovery_level": "D0",
+    "exploration_status_manual_review_required": true
+  },
+  "promotion_state": {
+    "exploration_status_training_eligible": true,
+    "exploration_status_query_state": "unobserved",
+    "exploration_status_discovery_level": "D0",
+    "exploration_status_manual_review_required": false
+  }
+}

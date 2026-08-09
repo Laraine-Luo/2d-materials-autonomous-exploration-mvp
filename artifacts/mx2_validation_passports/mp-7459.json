@@ -1,0 +1,112 @@
+{
+  "material_id": "mp-7459",
+  "formula": "MoTe2",
+  "source_database": "Materials Project",
+  "source_database_version": "2026.04.13",
+  "source_index_role": "independent_validation_candidate_source",
+  "formation_energy_ev_atom": -0.2934826949999992,
+  "energy_above_hull_ev_atom": 0.013889071666667974,
+  "is_stable_mp_flag": false,
+  "band_gap_oracle_commitment_sha256": "f60332df7a89b99d50b4ccebb5a9d9c5ca331696fa73d26a0b8b8759930380e4",
+  "dimensionality_evidence": {
+    "material_id": "mp-7459",
+    "query_formula": "MoTe2",
+    "larsen_crystalnn_dimensionality": 2,
+    "gorai_dimensionality": 2,
+    "component_dimensions": [
+      2,
+      2
+    ],
+    "component_orientations": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "lattice_abc_angstrom": [
+      3.49421554,
+      6.346449557718172,
+      14.866300067140946
+    ],
+    "proposed_dimensionality_status": "confirmed_2d",
+    "proposal_reason": "two_algorithm_consensus",
+    "human_decision": "pending",
+    "training_eligible": false
+  },
+  "method_evidence": {
+    "material_id": "mp-7459",
+    "formula": "MoTe2",
+    "band_gap_origin_methods": [
+      {
+        "task_id": "aaafimzl",
+        "run_type": "GGA",
+        "task_type": "NSCF Line"
+      }
+    ],
+    "stability_thermo_methods": [
+      {
+        "thermo_type": "r2SCAN",
+        "entries": [
+          {
+            "entry_type": "r2SCAN",
+            "entry_id": "mp-7459-r2SCAN",
+            "run_type": "r2SCAN"
+          }
+        ],
+        "formation_energy_per_atom": -0.2934826949999992,
+        "energy_above_hull": 0.013889071666667974,
+        "is_stable": false
+      },
+      {
+        "thermo_type": "GGA_GGA+U_R2SCAN",
+        "entries": [
+          {
+            "entry_type": "r2SCAN",
+            "entry_id": "mp-7459-r2SCAN",
+            "run_type": "r2SCAN"
+          }
+        ],
+        "formation_energy_per_atom": -0.2934826949999992,
+        "energy_above_hull": 0.013889071666667974,
+        "is_stable": false
+      },
+      {
+        "thermo_type": "GGA_GGA+U",
+        "entries": [
+          {
+            "entry_type": "GGA",
+            "entry_id": "mp-7459-GGA",
+            "run_type": "GGA"
+          }
+        ],
+        "formation_energy_per_atom": -0.2605856169444441,
+        "energy_above_hull": 0.014785960833333611,
+        "is_stable": false
+      }
+    ],
+    "band_gap_method_resolved": true,
+    "stability_method_resolved": true,
+    "dimensionality_proposal": "confirmed_2d",
+    "robocrys_evidence": null,
+    "manual_review_required": true,
+    "training_eligible": false
+  },
+  "human_review": {
+    "actor": "project_owner_user",
+    "decision_text": "批准24条建议，mp-1120746继续隔离。",
+    "decision_recorded_at_utc": "2026-08-08T13:14:20.154444+00:00",
+    "dimensionality_decision": "confirmed_2d",
+    "method_decision": "pass"
+  },
+  "exploration_status_validation_eligible": true,
+  "exploration_status_training_eligible": false,
+  "exploration_status_label_access": "oracle_only",
+  "exploration_status_discovery_level": "D0",
+  "promotion_decision": "validation_candidate"
+}

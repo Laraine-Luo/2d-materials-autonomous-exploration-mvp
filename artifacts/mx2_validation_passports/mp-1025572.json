@@ -1,0 +1,123 @@
+{
+  "material_id": "mp-1025572",
+  "formula": "WSe2",
+  "source_database": "Materials Project",
+  "source_database_version": "2026.04.13",
+  "source_index_role": "independent_validation_candidate_source",
+  "formation_energy_ev_atom": -0.5980825260416667,
+  "energy_above_hull_ev_atom": 0.005536979999998692,
+  "is_stable_mp_flag": false,
+  "band_gap_oracle_commitment_sha256": "722527f5ed2011b337fb7679bc8fb9bdb9541c6062da8fa062747d9a0e7acf6e",
+  "dimensionality_evidence": {
+    "material_id": "mp-1025572",
+    "query_formula": "WSe2",
+    "larsen_crystalnn_dimensionality": 2,
+    "gorai_dimensionality": 1,
+    "component_dimensions": [
+      2,
+      2,
+      2
+    ],
+    "component_orientations": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "lattice_abc_angstrom": [
+      3.31811597,
+      3.3181158181100785,
+      29.73944741
+    ],
+    "proposed_dimensionality_status": "uncertain_2d",
+    "proposal_reason": "algorithm_disagreement",
+    "human_decision": "pending",
+    "training_eligible": false
+  },
+  "method_evidence": {
+    "material_id": "mp-1025572",
+    "formula": "WSe2",
+    "band_gap_origin_methods": [
+      {
+        "task_id": "aaacgjzz",
+        "run_type": "GGA",
+        "task_type": "NSCF Line"
+      }
+    ],
+    "stability_thermo_methods": [
+      {
+        "thermo_type": "r2SCAN",
+        "entries": [
+          {
+            "entry_type": "r2SCAN",
+            "entry_id": "mp-1025572-r2SCAN",
+            "run_type": "r2SCAN"
+          }
+        ],
+        "formation_energy_per_atom": -0.5980825260416667,
+        "energy_above_hull": 0.005536979999998692,
+        "is_stable": false
+      },
+      {
+        "thermo_type": "GGA_GGA+U_R2SCAN",
+        "entries": [
+          {
+            "entry_type": "r2SCAN",
+            "entry_id": "mp-1025572-r2SCAN",
+            "run_type": "r2SCAN"
+          }
+        ],
+        "formation_energy_per_atom": -0.5980825260416667,
+        "energy_above_hull": 0.005536979999998692,
+        "is_stable": false
+      },
+      {
+        "thermo_type": "GGA_GGA+U",
+        "entries": [
+          {
+            "entry_type": "GGA",
+            "entry_id": "mp-1025572-GGA",
+            "run_type": "GGA"
+          }
+        ],
+        "formation_energy_per_atom": -0.871952794895833,
+        "energy_above_hull": 0.0002586850000012575,
+        "is_stable": false
+      }
+    ],
+    "band_gap_method_resolved": true,
+    "stability_method_resolved": true,
+    "dimensionality_proposal": "uncertain_2d",
+    "robocrys_evidence": {
+      "dimensionality": 2,
+      "version": "0.87.0rc7",
+      "description": "WSe₂ is Molybdenite-like structured and crystallizes in the hexagonal P̅6m2 space group. The structure is two-dimensional and consists of three WSe₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. W⁴⁺ is bonded to six equivalent Se²⁻ atoms to form distorted edge-sharing WSe₆ pentagonal pyramids. All W-Se bond lengths are 2.54 Å. Se²⁻ is bonded in a 3-coordinate geometry to three equivalent W⁴⁺ atoms.",
+      "recommendation": "recommended_confirmed_2d"
+    },
+    "manual_review_required": true,
+    "training_eligible": false
+  },
+  "human_review": {
+    "actor": "project_owner_user",
+    "decision_text": "批准24条建议，mp-1120746继续隔离。",
+    "decision_recorded_at_utc": "2026-08-08T13:14:20.154444+00:00",
+    "dimensionality_decision": "confirmed_2d",
+    "method_decision": "pass"
+  },
+  "exploration_status_validation_eligible": true,
+  "exploration_status_training_eligible": false,
+  "exploration_status_label_access": "oracle_only",
+  "exploration_status_discovery_level": "D0",
+  "promotion_decision": "validation_candidate"
+}

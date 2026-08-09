@@ -1,0 +1,198 @@
+{
+  "frozen_at_utc": "2026-08-08T12:45:48.065022+00:00",
+  "queue_id": "mp-mx2-structure-audit-v1",
+  "selection_fields_used": [
+    "cohort_role",
+    "formation_energy_ev_atom",
+    "energy_above_hull_ev_atom",
+    "is_stable_mp_flag"
+  ],
+  "band_gap_used_for_selection": false,
+  "selected_count": 25,
+  "selected_by_formula": {
+    "MoSe2": 7,
+    "MoTe2": 7,
+    "WS2": 6,
+    "WSe2": 5,
+    "WTe2": 0
+  },
+  "selected_records": [
+    {
+      "material_id": "mp-1018807",
+      "query_formula": "MoSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1023925",
+      "query_formula": "WS2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1023933",
+      "query_formula": "WSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1023934",
+      "query_formula": "MoSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1023935",
+      "query_formula": "MoTe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1023936",
+      "query_formula": "WSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1023937",
+      "query_formula": "WS2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1023938",
+      "query_formula": "MoTe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1023940",
+      "query_formula": "MoSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1025571",
+      "query_formula": "WS2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1025572",
+      "query_formula": "WSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1025576",
+      "query_formula": "MoTe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1025799",
+      "query_formula": "MoSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1027692",
+      "query_formula": "MoSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1028441",
+      "query_formula": "WS2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1028698",
+      "query_formula": "WSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1030319",
+      "query_formula": "MoTe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1120746",
+      "query_formula": "MoTe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1634",
+      "query_formula": "MoSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-1821",
+      "query_formula": "WSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-224",
+      "query_formula": "WS2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-602",
+      "query_formula": "MoTe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-7459",
+      "query_formula": "MoTe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-7581",
+      "query_formula": "MoSe2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    },
+    {
+      "material_id": "mp-9813",
+      "query_formula": "WS2",
+      "role_pass": true,
+      "formation_energy_primary_pass": true,
+      "auxiliary_stability_pass": true
+    }
+  ],
+  "rejected_count": 19,
+  "interpretation": "The structure queue was frozen without reading or ranking Band Gap values."
+}

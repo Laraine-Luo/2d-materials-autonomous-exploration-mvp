@@ -1,0 +1,13 @@
+material_id,formula,chemical_system,crystal_system,space_group,sites,web_energy_above_hull_ev_atom,web_band_gap_ev,source_database,source_surface,database_version,training_eligible,discovery_eligible,note
+mp-1434,MoS2,Mo-S,Trigonal,R3m,3,0,1.38,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-2815,MoS2,Mo-S,Hexagonal,P63/mmc,6,<0.01,1.46,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-1018809,MoS2,Mo-S,Hexagonal,P63/mmc,6,<0.01,1.34,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-1027525,MoS2,Mo-S,Trigonal,P-3m1,12,<0.01,1.46,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-1025874,MoS2,Mo-S,Hexagonal,P-6m2,9,<0.01,1.51,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-1023939,MoS2,Mo-S,Trigonal,P-3m1,6,<0.01,1.55,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-1023924,MoS2,Mo-S,Hexagonal,P-6m2,3,0.01,1.66,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-990083,MoS2,Mo-S,Orthorhombic,Pmmn1,54,0.17,0,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-1405065,MoS2,Mo-S,Cubic,F-43m,12,0.27,0,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-558544,MoS2,Mo-S,Trigonal,R-3m,3,0.28,0,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-1238797,MoS2,Mo-S,Trigonal,P-3m1,3,0.30,0,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required
+mp-1042086,MoS2,Mo-S,Tetragonal,I-42d,6,0.65,0,Materials Project,Materials Explorer,v2026.04.13,False,False,web index evidence only; API and audits required

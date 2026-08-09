@@ -1,0 +1,47 @@
+{
+  "queue_id": "mp-mx2-structure-audit-v1",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "selection_fields_used": [
+    "cohort_role",
+    "formation_energy_ev_atom",
+    "energy_above_hull_ev_atom",
+    "is_stable_mp_flag"
+  ],
+  "band_gap_used_for_selection": false,
+  "material_ids": [
+    "mp-1018807",
+    "mp-1023925",
+    "mp-1023933",
+    "mp-1023934",
+    "mp-1023935",
+    "mp-1023936",
+    "mp-1023937",
+    "mp-1023938",
+    "mp-1023940",
+    "mp-1025571",
+    "mp-1025572",
+    "mp-1025576",
+    "mp-1025799",
+    "mp-1027692",
+    "mp-1028441",
+    "mp-1028698",
+    "mp-1030319",
+    "mp-1120746",
+    "mp-1634",
+    "mp-1821",
+    "mp-224",
+    "mp-602",
+    "mp-7459",
+    "mp-7581",
+    "mp-9813"
+  ],
+  "record_count": 25,
+  "requested_summary_fields": [
+    "material_id",
+    "formula_pretty",
+    "structure",
+    "origins"
+  ],
+  "status_after_acquisition": "quarantined_pending_dimensionality_and_method_audit"
+}

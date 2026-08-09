@@ -1,0 +1,352 @@
+{
+  "generated_at_utc": "2026-08-08T03:29:36.623698+00:00",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "credential_recorded": false,
+  "algorithms": {
+    "larsen": "CrystalNN bonded graph + get_dimensionality_larsen",
+    "gorai": "get_dimensionality_gorai with library defaults"
+  },
+  "automatic_approval": false,
+  "confirmed_2d_proposal_count": 6,
+  "uncertain_2d_proposal_count": 3,
+  "non_2d_proposal_count": 3,
+  "formal_loop_minimum": 8,
+  "records": [
+    {
+      "material_id": "mp-1434",
+      "larsen_crystalnn_dimensionality": 2,
+      "gorai_dimensionality": 2,
+      "component_dimensions": [
+        2
+      ],
+      "component_orientations": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "lattice_abc_angstrom": [
+        6.7377689432126395,
+        6.7377689432126395,
+        6.7377687377929885
+      ],
+      "proposed_dimensionality_status": "confirmed_2d",
+      "proposal_reason": "two_algorithm_consensus",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-2815",
+      "larsen_crystalnn_dimensionality": 2,
+      "gorai_dimensionality": 2,
+      "component_dimensions": [
+        2,
+        2
+      ],
+      "component_orientations": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "lattice_abc_angstrom": [
+        3.192238,
+        3.1922378242609057,
+        13.378294
+      ],
+      "proposed_dimensionality_status": "confirmed_2d",
+      "proposal_reason": "two_algorithm_consensus",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1018809",
+      "larsen_crystalnn_dimensionality": 2,
+      "gorai_dimensionality": 2,
+      "component_dimensions": [
+        2,
+        2
+      ],
+      "component_orientations": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "lattice_abc_angstrom": [
+        3.1854236100006723,
+        3.1854410159858864,
+        13.178390907029309
+      ],
+      "proposed_dimensionality_status": "confirmed_2d",
+      "proposal_reason": "two_algorithm_consensus",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1027525",
+      "larsen_crystalnn_dimensionality": 2,
+      "gorai_dimensionality": 1,
+      "component_dimensions": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "component_orientations": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "lattice_abc_angstrom": [
+        3.18371962,
+        3.1837182781396827,
+        34.47923848
+      ],
+      "proposed_dimensionality_status": "uncertain_2d",
+      "proposal_reason": "algorithm_disagreement",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1025874",
+      "larsen_crystalnn_dimensionality": 2,
+      "gorai_dimensionality": 1,
+      "component_dimensions": [
+        2,
+        2,
+        2
+      ],
+      "component_orientations": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "lattice_abc_angstrom": [
+        3.184016,
+        3.1840150369312044,
+        28.3873198
+      ],
+      "proposed_dimensionality_status": "uncertain_2d",
+      "proposal_reason": "algorithm_disagreement",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023939",
+      "larsen_crystalnn_dimensionality": 2,
+      "gorai_dimensionality": 1,
+      "component_dimensions": [
+        2,
+        2
+      ],
+      "component_orientations": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "lattice_abc_angstrom": [
+        3.1845408400000004,
+        3.1845420719324156,
+        21.67053472
+      ],
+      "proposed_dimensionality_status": "uncertain_2d",
+      "proposal_reason": "algorithm_disagreement",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023924",
+      "larsen_crystalnn_dimensionality": 2,
+      "gorai_dimensionality": 2,
+      "component_dimensions": [
+        2
+      ],
+      "component_orientations": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "lattice_abc_angstrom": [
+        3.1841268,
+        3.1841253644150385,
+        17.33459995
+      ],
+      "proposed_dimensionality_status": "confirmed_2d",
+      "proposal_reason": "two_algorithm_consensus",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-990083",
+      "larsen_crystalnn_dimensionality": 1,
+      "gorai_dimensionality": 1,
+      "component_dimensions": [
+        1,
+        1
+      ],
+      "component_orientations": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "lattice_abc_angstrom": [
+        3.162981,
+        13.020965,
+        43.476517
+      ],
+      "proposed_dimensionality_status": "non_2d",
+      "proposal_reason": "two_algorithm_non_2d",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1405065",
+      "larsen_crystalnn_dimensionality": 3,
+      "gorai_dimensionality": 3,
+      "component_dimensions": [
+        3
+      ],
+      "component_orientations": [
+        null
+      ],
+      "lattice_abc_angstrom": [
+        6.7876594139659066,
+        6.7876594139659066,
+        6.7876594139659066
+      ],
+      "proposed_dimensionality_status": "non_2d",
+      "proposal_reason": "two_algorithm_non_2d",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-558544",
+      "larsen_crystalnn_dimensionality": 2,
+      "gorai_dimensionality": 2,
+      "component_dimensions": [
+        2
+      ],
+      "component_orientations": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "lattice_abc_angstrom": [
+        3.1897778777623373,
+        3.1897778777623373,
+        6.587974366360649
+      ],
+      "proposed_dimensionality_status": "confirmed_2d",
+      "proposal_reason": "two_algorithm_consensus",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1238797",
+      "larsen_crystalnn_dimensionality": 2,
+      "gorai_dimensionality": 2,
+      "component_dimensions": [
+        2
+      ],
+      "component_orientations": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "lattice_abc_angstrom": [
+        3.227464561587396,
+        3.227464561587396,
+        6.31247342
+      ],
+      "proposed_dimensionality_status": "confirmed_2d",
+      "proposal_reason": "two_algorithm_consensus",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1042086",
+      "larsen_crystalnn_dimensionality": 3,
+      "gorai_dimensionality": 3,
+      "component_dimensions": [
+        3
+      ],
+      "component_orientations": [
+        null
+      ],
+      "lattice_abc_angstrom": [
+        6.505175893350232,
+        6.505175893350232,
+        6.505175893350232
+      ],
+      "proposed_dimensionality_status": "non_2d",
+      "proposal_reason": "two_algorithm_non_2d",
+      "human_decision": "pending",
+      "training_eligible": false
+    }
+  ],
+  "interpretation": "Algorithmic dimensionality is review evidence only. Uncertain records remain visible in audit/deviation statistics and are excluded from training until human confirmation."
+}

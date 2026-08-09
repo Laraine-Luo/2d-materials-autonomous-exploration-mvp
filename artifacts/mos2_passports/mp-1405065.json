@@ -1,0 +1,369 @@
+{
+  "passport_version": "0.1.0",
+  "material_id": "mp-1405065",
+  "formula": "MoS2",
+  "chemical_system": "Mo-S",
+  "materials_project_index_path": "Materials Explorer > Mo-S > MoS2 > mp-1405065",
+  "source_database": "Materials Project",
+  "source_surface": "official API",
+  "database_version_observed_on_web": "v2026.04.13",
+  "web_index_evidence": {
+    "crystal_system": "Cubic",
+    "space_group": "F-43m",
+    "sites": 12,
+    "energy_above_hull_ev_atom_display": "0.27",
+    "band_gap_ev_display": "0"
+  },
+  "official_api_evidence": {
+    "status": "received",
+    "identity_match": "pass",
+    "database_version_frozen": "pass",
+    "origins_task_id": null,
+    "thermo_run_type": null,
+    "required_properties_verified": true
+  },
+  "manual_audit": {
+    "dimensionality_review": "non_2d",
+    "dimensionality_evidence": [
+      "two_algorithm_non_2d",
+      "see artifacts/mos2_dimensionality_evidence_audit.json",
+      "see artifacts/mos2_uncertain_robocrys_audit.json where applicable"
+    ],
+    "calculation_method_review": "pending",
+    "reviewer": "project_owner_user",
+    "reviewed_at": "2026-08-08T03:38:39.824720+00:00",
+    "calculation_method_evidence": {
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Uniform"
+      ],
+      "matching_thermo_types": [
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN"
+    },
+    "decision_source": "continued after explicit 9-in/3-out proposal in Codex task",
+    "rationale": "Accepted combined MP-only dimensionality and method evidence proposal; non-2D and method-attention records remain retained as counterexamples."
+  },
+  "exploration_status_training_eligible": false,
+  "exploration_status_query_state": "excluded",
+  "exploration_status_discovery_level": "D0",
+  "exploration_status_manual_review_required": true,
+  "promotion_decision": "blocked",
+  "blocking_reasons": [
+    "dimensionality_not_confirmed",
+    "calculation_method_not_verified"
+  ],
+  "claim_boundary": "Web index evidence only; not a training record, D2 candidate, strategy result or new-material claim.",
+  "source_database_version": "2026.04.13",
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          0.0,
+          4.7996,
+          4.7996
+        ],
+        [
+          4.7996,
+          0.0,
+          4.7996
+        ],
+        [
+          4.7996,
+          4.7996,
+          0.0
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 6.7876594139659066,
+      "b": 6.7876594139659066,
+      "c": 6.7876594139659066,
+      "alpha": 59.99999999999999,
+      "beta": 59.99999999999999,
+      "gamma": 59.99999999999999,
+      "volume": 221.12870860787197
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.858848,
+          0.858848,
+          0.423457
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "Mo",
+        "xyz": [
+          6.154551078,
+          6.154551078,
+          8.2442537216
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.423457,
+          0.858848,
+          0.858848
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "Mo",
+        "xyz": [
+          8.2442537216,
+          6.154551078,
+          6.154551078
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.858848,
+          0.858848,
+          0.858848
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "Mo",
+        "xyz": [
+          8.2442537216,
+          8.2442537216,
+          8.2442537216
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.858848,
+          0.423457,
+          0.858848
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "Mo",
+        "xyz": [
+          6.154551078,
+          8.2442537216,
+          6.154551078
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.614909,
+          0.155274,
+          0.614909
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "S",
+        "xyz": [
+          3.6965703268000003,
+          5.9026344728,
+          3.6965703268
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.155274,
+          0.614909,
+          0.614909
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "S",
+        "xyz": [
+          5.9026344728,
+          3.6965703268000003,
+          3.6965703268000003
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.614909,
+          0.614909,
+          0.614909
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "S",
+        "xyz": [
+          5.9026344728,
+          5.9026344728,
+          5.9026344728
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.118478,
+          0.118478,
+          0.118478
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "S",
+        "xyz": [
+          1.1372940176,
+          1.1372940176,
+          1.1372940176
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.118478,
+          0.644565,
+          0.118478
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "S",
+        "xyz": [
+          3.6623011828000003,
+          1.1372940176,
+          3.6623011828000003
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.118478,
+          0.118478,
+          0.644565
+        ],
+        "properties": {
+          "magmom": -0.0
+        },
+        "label": "S",
+        "xyz": [
+          3.6623011828000003,
+          3.6623011828000003,
+          1.1372940176
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.644565,
+          0.118478,
+          0.118478
+        ],
+        "properties": {
+          "magmom": -0.0
+        },
+        "label": "S",
+        "xyz": [
+          1.1372940176,
+          3.6623011828000003,
+          3.6623011828000003
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.614909,
+          0.614909,
+          0.155274
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "S",
+        "xyz": [
+          3.6965703268,
+          3.6965703268,
+          5.9026344728
+        ]
+      }
+    ]
+  },
+  "band_gap_ev": 0.0,
+  "formation_energy_ev_atom": -0.6985995093750006,
+  "energy_above_hull_ev_atom": 0.2675430358333326,
+  "is_stable_mp_flag": false,
+  "source_calculation_method": null
+}

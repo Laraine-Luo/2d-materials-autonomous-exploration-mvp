@@ -1,0 +1,32 @@
+{
+  "run_at_utc": "2026-08-07T17:30:39.170987+00:00",
+  "queue_id": "mp-mos2-polymorph-demo-v1",
+  "source_database": "Materials Project",
+  "python_executable": "/Users/ririri07/Documents/Codex/2026-08-06/referenced-chatgpt-conversation-this-is-untrusted/.venv/bin/python",
+  "stages": [
+    {
+      "script": "scripts/probe_materials_project.py",
+      "exit_code": 0,
+      "status": "success",
+      "stdout_tail": [
+        "Materials Project probe succeeded: 12 record(s); saved to .local-data/materials_project_probe.json",
+        "Returned fields: band_gap, chemsys, energy_above_hull, fields_not_requested, formation_energy_per_atom, formula_pretty, is_stable, last_updated, material_id, origins, structure, unavailable_fields",
+        "Response audit written to artifacts/materials_project_api_response_audit.json"
+      ],
+      "stderr_tail": []
+    },
+    {
+      "script": "scripts/map_materials_project_response.py",
+      "exit_code": 0,
+      "status": "success",
+      "stdout_tail": [
+        "Mapped 12 record(s); all remain in manual review"
+      ],
+      "stderr_tail": []
+    }
+  ],
+  "queue_ready_for_manual_audit": true,
+  "queue_ready_for_closed_loop": false,
+  "next_gate": "manual dimensionality and calculation-method audit",
+  "result_statement": "Acquisition and mapping succeeded; records remain quarantined pending audit."
+}

@@ -1,0 +1,43 @@
+{
+  "attempted_at_utc": "2026-08-08T11:25:27.197480+00:00",
+  "queue_id": "mp-mx2-independent-validation-index-v1",
+  "source_database": "Materials Project",
+  "client": "mp-api==0.46.4",
+  "credential_recorded": false,
+  "formula_queries": [
+    "MoS2",
+    "MoSe2",
+    "MoTe2",
+    "WS2",
+    "WSe2",
+    "WTe2"
+  ],
+  "requested_fields": [
+    "material_id",
+    "formula_pretty",
+    "chemsys",
+    "band_gap",
+    "formation_energy_per_atom",
+    "energy_above_hull",
+    "is_stable",
+    "last_updated"
+  ],
+  "status": "success",
+  "database_version": "2026.04.13",
+  "records_returned": 44,
+  "records_by_formula": {
+    "MoS2": 12,
+    "MoSe2": 7,
+    "MoTe2": 7,
+    "WS2": 7,
+    "WSe2": 5,
+    "WTe2": 6
+  },
+  "unique_material_ids": 44,
+  "duplicate_material_ids": [],
+  "primary_formation_energy_pass_count": 37,
+  "combined_stability_prefilter_pass_count": 32,
+  "raw_response_location": ".local-data/mp_mx2_validation_index_raw.json (git-ignored)",
+  "public_index_location": "artifacts/mp_mx2_validation_index.csv",
+  "interpretation": "Index acquisition only; every record remains quarantined pending explicit structure, dimensionality and method audit."
+}

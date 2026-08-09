@@ -1,0 +1,14 @@
+{
+  "observed_at_utc": "2026-08-07T16:32:00Z",
+  "source": "Materials Project official API page",
+  "url": "https://next-gen.materialsproject.org/api#api-key",
+  "authenticated_page_visible": true,
+  "api_key_value_recorded": false,
+  "official_client_recommendation": "mp-api",
+  "rest_and_openapi_supported": true,
+  "database_version_visible": "v2026.04.13",
+  "license_visible": "CC BY 4.0",
+  "registration_completion_form_visible": true,
+  "account_completion_claim": "not independently confirmed because the page still displayed the completion form",
+  "interpretation": "The official authenticated page confirms the intended API route, supported client, visible database version and license. It is page evidence only, not a successful API data response. No credential value is stored."
+}

@@ -1,0 +1,10 @@
+policy,round,query_count,d2_rate,target_hit_rate,mean_uncertainty_ev,mean_absolute_error_ev
+random,1,20,0.35,0.35,0.060873,0.043471
+random,2,20,0.55,0.55,0.11311,0.070862
+random,3,20,0.55,0.55,0.177313,0.092189
+static_topn,1,20,1.0,1.0,0.065794,0.024452
+static_topn,2,20,1.0,1.0,0.05764,0.018791
+static_topn,3,20,0.0,0.0,0.062117,0.01554
+iterative,1,20,0.7,0.7,0.070091,0.056442
+iterative,2,20,0.45,0.45,0.088733,0.077101
+iterative,3,20,0.6,0.6,0.076716,0.04804

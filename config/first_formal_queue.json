@@ -1,0 +1,51 @@
+{
+  "queue_id": "mp-mos2-polymorph-demo-v1",
+  "purpose": "first formal API mapping, audit and minimum closed-loop demonstration",
+  "source_database": "Materials Project",
+  "source_policy": "single_source_only",
+  "database_version_policy": "freeze version returned/observed at acquisition",
+  "query_scope": {
+    "index_path": "Materials Explorer > Mo-S > MoS2 > material_id",
+    "formula": "MoS2",
+    "formal_acquisition_selector": "the 12 explicit web-cross-checked material_ids in mos2_formula_index_12.csv",
+    "formula_query_role": "candidate-space drift audit only; not the identity source for the first formal queue",
+    "expected_web_match_count_for_cross_check": 12,
+    "candidate_primary_key": "material_id"
+  },
+  "requested_summary_fields": [
+    "material_id",
+    "formula_pretty",
+    "chemsys",
+    "structure",
+    "band_gap",
+    "formation_energy_per_atom",
+    "energy_above_hull",
+    "is_stable",
+    "last_updated",
+    "origins"
+  ],
+  "audit_gates": [
+    "source_database_is_materials_project",
+    "database_version_is_frozen",
+    "material_id_is_unique",
+    "dimensionality_is_manually_reviewed",
+    "required_properties_are_present",
+    "calculation_method_is_recorded_or_candidate_is_quarantined"
+  ],
+  "minimum_loop": {
+    "initial_labeled_records": 3,
+    "query_budget": 3,
+    "unrevealed_holdout_records": 1,
+    "batch_size": 1,
+    "policies": ["random", "static_topn", "iterative"],
+    "evaluation_functions": "same Band Gap and three-signal stability rules as the MVP",
+    "scientific_claim_limit": "single seven-record stable cohort; interface and audit demonstration only; not strategy superiority"
+  },
+  "selection_rationale": [
+    "12 formula-level records provide the index cohort; seven passed the fixed formal stability and audit gates",
+    "one formula contains multiple material IDs, visibly demonstrating the index-to-candidate mapping",
+    "the web table spans stable/metastable records and semiconducting/zero-gap outcomes",
+    "mp-1434 provides a traceable detail-page example for PDF and README",
+    "the cohort is intentionally too small for a general scientific conclusion"
+  ]
+}

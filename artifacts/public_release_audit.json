@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-08-08T14:18:36.166240+00:00",
+  "root": "/Users/ririri07/Documents/Codex/2026-08-06/referenced-chatgpt-conversation-this-is-untrusted",
+  "checked_public_files": 256,
+  "excluded_local_paths": [
+    ".git",
+    ".local-data",
+    ".local-secrets",
+    ".venv",
+    "__pycache__",
+    "outputs"
+  ],
+  "forbidden_paths_unexpectedly_present": [],
+  "violations": [],
+  "result": "pass",
+  "interpretation": "This audit checks repository-visible text and path hygiene. It does not prove that a credential disclosed elsewhere has never been exposed; rotate disclosed credentials before publication."
+}

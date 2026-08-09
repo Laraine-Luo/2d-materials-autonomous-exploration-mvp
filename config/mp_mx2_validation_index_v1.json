@@ -1,0 +1,32 @@
+{
+  "queue_id": "mp-mx2-independent-validation-index-v1",
+  "source_database": "Materials Project",
+  "source_policy": "single_source_only",
+  "chemical_scope": {
+    "prototype_formula": "MX2",
+    "metal_elements": ["Mo", "W"],
+    "chalcogen_elements": ["S", "Se", "Te"],
+    "formula_queries": ["MoS2", "MoSe2", "MoTe2", "WS2", "WSe2", "WTe2"]
+  },
+  "cohort_roles": {
+    "MoS2": "development_and_drift_control_only",
+    "MoSe2": "independent_validation_candidate_source",
+    "MoTe2": "independent_validation_candidate_source",
+    "WS2": "independent_validation_candidate_source",
+    "WSe2": "independent_validation_candidate_source",
+    "WTe2": "independent_validation_candidate_source"
+  },
+  "requested_index_fields": [
+    "material_id",
+    "formula_pretty",
+    "chemsys",
+    "band_gap",
+    "formation_energy_per_atom",
+    "energy_above_hull",
+    "is_stable",
+    "last_updated"
+  ],
+  "index_stage_rule": "formula query results are quarantined index candidates; no 2D, training, D1, D2 or discovery status is assigned",
+  "next_gate": "apply the fixed stability prefilter, then retrieve structures for explicit MP IDs and perform per-record dimensionality and method audits",
+  "anti_leakage_rule": "no uncertainty-weight tuning or strategy scoring is allowed on the validation formulas before the validation protocol is frozen"
+}

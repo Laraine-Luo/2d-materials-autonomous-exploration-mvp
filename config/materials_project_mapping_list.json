@@ -1,0 +1,19 @@
+[
+  {"group":"identity","original_name":"material_id","mapped_name":"material_id","type":"string","required":true,"note":"候选唯一主键；formula不能替代MP ID"},
+  {"group":"identity","original_name":"formula_pretty","mapped_name":"formula","type":"string","required":true,"note":"化学式/组成层分组字段"},
+  {"group":"identity","original_name":"chemsys","mapped_name":"chemical_system","type":"string","required":true,"note":"例如Mo-S"},
+  {"group":"identity","original_name":"structure","mapped_name":"structure","type":"object","required":true,"note":"区分同公式结构多型并支持特征生成"},
+  {"group":"property","original_name":"band_gap","mapped_name":"band_gap_ev","type":"float","unit":"eV","required":true,"note":"数据库计算反馈，不称实验真值"},
+  {"group":"property","original_name":"formation_energy_per_atom","mapped_name":"formation_energy_ev_atom","type":"float","unit":"eV/atom","required":true,"note":"主要稳定性指标"},
+  {"group":"property","original_name":"energy_above_hull","mapped_name":"energy_above_hull_ev_atom","type":"float","unit":"eV/atom","required":true,"note":"辅助稳定性指标"},
+  {"group":"property","original_name":"is_stable","mapped_name":"is_stable_mp_flag","type":"boolean","required":true,"note":"Materials Project辅助稳定性标志"},
+  {"group":"provenance","original_name":"database_version","mapped_name":"source_database_version","type":"string","required":true,"note":"一次正式试跑固定同一版本"},
+  {"group":"provenance","original_name":"origins -> task_id -> thermo.entries[].parameters.run_type","mapped_name":"source_calculation_method","type":"string","required":true,"note":"不是Summary单字段；依官方路径联查thermo获得，缺失则隔离"},
+  {"group":"provenance","original_name":"last_updated","mapped_name":"source_last_updated","type":"datetime","required":false,"note":"用于追踪数据库记录变化"},
+  {"group":"derived_audit","original_name":"2D_or_Layered + structure review","mapped_name":"dimensionality_status","type":"enum","required":true,"note":"派生审核值：confirmed_2d/uncertain_2d/non_2d，不冒充MP原始字段"},
+  {"group":"exploration_state","original_name":"derived from dimensionality and method audit","mapped_name":"exploration_status_training_eligible","type":"boolean","required":true,"note":"探索状态统一使用exploration_status_前缀"},
+  {"group":"exploration_state","original_name":"environment query state","mapped_name":"exploration_status_query_state","type":"enum","required":true,"note":"unobserved/queried/manual_review/excluded"},
+  {"group":"exploration_state","original_name":"signal.py classification","mapped_name":"exploration_status_discovery_level","type":"enum","required":true,"note":"D0/D1/D2/D3/D4；单条反馈最高D2"},
+  {"group":"exploration_state","original_name":"signal.py manual-review flag","mapped_name":"exploration_status_manual_review_required","type":"boolean","required":true,"note":"异常或二维性不确定时为true"},
+  {"group":"exploration_state","original_name":"query counter / budget","mapped_name":"exploration_status_budget_position","type":"integer","required":true,"note":"本条反馈发生时已使用的查询预算"}
+]

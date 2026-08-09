@@ -1,0 +1,390 @@
+{
+  "generated_at_utc": "2026-08-08T13:00:47.527081+00:00",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "automatic_approval": false,
+  "proposal_only": true,
+  "records_reviewed": 25,
+  "recommended_confirmed_2d_count": 25,
+  "recommended_method_pass_count": 24,
+  "method_attention_count": 1,
+  "recommended_training_after_signature_count": 24,
+  "records": [
+    {
+      "material_id": "mp-1018807",
+      "formula": "MoSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023925",
+      "formula": "WS2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023933",
+      "formula": "WSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023934",
+      "formula": "MoSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023935",
+      "formula": "MoTe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023936",
+      "formula": "WSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023937",
+      "formula": "WS2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023938",
+      "formula": "MoTe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1023940",
+      "formula": "MoSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1025571",
+      "formula": "WS2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1025572",
+      "formula": "WSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1025576",
+      "formula": "MoTe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1025799",
+      "formula": "MoSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1027692",
+      "formula": "MoSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1028441",
+      "formula": "WS2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1028698",
+      "formula": "WSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1030319",
+      "formula": "MoTe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_all_components_and_robocrys_support_2d; gorai_disagrees",
+      "gorai_disagreement_retained": true,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1120746",
+      "formula": "MoTe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "r2SCAN/Structure Optimization"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "method_attention_required",
+      "combined_recommendation": "remain_quarantined",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1634",
+      "formula": "MoSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1821",
+      "formula": "WSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-224",
+      "formula": "WS2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-602",
+      "formula": "MoTe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-7459",
+      "formula": "MoTe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-7581",
+      "formula": "MoSe2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-9813",
+      "formula": "WS2",
+      "dimensionality_recommendation": "recommend_confirmed_2d",
+      "dimensionality_basis": "larsen_gorai_consensus",
+      "gorai_disagreement_retained": false,
+      "band_gap_method_combinations": [
+        "GGA/NSCF Line"
+      ],
+      "stability_method_resolved": true,
+      "method_recommendation": "recommend_method_pass",
+      "combined_recommendation": "recommend_training_eligibility_after_human_signature",
+      "human_decision": "pending",
+      "training_eligible": false
+    }
+  ],
+  "interpretation": "Recommendations are non-binding. No exploration status changes until a human-signed decision is recorded."
+}

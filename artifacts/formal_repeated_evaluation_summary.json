@@ -1,0 +1,61 @@
+{
+  "evaluation_id": "mp-mos2-3plus3plus1-20seed-v1",
+  "status": "completed",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "stable_cohort_size": 7,
+  "seed_count": 20,
+  "initial_material_ids": [
+    "mp-1023924",
+    "mp-1027525",
+    "mp-1434"
+  ],
+  "query_budget_per_policy": 3,
+  "aggregate_results": {
+    "random": {
+      "mean_d2_hits": 1.45,
+      "mean_hit_rate": 0.48333,
+      "mean_absolute_error_ev": 0.06884,
+      "mean_first_d2_budget": 1.8,
+      "total_stability_violations": 0
+    },
+    "static_topn": {
+      "mean_d2_hits": 2.0,
+      "mean_hit_rate": 0.6667,
+      "mean_absolute_error_ev": 0.019595,
+      "mean_first_d2_budget": 1.0,
+      "total_stability_violations": 0
+    },
+    "iterative": {
+      "mean_d2_hits": 1.75,
+      "mean_hit_rate": 0.58335,
+      "mean_absolute_error_ev": 0.06053,
+      "mean_first_d2_budget": 1.3,
+      "total_stability_violations": 0
+    }
+  },
+  "paired_comparisons": {
+    "iterative_minus_random": {
+      "paired_mean_d2_difference": 0.3,
+      "paired_bootstrap_95_ci": [
+        0.05,
+        0.55
+      ],
+      "minimum_meaningful_gain_d2": 0.145,
+      "positive_advantage_gate_pass": true,
+      "minimum_advantage_excluded": false
+    },
+    "iterative_minus_static_topn": {
+      "paired_mean_d2_difference": -0.25,
+      "paired_bootstrap_95_ci": [
+        -0.45,
+        -0.05
+      ],
+      "minimum_meaningful_gain_d2": 0.2,
+      "positive_advantage_gate_pass": false,
+      "minimum_advantage_excluded": true
+    }
+  },
+  "discovery_signal_classification": "D3_negative_no_preregistered_advantage_within_fixed_environment",
+  "scope_limit": "D3 applies only to repeated strategy behavior inside this fixed seven-record MP MoS2 environment; it is not a general materials-discovery claim"
+}

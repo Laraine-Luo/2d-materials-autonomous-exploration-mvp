@@ -1,0 +1,15 @@
+{
+  "run_id": "mp-mos2-4plus4-v1-invalid-run36",
+  "status": "invalidated",
+  "reason": "the formal runner used signed audit eligibility but failed to reapply the fixed auxiliary stability constraint before selection",
+  "affected_material_ids": ["mp-1238797", "mp-558544"],
+  "evidence_retained": [
+    "artifacts/invalid_run36_formal_closed_loop_summary.json",
+    "artifacts/invalid_run36_formal_exploration_log_random.csv",
+    "artifacts/invalid_run36_formal_exploration_log_static_topn.csv",
+    "artifacts/invalid_run36_formal_exploration_log_iterative.csv"
+  ],
+  "scientific_claim_allowed": false,
+  "correction": "formal runner now reapplies Formation Energy primary plus Hull/is_stable auxiliary gate and blocks 4+4 when fewer than eight remain",
+  "interpretation": "This is a retained environment failure path, not a strategy result."
+}

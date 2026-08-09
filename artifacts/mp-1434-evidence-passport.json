@@ -1,0 +1,188 @@
+{
+  "passport_version": "0.1.0",
+  "material_id": "mp-1434",
+  "formula": "MoS2",
+  "chemical_system": "Mo-S",
+  "materials_project_index_path": "Materials Explorer > Mo-S > MoS2 > mp-1434",
+  "source_database": "Materials Project",
+  "database_version_observed_on_web": "v2026.04.13",
+  "evidence": {
+    "web_index": {
+      "status": "observed",
+      "crystal_system": "Trigonal",
+      "space_group": "R3m",
+      "sites": 3,
+      "band_gap_ev": 1.38,
+      "energy_above_hull_ev_atom": 0.0
+    },
+    "web_detail": {
+      "status": "manually_observed",
+      "formation_energy_ev_atom": -0.966,
+      "is_stable_mp_flag": true,
+      "displayed_calculation_method": "R2SCAN",
+      "dimensionality_ui": "2D or Layered",
+      "description_evidence": "Page description states that the structure is two-dimensional and consists of MoS2 sheets."
+    },
+    "official_api": {
+      "status": "pending_transport",
+      "identity_match": "pending",
+      "returned_fields": [],
+      "origins_task_id": null,
+      "thermo_run_type": null
+    }
+  },
+  "audit": {
+    "api_identity_match": "pending",
+    "database_version_frozen": "pending",
+    "dimensionality_review": "pending_manual_confirmation",
+    "calculation_method_review": "pending_api_origin_and_thermo_link",
+    "required_property_check": "pending_api_response"
+  },
+  "exploration_status_training_eligible": true,
+  "exploration_status_query_state": "unobserved",
+  "exploration_status_discovery_level": "D0",
+  "exploration_status_manual_review_required": false,
+  "promotion_decision": "promoted",
+  "blocking_reasons": [],
+  "claim_boundary": "This passport documents a traceable web example. It is not an API-derived training record, D2 candidate, new-material claim, or experimental validation.",
+  "official_api_evidence": {
+    "status": "received",
+    "identity_match": "pass",
+    "database_version_frozen": "pass",
+    "origins_task_id": null,
+    "thermo_run_type": null,
+    "required_properties_verified": true
+  },
+  "source_surface": "official API",
+  "source_database_version": "2026.04.13",
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          6.54648279,
+          -1.59215212,
+          -0.0783903
+        ],
+        [
+          6.54648279,
+          1.59215212,
+          -0.0783903
+        ],
+        [
+          6.19200778,
+          0.0,
+          2.65642
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 6.7377689432126395,
+      "b": 6.7377689432126395,
+      "c": 6.7377687377929885,
+      "alpha": 27.336827821815305,
+      "beta": 27.336827821815305,
+      "gamma": 27.33683455635365,
+      "volume": 56.921352567891915
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.99977504,
+          0.99977504,
+          0.99977504
+        ],
+        "properties": {},
+        "label": "Mo",
+        "xyz": [
+          19.28063501239293,
+          -3.441262001625773e-17,
+          2.499077081120576
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.41293022,
+          0.41293022,
+          0.41293022
+        ],
+        "properties": {},
+        "label": "S",
+        "xyz": [
+          7.96334829223894,
+          -4.3190442147385966e-17,
+          1.032176647362668
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.25329574,
+          0.25329574,
+          0.25329574
+        ],
+        "properties": {},
+        "label": "S",
+        "xyz": [
+          4.884801598101486,
+          -1.3352635070634733e-17,
+          0.633148011556156
+        ]
+      }
+    ]
+  },
+  "band_gap_ev": 1.3839000000000006,
+  "formation_energy_ev_atom": -0.9661425452083326,
+  "energy_above_hull_ev_atom": 0.0,
+  "is_stable_mp_flag": true,
+  "source_calculation_method": "band_gap:GGA; stability:GGA_GGA+U_R2SCAN",
+  "manual_audit": {
+    "dimensionality_review": "confirmed_2d",
+    "dimensionality_evidence": [
+      "larsen_gorai_consensus",
+      "see artifacts/mos2_dimensionality_evidence_audit.json",
+      "see artifacts/mos2_uncertain_robocrys_audit.json where applicable"
+    ],
+    "calculation_method_review": "pass",
+    "calculation_method_evidence": {
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "r2SCAN",
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN"
+    },
+    "reviewer": "project_owner_user",
+    "decision_source": "continued after explicit 9-in/3-out proposal in Codex task",
+    "reviewed_at": "2026-08-08T03:38:39.824720+00:00",
+    "rationale": "Accepted combined MP-only dimensionality and method evidence proposal; non-2D and method-attention records remain retained as counterexamples."
+  }
+}

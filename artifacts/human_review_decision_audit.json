@@ -1,0 +1,266 @@
+{
+  "reviewed_at_utc": "2026-08-08T03:38:39.824720+00:00",
+  "reviewer": "project_owner_user",
+  "decision_source": "continued after explicit 9-in/3-out proposal in Codex task",
+  "decision": "accept_combined_proposal",
+  "reversible": true,
+  "records_reviewed": 12,
+  "training_eligible_count": 9,
+  "records": [
+    {
+      "material_id": "mp-1434",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {}
+      },
+      "after": {
+        "dimensionality_review": "confirmed_2d",
+        "calculation_method_review": "pass",
+        "training_eligible": true,
+        "promotion_decision": "promoted",
+        "blocking_reasons": []
+      }
+    },
+    {
+      "material_id": "mp-1018809",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "confirmed_2d",
+        "calculation_method_review": "pass",
+        "training_eligible": true,
+        "promotion_decision": "promoted",
+        "blocking_reasons": []
+      }
+    },
+    {
+      "material_id": "mp-1023924",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "confirmed_2d",
+        "calculation_method_review": "pass",
+        "training_eligible": true,
+        "promotion_decision": "promoted",
+        "blocking_reasons": []
+      }
+    },
+    {
+      "material_id": "mp-1023939",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "confirmed_2d",
+        "calculation_method_review": "pass",
+        "training_eligible": true,
+        "promotion_decision": "promoted",
+        "blocking_reasons": []
+      }
+    },
+    {
+      "material_id": "mp-1025874",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "confirmed_2d",
+        "calculation_method_review": "pass",
+        "training_eligible": true,
+        "promotion_decision": "promoted",
+        "blocking_reasons": []
+      }
+    },
+    {
+      "material_id": "mp-1027525",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "confirmed_2d",
+        "calculation_method_review": "pass",
+        "training_eligible": true,
+        "promotion_decision": "promoted",
+        "blocking_reasons": []
+      }
+    },
+    {
+      "material_id": "mp-1042086",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "non_2d",
+        "calculation_method_review": "pass",
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "blocking_reasons": [
+          "dimensionality_not_confirmed"
+        ]
+      }
+    },
+    {
+      "material_id": "mp-1238797",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "confirmed_2d",
+        "calculation_method_review": "pass",
+        "training_eligible": true,
+        "promotion_decision": "promoted",
+        "blocking_reasons": []
+      }
+    },
+    {
+      "material_id": "mp-1405065",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "non_2d",
+        "calculation_method_review": "pending",
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "blocking_reasons": [
+          "dimensionality_not_confirmed",
+          "calculation_method_not_verified"
+        ]
+      }
+    },
+    {
+      "material_id": "mp-2815",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "confirmed_2d",
+        "calculation_method_review": "pass",
+        "training_eligible": true,
+        "promotion_decision": "promoted",
+        "blocking_reasons": []
+      }
+    },
+    {
+      "material_id": "mp-558544",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "confirmed_2d",
+        "calculation_method_review": "pass",
+        "training_eligible": true,
+        "promotion_decision": "promoted",
+        "blocking_reasons": []
+      }
+    },
+    {
+      "material_id": "mp-990083",
+      "before": {
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "manual_audit": {
+          "dimensionality_review": "pending",
+          "dimensionality_evidence": [],
+          "calculation_method_review": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        }
+      },
+      "after": {
+        "dimensionality_review": "non_2d",
+        "calculation_method_review": "pending",
+        "training_eligible": false,
+        "promotion_decision": "blocked",
+        "blocking_reasons": [
+          "dimensionality_not_confirmed",
+          "calculation_method_not_verified"
+        ]
+      }
+    }
+  ],
+  "interpretation": "Human-review states were applied to evidence passports. API data, algorithm outputs and counterexamples were not overwritten."
+}

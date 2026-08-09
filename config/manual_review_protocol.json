@@ -1,0 +1,32 @@
+{
+  "protocol_version": "0.1.0",
+  "scope": "Materials Project MoS2 polymorph demo queue",
+  "dimensionality_review": {
+    "allowed_outcomes": ["confirmed_2d", "uncertain_2d", "non_2d"],
+    "minimum_evidence": [
+      "material_id-specific structure or detail page",
+      "one recorded structural or Materials Project dimensionality indication",
+      "reviewer name/identifier",
+      "review timestamp",
+      "short rationale"
+    ],
+    "confirmed_2d_rule": "Use only when material-ID-specific evidence supports a layered/two-dimensional structure; formula-level evidence is insufficient.",
+    "uncertain_rule": "Use when evidence conflicts, is formula-level only, or cannot distinguish a bulk polymorph from a layered record.",
+    "non_2d_rule": "Use when material-ID-specific structure evidence supports a three-dimensional/non-layered record."
+  },
+  "calculation_method_review": {
+    "allowed_outcomes": ["pass", "pending", "fail"],
+    "minimum_evidence": [
+      "summary origins property name",
+      "origins task_id",
+      "matching thermo entry",
+      "thermo run_type",
+      "database version"
+    ],
+    "pass_rule": "The Band Gap and stability properties used by the queue must have traceable method metadata compatible with the frozen method cohort.",
+    "pending_rule": "Use when the web page displays a method but API origins/thermo linkage has not been verified.",
+    "fail_rule": "Use when required properties belong to an incompatible method cohort or provenance cannot be reconciled."
+  },
+  "promotion_authority": "automatic rule evaluation after recorded human review; neither an LLM nor formula-level metadata may self-approve a record",
+  "audit_retention": "retain previous values, reviewer, timestamp, evidence and reasons in the change log"
+}

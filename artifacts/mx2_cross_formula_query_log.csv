@@ -1,0 +1,801 @@
+seed,policy,confirmatory_role,round,material_id,formula,predicted_band_gap_ev,uncertainty_ev,oracle_band_gap_ev,absolute_error_ev,target_hit,signal_level,selection_reason,budget_used,budget_total
+2001,random,required_baseline,1,mp-1821,WSe2,1.156168,0.151432,1.4468000000000005,0.290632,False,D0,uniform random from the fixed validation pool,1,8
+2001,random,required_baseline,2,mp-602,MoTe2,1.399053,0.139426,0.9651000000000005,0.433953,False,D0,uniform random from the fixed validation pool,2,8
+2001,random,required_baseline,3,mp-1023936,WSe2,1.326705,0.801509,1.5378,0.211095,True,D2,uniform random from the fixed validation pool,3,8
+2001,random,required_baseline,4,mp-1025572,WSe2,1.406095,0.152834,1.2288999999999999,0.177195,False,D0,uniform random from the fixed validation pool,4,8
+2001,random,required_baseline,5,mp-1028441,WS2,1.344854,0.121208,1.6559000000000001,0.311046,True,D2,uniform random from the fixed validation pool,5,8
+2001,random,required_baseline,6,mp-1023933,WSe2,1.407642,0.120977,1.5234,0.115758,True,D2,uniform random from the fixed validation pool,6,8
+2001,random,required_baseline,7,mp-1023934,MoSe2,1.509511,0.295274,1.4311,0.078411,False,D0,uniform random from the fixed validation pool,7,8
+2001,random,required_baseline,8,mp-1023938,MoTe2,1.442325,0.065256,1.0496999999999999,0.392625,False,D0,uniform random from the fixed validation pool,8,8
+2001,static_topn,required_baseline,1,mp-1023940,MoSe2,1.516029,0.035731,1.4242,0.091829,False,D0,highest target score from the frozen development-only model,1,8
+2001,static_topn,required_baseline,2,mp-1023938,MoTe2,1.528552,0.065069,1.0496999999999999,0.478852,False,D0,highest target score from the frozen development-only model,2,8
+2001,static_topn,required_baseline,3,mp-1023937,WS2,1.624191,0.029869,1.8091,0.184909,True,D2,highest target score from the frozen development-only model,3,8
+2001,static_topn,required_baseline,4,mp-1023936,WSe2,1.596764,0.053864,1.5378,0.058964,True,D2,highest target score from the frozen development-only model,4,8
+2001,static_topn,required_baseline,5,mp-1023935,MoTe2,1.663349,0.065408,1.07,0.593349,False,D0,highest target score from the frozen development-only model,5,8
+2001,static_topn,required_baseline,6,mp-1023934,MoSe2,1.659858,0.039379,1.4311,0.228758,False,D0,highest target score from the frozen development-only model,6,8
+2001,static_topn,required_baseline,7,mp-1023925,WS2,1.505854,0.036745,1.697,0.191146,True,D2,highest target score from the frozen development-only model,7,8
+2001,static_topn,required_baseline,8,mp-1023933,WSe2,1.471402,0.072413,1.5234,0.051998,True,D2,highest target score from the frozen development-only model,8,8
+2001,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.658299,0.104607,1.07,0.588299,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2001,iterative_w035,primary_policy,2,mp-1023934,MoSe2,1.375437,0.143897,1.4311,0.055663,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2001,iterative_w035,primary_policy,3,mp-1030319,MoTe2,0.865609,0.254516,0.5861999999999998,0.279409,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2001,iterative_w035,primary_policy,4,mp-1023937,WS2,1.415198,0.082744,1.8091,0.393902,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2001,iterative_w035,primary_policy,5,mp-1023925,WS2,1.381614,0.195357,1.697,0.315386,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2001,iterative_w035,primary_policy,6,mp-1023933,WSe2,1.391811,0.208151,1.5234,0.131589,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2001,iterative_w035,primary_policy,7,mp-1821,WSe2,0.828789,0.338082,1.4468000000000005,0.618011,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2001,iterative_w035,primary_policy,8,mp-9813,WS2,1.334427,0.169111,1.5593000000000004,0.224873,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2001,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.658299,0.104607,1.07,0.588299,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2001,iterative_w015,diagnostic_ablation_only,2,mp-1023937,WS2,1.391945,0.119635,1.8091,0.417155,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2001,iterative_w015,diagnostic_ablation_only,3,mp-1023934,MoSe2,1.517141,0.135744,1.4311,0.086041,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2001,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.525023,0.151983,1.697,0.171977,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2001,iterative_w015,diagnostic_ablation_only,5,mp-1023933,WSe2,1.510505,0.198369,1.5234,0.012895,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2001,iterative_w015,diagnostic_ablation_only,6,mp-1025571,WS2,1.468515,0.09728,1.6345,0.165985,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2001,iterative_w015,diagnostic_ablation_only,7,mp-1023940,MoSe2,1.568388,0.023242,1.4242,0.144188,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2001,iterative_w015,diagnostic_ablation_only,8,mp-1023936,WSe2,1.486463,0.139444,1.5378,0.051337,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2001,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.156168,0.151432,1.4468000000000005,0.290632,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2001,pure_uncertainty,diagnostic_ablation_only,2,mp-1028698,WSe2,1.451162,0.143213,1.1997000000000002,0.251462,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2001,pure_uncertainty,diagnostic_ablation_only,3,mp-1023935,MoTe2,1.529781,0.60581,1.07,0.459781,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2001,pure_uncertainty,diagnostic_ablation_only,4,mp-7459,MoTe2,0.992718,0.261793,0.0,0.992718,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2001,pure_uncertainty,diagnostic_ablation_only,5,mp-224,WS2,1.347541,0.25294,1.5656999999999996,0.218159,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2001,pure_uncertainty,diagnostic_ablation_only,6,mp-1023934,MoSe2,1.326552,0.168574,1.4311,0.104548,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2001,pure_uncertainty,diagnostic_ablation_only,7,mp-602,MoTe2,1.247799,0.231326,0.9651000000000005,0.282699,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2001,pure_uncertainty,diagnostic_ablation_only,8,mp-1030319,MoTe2,1.057527,0.274103,0.5861999999999998,0.471327,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2002,random,required_baseline,1,mp-1023937,WS2,1.682177,0.254683,1.8091,0.126923,True,D2,uniform random from the fixed validation pool,1,8
+2002,random,required_baseline,2,mp-1023934,MoSe2,1.781687,0.093538,1.4311,0.350587,False,D0,uniform random from the fixed validation pool,2,8
+2002,random,required_baseline,3,mp-1027692,MoSe2,1.363626,0.182703,1.1384,0.225226,False,D0,uniform random from the fixed validation pool,3,8
+2002,random,required_baseline,4,mp-1025576,MoTe2,1.278068,0.229828,0.6230000000000002,0.655068,False,D0,uniform random from the fixed validation pool,4,8
+2002,random,required_baseline,5,mp-1023936,WSe2,1.309372,0.195066,1.5378,0.228428,True,D2,uniform random from the fixed validation pool,5,8
+2002,random,required_baseline,6,mp-9813,WS2,0.87264,0.269616,1.5593000000000004,0.68666,True,D2,uniform random from the fixed validation pool,6,8
+2002,random,required_baseline,7,mp-1028441,WS2,0.938038,0.229563,1.6559000000000001,0.717862,True,D2,uniform random from the fixed validation pool,7,8
+2002,random,required_baseline,8,mp-1023940,MoSe2,1.513896,0.095771,1.4242,0.089696,False,D0,uniform random from the fixed validation pool,8,8
+2002,static_topn,required_baseline,1,mp-1023940,MoSe2,1.507828,0.046916,1.4242,0.083628,False,D0,highest target score from the frozen development-only model,1,8
+2002,static_topn,required_baseline,2,mp-1023938,MoTe2,1.514247,0.081431,1.0496999999999999,0.464547,False,D0,highest target score from the frozen development-only model,2,8
+2002,static_topn,required_baseline,3,mp-1023937,WS2,1.624653,0.060024,1.8091,0.184447,True,D2,highest target score from the frozen development-only model,3,8
+2002,static_topn,required_baseline,4,mp-1023936,WSe2,1.586816,0.080285,1.5378,0.049016,True,D2,highest target score from the frozen development-only model,4,8
+2002,static_topn,required_baseline,5,mp-1023935,MoTe2,1.658299,0.104607,1.07,0.588299,False,D0,highest target score from the frozen development-only model,5,8
+2002,static_topn,required_baseline,6,mp-1023934,MoSe2,1.662539,0.07536,1.4311,0.231439,False,D0,highest target score from the frozen development-only model,6,8
+2002,static_topn,required_baseline,7,mp-1023925,WS2,1.497299,0.044925,1.697,0.199701,True,D2,highest target score from the frozen development-only model,7,8
+2002,static_topn,required_baseline,8,mp-1023933,WSe2,1.450472,0.080205,1.5234,0.072928,True,D2,highest target score from the frozen development-only model,8,8
+2002,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.724251,0.33551,1.07,0.654251,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2002,iterative_w035,primary_policy,2,mp-1027692,MoSe2,1.445004,0.9937,1.1384,0.306604,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2002,iterative_w035,primary_policy,3,mp-1023934,MoSe2,1.38174,0.114479,1.4311,0.04936,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2002,iterative_w035,primary_policy,4,mp-7581,MoSe2,0.926902,0.222774,1.3619999999999997,0.435098,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2002,iterative_w035,primary_policy,5,mp-1821,WSe2,0.935675,0.298838,1.4468000000000005,0.511125,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2002,iterative_w035,primary_policy,6,mp-9813,WS2,1.390298,0.213889,1.5593000000000004,0.169002,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2002,iterative_w035,primary_policy,7,mp-224,WS2,1.303592,0.236828,1.5656999999999996,0.262108,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2002,iterative_w035,primary_policy,8,mp-1023925,WS2,1.600231,0.080513,1.697,0.096769,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2002,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.724251,0.33551,1.07,0.654251,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2002,iterative_w015,diagnostic_ablation_only,2,mp-1027692,MoSe2,1.445004,0.9937,1.1384,0.306604,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2002,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.40362,0.094513,1.8091,0.40548,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2002,iterative_w015,diagnostic_ablation_only,4,mp-1023934,MoSe2,1.539736,0.196809,1.4311,0.108636,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2002,iterative_w015,diagnostic_ablation_only,5,mp-1023925,WS2,1.49796,0.164255,1.697,0.19904,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2002,iterative_w015,diagnostic_ablation_only,6,mp-1023936,WSe2,1.462356,0.167058,1.5378,0.075444,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2002,iterative_w015,diagnostic_ablation_only,7,mp-1023933,WSe2,1.511033,0.150361,1.5234,0.012367,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2002,iterative_w015,diagnostic_ablation_only,8,mp-1023940,MoSe2,1.535636,0.025986,1.4242,0.111436,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2002,pure_uncertainty,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.724251,0.33551,1.07,0.654251,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2002,pure_uncertainty,diagnostic_ablation_only,2,mp-1028698,WSe2,1.139449,1.032399,1.1997000000000002,0.060251,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2002,pure_uncertainty,diagnostic_ablation_only,3,mp-1821,WSe2,0.904399,0.250726,1.4468000000000005,0.542401,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2002,pure_uncertainty,diagnostic_ablation_only,4,mp-7459,MoTe2,1.053108,0.283263,0.0,1.053108,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2002,pure_uncertainty,diagnostic_ablation_only,5,mp-9813,WS2,1.188632,0.247999,1.5593000000000004,0.370668,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2002,pure_uncertainty,diagnostic_ablation_only,6,mp-1023934,MoSe2,1.203968,0.719856,1.4311,0.227132,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2002,pure_uncertainty,diagnostic_ablation_only,7,mp-602,MoTe2,1.260218,0.13484,0.9651000000000005,0.295118,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2002,pure_uncertainty,diagnostic_ablation_only,8,mp-1030319,MoTe2,1.055261,0.119842,0.5861999999999998,0.469061,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2003,random,required_baseline,1,mp-9813,WS2,1.261455,0.105687,1.5593000000000004,0.297845,True,D2,uniform random from the fixed validation pool,1,8
+2003,random,required_baseline,2,mp-1018807,MoSe2,1.4535,0.137742,1.2543999999999995,0.1991,False,D0,uniform random from the fixed validation pool,2,8
+2003,random,required_baseline,3,mp-1028698,WSe2,1.366912,0.198139,1.1997000000000002,0.167212,False,D0,uniform random from the fixed validation pool,3,8
+2003,random,required_baseline,4,mp-1023937,WS2,1.628583,0.091819,1.8091,0.180517,True,D2,uniform random from the fixed validation pool,4,8
+2003,random,required_baseline,5,mp-1023940,MoSe2,1.568557,0.05191,1.4242,0.144357,False,D0,uniform random from the fixed validation pool,5,8
+2003,random,required_baseline,6,mp-1025576,MoTe2,1.451046,0.144252,0.6230000000000002,0.828046,False,D0,uniform random from the fixed validation pool,6,8
+2003,random,required_baseline,7,mp-1025572,WSe2,1.248743,0.118956,1.2288999999999999,0.019843,False,D0,uniform random from the fixed validation pool,7,8
+2003,random,required_baseline,8,mp-1023934,MoSe2,1.486065,0.535385,1.4311,0.054965,False,D0,uniform random from the fixed validation pool,8,8
+2003,static_topn,required_baseline,1,mp-1023940,MoSe2,1.536321,0.109448,1.4242,0.112121,False,D0,highest target score from the frozen development-only model,1,8
+2003,static_topn,required_baseline,2,mp-1023938,MoTe2,1.54734,0.149205,1.0496999999999999,0.49764,False,D0,highest target score from the frozen development-only model,2,8
+2003,static_topn,required_baseline,3,mp-1023937,WS2,1.682177,0.254683,1.8091,0.126923,True,D2,highest target score from the frozen development-only model,3,8
+2003,static_topn,required_baseline,4,mp-1023936,WSe2,1.64423,0.24643,1.5378,0.10643,True,D2,highest target score from the frozen development-only model,4,8
+2003,static_topn,required_baseline,5,mp-1023935,MoTe2,1.724251,0.33551,1.07,0.654251,False,D0,highest target score from the frozen development-only model,5,8
+2003,static_topn,required_baseline,6,mp-1023934,MoSe2,1.724818,0.303855,1.4311,0.293718,False,D0,highest target score from the frozen development-only model,6,8
+2003,static_topn,required_baseline,7,mp-1023925,WS2,1.524519,0.092394,1.697,0.172481,True,D2,highest target score from the frozen development-only model,7,8
+2003,static_topn,required_baseline,8,mp-1023933,WSe2,1.477332,0.087943,1.5234,0.046068,True,D2,highest target score from the frozen development-only model,8,8
+2003,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.756934,0.279346,1.07,0.686934,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2003,iterative_w035,primary_policy,2,mp-1023934,MoSe2,1.38226,0.129979,1.4311,0.04884,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2003,iterative_w035,primary_policy,3,mp-1023937,WS2,1.410482,0.093514,1.8091,0.398618,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2003,iterative_w035,primary_policy,4,mp-1023925,WS2,1.50888,0.195267,1.697,0.18812,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2003,iterative_w035,primary_policy,5,mp-1821,WSe2,1.097917,0.59634,1.4468000000000005,0.348883,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2003,iterative_w035,primary_policy,6,mp-1023936,WSe2,1.496223,0.110402,1.5378,0.041577,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2003,iterative_w035,primary_policy,7,mp-7459,MoTe2,0.908967,0.261907,0.0,0.908967,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2003,iterative_w035,primary_policy,8,mp-1028698,WSe2,1.301992,0.213053,1.1997000000000002,0.102292,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2003,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.756934,0.279346,1.07,0.686934,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2003,iterative_w015,diagnostic_ablation_only,2,mp-1023937,WS2,1.401527,0.105477,1.8091,0.407573,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2003,iterative_w015,diagnostic_ablation_only,3,mp-1023934,MoSe2,1.570566,0.234594,1.4311,0.139466,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2003,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.50888,0.195267,1.697,0.18812,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2003,iterative_w015,diagnostic_ablation_only,5,mp-1023933,WSe2,1.49,0.247409,1.5234,0.0334,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2003,iterative_w015,diagnostic_ablation_only,6,mp-1023940,MoSe2,1.52434,0.092793,1.4242,0.10014,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2003,iterative_w015,diagnostic_ablation_only,7,mp-1023936,WSe2,1.440869,0.10276,1.5378,0.096931,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2003,iterative_w015,diagnostic_ablation_only,8,mp-1025571,WS2,1.437086,0.060248,1.6345,0.197414,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2003,pure_uncertainty,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.756934,0.279346,1.07,0.686934,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2003,pure_uncertainty,diagnostic_ablation_only,2,mp-1821,WSe2,0.496298,0.32965,1.4468000000000005,0.950502,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2003,pure_uncertainty,diagnostic_ablation_only,3,mp-7459,MoTe2,0.964279,0.404172,0.0,0.964279,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2003,pure_uncertainty,diagnostic_ablation_only,4,mp-9813,WS2,1.295126,0.308398,1.5593000000000004,0.264174,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2003,pure_uncertainty,diagnostic_ablation_only,5,mp-602,MoTe2,1.318385,0.283558,0.9651000000000005,0.353285,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2003,pure_uncertainty,diagnostic_ablation_only,6,mp-1030319,MoTe2,1.138722,0.252609,0.5861999999999998,0.552522,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2003,pure_uncertainty,diagnostic_ablation_only,7,mp-1028698,WSe2,1.039707,0.280279,1.1997000000000002,0.159993,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2003,pure_uncertainty,diagnostic_ablation_only,8,mp-1027692,MoSe2,1.176631,0.16534,1.1384,0.038231,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2004,random,required_baseline,1,mp-1634,MoSe2,1.325528,0.082121,1.4176000000000002,0.092072,False,D0,uniform random from the fixed validation pool,1,8
+2004,random,required_baseline,2,mp-1023937,WS2,1.567447,0.183594,1.8091,0.241653,True,D2,uniform random from the fixed validation pool,2,8
+2004,random,required_baseline,3,mp-1025572,WSe2,1.607273,0.189591,1.2288999999999999,0.378373,False,D0,uniform random from the fixed validation pool,3,8
+2004,random,required_baseline,4,mp-1028441,WS2,1.325405,0.163631,1.6559000000000001,0.330495,True,D2,uniform random from the fixed validation pool,4,8
+2004,random,required_baseline,5,mp-1023925,WS2,1.562153,0.105841,1.697,0.134847,True,D2,uniform random from the fixed validation pool,5,8
+2004,random,required_baseline,6,mp-1027692,MoSe2,1.5439,0.101755,1.1384,0.4055,False,D0,uniform random from the fixed validation pool,6,8
+2004,random,required_baseline,7,mp-1025576,MoTe2,1.481027,0.074526,0.6230000000000002,0.858027,False,D0,uniform random from the fixed validation pool,7,8
+2004,random,required_baseline,8,mp-1028698,WSe2,1.090191,0.225421,1.1997000000000002,0.109509,False,D0,uniform random from the fixed validation pool,8,8
+2004,static_topn,required_baseline,1,mp-1023940,MoSe2,1.546474,0.096131,1.4242,0.122274,False,D0,highest target score from the frozen development-only model,1,8
+2004,static_topn,required_baseline,2,mp-1023938,MoTe2,1.570024,0.133094,1.0496999999999999,0.520324,False,D0,highest target score from the frozen development-only model,2,8
+2004,static_topn,required_baseline,3,mp-1023937,WS2,1.699782,0.210741,1.8091,0.109318,True,D2,highest target score from the frozen development-only model,3,8
+2004,static_topn,required_baseline,4,mp-1023936,WSe2,1.670421,0.206705,1.5378,0.132621,True,D2,highest target score from the frozen development-only model,4,8
+2004,static_topn,required_baseline,5,mp-1023935,MoTe2,1.756934,0.279346,1.07,0.686934,False,D0,highest target score from the frozen development-only model,5,8
+2004,static_topn,required_baseline,6,mp-1023934,MoSe2,1.746653,0.250305,1.4311,0.315553,False,D0,highest target score from the frozen development-only model,6,8
+2004,static_topn,required_baseline,7,mp-1023925,WS2,1.535668,0.080526,1.697,0.161332,True,D2,highest target score from the frozen development-only model,7,8
+2004,static_topn,required_baseline,8,mp-1023933,WSe2,1.499174,0.086703,1.5234,0.024226,True,D2,highest target score from the frozen development-only model,8,8
+2004,iterative_w035,primary_policy,1,mp-1821,WSe2,1.218405,0.136406,1.4468000000000005,0.228395,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2004,iterative_w035,primary_policy,2,mp-1023935,MoTe2,1.594898,0.269353,1.07,0.524898,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2004,iterative_w035,primary_policy,3,mp-224,WS2,1.181659,0.436867,1.5656999999999996,0.384041,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2004,iterative_w035,primary_policy,4,mp-1025572,WSe2,1.425365,0.260002,1.2288999999999999,0.196465,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2004,iterative_w035,primary_policy,5,mp-7459,MoTe2,1.092178,0.351342,0.0,1.092178,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2004,iterative_w035,primary_policy,6,mp-1023934,MoSe2,1.116535,0.504014,1.4311,0.314565,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2004,iterative_w035,primary_policy,7,mp-9813,WS2,1.464572,0.177404,1.5593000000000004,0.094728,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2004,iterative_w035,primary_policy,8,mp-1023937,WS2,1.473424,0.163474,1.8091,0.335676,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2004,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.648929,0.064205,1.07,0.578929,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2004,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.431543,0.166473,1.4311,0.000443,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2004,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.40068,0.037758,1.8091,0.40842,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2004,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.512039,0.263151,1.697,0.184961,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2004,iterative_w015,diagnostic_ablation_only,5,mp-1023933,WSe2,1.516744,0.222174,1.5234,0.006656,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2004,iterative_w015,diagnostic_ablation_only,6,mp-1023936,WSe2,1.535836,0.149487,1.5378,0.001964,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2004,iterative_w015,diagnostic_ablation_only,7,mp-1025571,WS2,1.498571,0.028608,1.6345,0.135929,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2004,iterative_w015,diagnostic_ablation_only,8,mp-1025572,WSe2,1.475189,0.133545,1.2288999999999999,0.246289,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2004,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.218405,0.136406,1.4468000000000005,0.228395,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2004,pure_uncertainty,diagnostic_ablation_only,2,mp-1023935,MoTe2,1.594898,0.269353,1.07,0.524898,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2004,pure_uncertainty,diagnostic_ablation_only,3,mp-602,MoTe2,1.100925,0.448311,0.9651000000000005,0.135825,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2004,pure_uncertainty,diagnostic_ablation_only,4,mp-1028698,WSe2,1.087026,0.347476,1.1997000000000002,0.112674,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2004,pure_uncertainty,diagnostic_ablation_only,5,mp-7459,MoTe2,0.721701,0.244347,0.0,0.721701,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2004,pure_uncertainty,diagnostic_ablation_only,6,mp-1023934,MoSe2,1.047742,0.574223,1.4311,0.383358,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2004,pure_uncertainty,diagnostic_ablation_only,7,mp-9813,WS2,1.279965,0.127486,1.5593000000000004,0.279335,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2004,pure_uncertainty,diagnostic_ablation_only,8,mp-224,WS2,1.348519,0.118748,1.5656999999999996,0.217181,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2005,random,required_baseline,1,mp-1018807,MoSe2,1.330493,0.078052,1.2543999999999995,0.076093,False,D0,uniform random from the fixed validation pool,1,8
+2005,random,required_baseline,2,mp-1634,MoSe2,1.238129,0.013941,1.4176000000000002,0.179471,False,D0,uniform random from the fixed validation pool,2,8
+2005,random,required_baseline,3,mp-1023935,MoTe2,1.739364,0.118515,1.07,0.669364,False,D0,uniform random from the fixed validation pool,3,8
+2005,random,required_baseline,4,mp-1025799,MoSe2,1.362458,0.123038,1.1603,0.202158,False,D0,uniform random from the fixed validation pool,4,8
+2005,random,required_baseline,5,mp-1023938,MoTe2,1.281309,0.134304,1.0496999999999999,0.231609,False,D0,uniform random from the fixed validation pool,5,8
+2005,random,required_baseline,6,mp-1023936,WSe2,1.305921,0.197824,1.5378,0.231879,True,D2,uniform random from the fixed validation pool,6,8
+2005,random,required_baseline,7,mp-1028441,WS2,1.22367,0.131181,1.6559000000000001,0.43223,True,D2,uniform random from the fixed validation pool,7,8
+2005,random,required_baseline,8,mp-1023934,MoSe2,1.373468,0.112001,1.4311,0.057632,False,D0,uniform random from the fixed validation pool,8,8
+2005,static_topn,required_baseline,1,mp-1023940,MoSe2,1.512872,0.033341,1.4242,0.088672,False,D0,highest target score from the frozen development-only model,1,8
+2005,static_topn,required_baseline,2,mp-1023938,MoTe2,1.517836,0.059267,1.0496999999999999,0.468136,False,D0,highest target score from the frozen development-only model,2,8
+2005,static_topn,required_baseline,3,mp-1023937,WS2,1.62108,0.031334,1.8091,0.18802,True,D2,highest target score from the frozen development-only model,3,8
+2005,static_topn,required_baseline,4,mp-1023936,WSe2,1.589174,0.055845,1.5378,0.051374,True,D2,highest target score from the frozen development-only model,4,8
+2005,static_topn,required_baseline,5,mp-1023935,MoTe2,1.648929,0.064205,1.07,0.578929,False,D0,highest target score from the frozen development-only model,5,8
+2005,static_topn,required_baseline,6,mp-1023934,MoSe2,1.652719,0.038123,1.4311,0.221619,False,D0,highest target score from the frozen development-only model,6,8
+2005,static_topn,required_baseline,7,mp-1023925,WS2,1.503857,0.033552,1.697,0.193143,True,D2,highest target score from the frozen development-only model,7,8
+2005,static_topn,required_baseline,8,mp-1023933,WSe2,1.464311,0.06446,1.5234,0.059089,True,D2,highest target score from the frozen development-only model,8,8
+2005,iterative_w035,primary_policy,1,mp-1821,WSe2,1.218348,0.141178,1.4468000000000005,0.228452,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2005,iterative_w035,primary_policy,2,mp-1023935,MoTe2,1.779077,0.216835,1.07,0.709077,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2005,iterative_w035,primary_policy,3,mp-7459,MoTe2,1.176097,0.392229,0.0,1.176097,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2005,iterative_w035,primary_policy,4,mp-1023934,MoSe2,1.443194,0.228959,1.4311,0.012094,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2005,iterative_w035,primary_policy,5,mp-1023933,WSe2,1.489109,0.221354,1.5234,0.034291,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2005,iterative_w035,primary_policy,6,mp-1030319,MoTe2,1.244716,0.157478,0.5861999999999998,0.658516,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2005,iterative_w035,primary_policy,7,mp-9813,WS2,1.241345,0.384075,1.5593000000000004,0.317955,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2005,iterative_w035,primary_policy,8,mp-1028698,WSe2,1.12482,0.245229,1.1997000000000002,0.07488,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2005,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.653228,0.06707,1.07,0.583228,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2005,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.481753,0.166426,1.4311,0.050653,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2005,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.415357,0.070273,1.8091,0.393743,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2005,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.444394,0.214831,1.697,0.252606,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2005,iterative_w015,diagnostic_ablation_only,5,mp-1023933,WSe2,1.492145,0.262329,1.5234,0.031255,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2005,iterative_w015,diagnostic_ablation_only,6,mp-1023940,MoSe2,1.525229,0.108392,1.4242,0.101029,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2005,iterative_w015,diagnostic_ablation_only,7,mp-1023936,WSe2,1.44658,0.132367,1.5378,0.09122,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2005,iterative_w015,diagnostic_ablation_only,8,mp-9813,WS2,1.339776,0.21111,1.5593000000000004,0.219524,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2005,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.218348,0.141178,1.4468000000000005,0.228452,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2005,pure_uncertainty,diagnostic_ablation_only,2,mp-1023935,MoTe2,1.779077,0.216835,1.07,0.709077,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2005,pure_uncertainty,diagnostic_ablation_only,3,mp-7459,MoTe2,1.176097,0.392229,0.0,1.176097,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2005,pure_uncertainty,diagnostic_ablation_only,4,mp-1028698,WSe2,1.114353,0.369914,1.1997000000000002,0.085347,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2005,pure_uncertainty,diagnostic_ablation_only,5,mp-1025572,WSe2,1.373684,0.22796,1.2288999999999999,0.144784,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2005,pure_uncertainty,diagnostic_ablation_only,6,mp-1023936,WSe2,1.440198,0.185128,1.5378,0.097602,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2005,pure_uncertainty,diagnostic_ablation_only,7,mp-9813,WS2,1.327208,0.138973,1.5593000000000004,0.232092,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2005,pure_uncertainty,diagnostic_ablation_only,8,mp-1030319,MoTe2,1.106565,0.154973,0.5861999999999998,0.520365,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2006,random,required_baseline,1,mp-1025576,MoTe2,1.449524,0.032999,0.6230000000000002,0.826524,False,D0,uniform random from the fixed validation pool,1,8
+2006,random,required_baseline,2,mp-9813,WS2,0.687388,0.408749,1.5593000000000004,0.871912,True,D2,uniform random from the fixed validation pool,2,8
+2006,random,required_baseline,3,mp-1023937,WS2,1.454097,0.210066,1.8091,0.355003,True,D2,uniform random from the fixed validation pool,3,8
+2006,random,required_baseline,4,mp-1023933,WSe2,1.483959,0.283922,1.5234,0.039441,True,D2,uniform random from the fixed validation pool,4,8
+2006,random,required_baseline,5,mp-1025571,WS2,1.418768,0.131928,1.6345,0.215732,True,D2,uniform random from the fixed validation pool,5,8
+2006,random,required_baseline,6,mp-1023938,MoTe2,1.330281,0.340788,1.0496999999999999,0.280581,False,D0,uniform random from the fixed validation pool,6,8
+2006,random,required_baseline,7,mp-1018807,MoSe2,1.226378,0.178494,1.2543999999999995,0.028022,False,D0,uniform random from the fixed validation pool,7,8
+2006,random,required_baseline,8,mp-1023925,WS2,1.688105,0.102929,1.697,0.008895,True,D2,uniform random from the fixed validation pool,8,8
+2006,static_topn,required_baseline,1,mp-1023940,MoSe2,1.51262,0.037543,1.4242,0.08842,False,D0,highest target score from the frozen development-only model,1,8
+2006,static_topn,required_baseline,2,mp-1023938,MoTe2,1.522687,0.066177,1.0496999999999999,0.472987,False,D0,highest target score from the frozen development-only model,2,8
+2006,static_topn,required_baseline,3,mp-1023937,WS2,1.619639,0.032973,1.8091,0.189461,True,D2,highest target score from the frozen development-only model,3,8
+2006,static_topn,required_baseline,4,mp-1023936,WSe2,1.590585,0.060078,1.5378,0.052785,True,D2,highest target score from the frozen development-only model,4,8
+2006,static_topn,required_baseline,5,mp-1023935,MoTe2,1.653228,0.06707,1.07,0.583228,False,D0,highest target score from the frozen development-only model,5,8
+2006,static_topn,required_baseline,6,mp-1023934,MoSe2,1.653151,0.038334,1.4311,0.222051,False,D0,highest target score from the frozen development-only model,6,8
+2006,static_topn,required_baseline,7,mp-1023925,WS2,1.504547,0.037534,1.697,0.192453,True,D2,highest target score from the frozen development-only model,7,8
+2006,static_topn,required_baseline,8,mp-1023933,WSe2,1.468775,0.071291,1.5234,0.054625,True,D2,highest target score from the frozen development-only model,8,8
+2006,iterative_w035,primary_policy,1,mp-1821,WSe2,1.194785,0.089489,1.4468000000000005,0.252015,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2006,iterative_w035,primary_policy,2,mp-1023935,MoTe2,1.718134,0.187895,1.07,0.648134,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2006,iterative_w035,primary_policy,3,mp-1028698,WSe2,1.175594,0.367747,1.1997000000000002,0.024106,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2006,iterative_w035,primary_policy,4,mp-1023934,MoSe2,1.302162,0.589878,1.4311,0.128938,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2006,iterative_w035,primary_policy,5,mp-9813,WS2,1.338454,0.377648,1.5593000000000004,0.220846,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2006,iterative_w035,primary_policy,6,mp-1023925,WS2,1.552395,0.086379,1.697,0.144605,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2006,iterative_w035,primary_policy,7,mp-1023937,WS2,1.494923,0.091356,1.8091,0.314177,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2006,iterative_w035,primary_policy,8,mp-1023936,WSe2,1.499432,0.090314,1.5378,0.038368,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2006,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.650653,0.039091,1.07,0.580653,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2006,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.420519,0.151403,1.4311,0.010581,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2006,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.401924,0.042931,1.8091,0.407176,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2006,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.463799,0.169166,1.697,0.233201,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2006,iterative_w015,diagnostic_ablation_only,5,mp-1023933,WSe2,1.450677,0.207468,1.5234,0.072723,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2006,iterative_w015,diagnostic_ablation_only,6,mp-9813,WS2,1.440439,0.363159,1.5593000000000004,0.118861,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2006,iterative_w015,diagnostic_ablation_only,7,mp-1023936,WSe2,1.551818,0.145784,1.5378,0.014018,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2006,iterative_w015,diagnostic_ablation_only,8,mp-1025572,WSe2,1.517697,0.075679,1.2288999999999999,0.288797,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2006,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.194785,0.089489,1.4468000000000005,0.252015,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2006,pure_uncertainty,diagnostic_ablation_only,2,mp-1023935,MoTe2,1.718134,0.187895,1.07,0.648134,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2006,pure_uncertainty,diagnostic_ablation_only,3,mp-1028698,WSe2,1.175594,0.367747,1.1997000000000002,0.024106,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2006,pure_uncertainty,diagnostic_ablation_only,4,mp-1023934,MoSe2,1.302162,0.589878,1.4311,0.128938,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2006,pure_uncertainty,diagnostic_ablation_only,5,mp-9813,WS2,1.338454,0.377648,1.5593000000000004,0.220846,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2006,pure_uncertainty,diagnostic_ablation_only,6,mp-7459,MoTe2,0.996689,0.222393,0.0,0.996689,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2006,pure_uncertainty,diagnostic_ablation_only,7,mp-1030319,MoTe2,1.199908,0.117813,0.5861999999999998,0.613708,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2006,pure_uncertainty,diagnostic_ablation_only,8,mp-1028441,WS2,1.221705,0.162286,1.6559000000000001,0.434195,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2007,random,required_baseline,1,mp-1025576,MoTe2,1.386846,0.085932,0.6230000000000002,0.763846,False,D0,uniform random from the fixed validation pool,1,8
+2007,random,required_baseline,2,mp-1028698,WSe2,0.652729,0.54626,1.1997000000000002,0.546971,False,D0,uniform random from the fixed validation pool,2,8
+2007,random,required_baseline,3,mp-1023935,MoTe2,0.736114,0.724697,1.07,0.333886,False,D0,uniform random from the fixed validation pool,3,8
+2007,random,required_baseline,4,mp-1018807,MoSe2,1.00384,0.198428,1.2543999999999995,0.25056,False,D0,uniform random from the fixed validation pool,4,8
+2007,random,required_baseline,5,mp-1821,WSe2,0.785577,0.319975,1.4468000000000005,0.661223,False,D0,uniform random from the fixed validation pool,5,8
+2007,random,required_baseline,6,mp-1028441,WS2,1.232401,0.145814,1.6559000000000001,0.423499,True,D2,uniform random from the fixed validation pool,6,8
+2007,random,required_baseline,7,mp-7581,MoSe2,1.24481,0.152648,1.3619999999999997,0.11719,False,D0,uniform random from the fixed validation pool,7,8
+2007,random,required_baseline,8,mp-1023940,MoSe2,1.435463,0.113354,1.4242,0.011263,False,D0,uniform random from the fixed validation pool,8,8
+2007,static_topn,required_baseline,1,mp-1023940,MoSe2,1.509242,0.018427,1.4242,0.085042,False,D0,highest target score from the frozen development-only model,1,8
+2007,static_topn,required_baseline,2,mp-1023938,MoTe2,1.51857,0.026755,1.0496999999999999,0.46887,False,D0,highest target score from the frozen development-only model,2,8
+2007,static_topn,required_baseline,3,mp-1023937,WS2,1.61867,0.021921,1.8091,0.19043,True,D2,highest target score from the frozen development-only model,3,8
+2007,static_topn,required_baseline,4,mp-1023936,WSe2,1.58676,0.027626,1.5378,0.04896,True,D2,highest target score from the frozen development-only model,4,8
+2007,static_topn,required_baseline,5,mp-1023935,MoTe2,1.650653,0.039091,1.07,0.580653,False,D0,highest target score from the frozen development-only model,5,8
+2007,static_topn,required_baseline,6,mp-1023934,MoSe2,1.652849,0.029093,1.4311,0.221749,False,D0,highest target score from the frozen development-only model,6,8
+2007,static_topn,required_baseline,7,mp-1023925,WS2,1.502405,0.018379,1.697,0.194595,True,D2,highest target score from the frozen development-only model,7,8
+2007,static_topn,required_baseline,8,mp-1023933,WSe2,1.463684,0.031184,1.5234,0.059716,True,D2,highest target score from the frozen development-only model,8,8
+2007,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.603358,0.177867,1.07,0.533358,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2007,iterative_w035,primary_policy,2,mp-1023934,MoSe2,1.445035,0.165836,1.4311,0.013935,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2007,iterative_w035,primary_policy,3,mp-1023937,WS2,1.415998,0.093074,1.8091,0.393102,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2007,iterative_w035,primary_policy,4,mp-1023925,WS2,1.512684,0.202332,1.697,0.184316,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2007,iterative_w035,primary_policy,5,mp-9813,WS2,1.253682,0.52349,1.5593000000000004,0.305618,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2007,iterative_w035,primary_policy,6,mp-1821,WSe2,1.132229,0.478842,1.4468000000000005,0.314571,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2007,iterative_w035,primary_policy,7,mp-1023936,WSe2,1.518251,0.125486,1.5378,0.019549,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2007,iterative_w035,primary_policy,8,mp-1028441,WS2,1.283108,0.291195,1.6559000000000001,0.372792,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2007,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.603358,0.177867,1.07,0.533358,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2007,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.445035,0.165836,1.4311,0.013935,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2007,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.415998,0.093074,1.8091,0.393102,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2007,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.512684,0.202332,1.697,0.184316,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2007,iterative_w015,diagnostic_ablation_only,5,mp-1023933,WSe2,1.49486,0.223482,1.5234,0.02854,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2007,iterative_w015,diagnostic_ablation_only,6,mp-1023936,WSe2,1.492246,0.184635,1.5378,0.045554,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2007,iterative_w015,diagnostic_ablation_only,7,mp-1025571,WS2,1.507854,0.044788,1.6345,0.126646,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2007,iterative_w015,diagnostic_ablation_only,8,mp-1025572,WSe2,1.480033,0.136694,1.2288999999999999,0.251133,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2007,pure_uncertainty,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.603358,0.177867,1.07,0.533358,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2007,pure_uncertainty,diagnostic_ablation_only,2,mp-1821,WSe2,0.648408,0.547164,1.4468000000000005,0.798392,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2007,pure_uncertainty,diagnostic_ablation_only,3,mp-602,MoTe2,1.11065,0.35886,0.9651000000000005,0.14555,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2007,pure_uncertainty,diagnostic_ablation_only,4,mp-7459,MoTe2,0.852914,0.389604,0.0,0.852914,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2007,pure_uncertainty,diagnostic_ablation_only,5,mp-1030319,MoTe2,0.892102,0.435234,0.5861999999999998,0.305902,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2007,pure_uncertainty,diagnostic_ablation_only,6,mp-1023934,MoSe2,1.285127,0.334105,1.4311,0.145973,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2007,pure_uncertainty,diagnostic_ablation_only,7,mp-9813,WS2,1.330611,0.360138,1.5593000000000004,0.228689,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2007,pure_uncertainty,diagnostic_ablation_only,8,mp-224,WS2,1.226295,0.284601,1.5656999999999996,0.339405,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2008,random,required_baseline,1,mp-1023935,MoTe2,1.61498,0.067504,1.07,0.54498,False,D0,uniform random from the fixed validation pool,1,8
+2008,random,required_baseline,2,mp-1025572,WSe2,1.079878,0.295354,1.2288999999999999,0.149022,False,D0,uniform random from the fixed validation pool,2,8
+2008,random,required_baseline,3,mp-1025571,WS2,1.293245,0.142815,1.6345,0.341255,True,D2,uniform random from the fixed validation pool,3,8
+2008,random,required_baseline,4,mp-224,WS2,1.280139,0.247542,1.5656999999999996,0.285561,True,D2,uniform random from the fixed validation pool,4,8
+2008,random,required_baseline,5,mp-1025576,MoTe2,1.312886,0.151633,0.6230000000000002,0.689886,False,D0,uniform random from the fixed validation pool,5,8
+2008,random,required_baseline,6,mp-1023938,MoTe2,1.080941,0.371672,1.0496999999999999,0.031241,False,D0,uniform random from the fixed validation pool,6,8
+2008,random,required_baseline,7,mp-602,MoTe2,1.0304,0.183522,0.9651000000000005,0.0653,False,D0,uniform random from the fixed validation pool,7,8
+2008,random,required_baseline,8,mp-1821,WSe2,1.069836,0.223821,1.4468000000000005,0.376964,False,D0,uniform random from the fixed validation pool,8,8
+2008,static_topn,required_baseline,1,mp-1023937,WS2,1.589558,0.113475,1.8091,0.219542,True,D2,highest target score from the frozen development-only model,1,8
+2008,static_topn,required_baseline,2,mp-1023936,WSe2,1.540989,0.135048,1.5378,0.003189,True,D2,highest target score from the frozen development-only model,2,8
+2008,static_topn,required_baseline,3,mp-1023935,MoTe2,1.603358,0.177867,1.07,0.533358,False,D0,highest target score from the frozen development-only model,3,8
+2008,static_topn,required_baseline,4,mp-1023934,MoSe2,1.621742,0.13888,1.4311,0.190642,False,D0,highest target score from the frozen development-only model,4,8
+2008,static_topn,required_baseline,5,mp-1023940,MoSe2,1.473568,0.060189,1.4242,0.049368,False,D0,highest target score from the frozen development-only model,5,8
+2008,static_topn,required_baseline,6,mp-1023938,MoTe2,1.465043,0.104232,1.0496999999999999,0.415343,False,D0,highest target score from the frozen development-only model,6,8
+2008,static_topn,required_baseline,7,mp-1023925,WS2,1.46364,0.054662,1.697,0.23336,True,D2,highest target score from the frozen development-only model,7,8
+2008,static_topn,required_baseline,8,mp-1025799,MoSe2,1.406914,0.050091,1.1603,0.246614,False,D0,highest target score from the frozen development-only model,8,8
+2008,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.61498,0.067504,1.07,0.54498,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2008,iterative_w035,primary_policy,2,mp-1023934,MoSe2,1.426579,0.180642,1.4311,0.004521,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2008,iterative_w035,primary_policy,3,mp-1023937,WS2,1.419549,0.080171,1.8091,0.389551,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2008,iterative_w035,primary_policy,4,mp-9813,WS2,1.331772,0.459749,1.5593000000000004,0.227528,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2008,iterative_w035,primary_policy,5,mp-1821,WSe2,1.170171,0.542137,1.4468000000000005,0.276629,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2008,iterative_w035,primary_policy,6,mp-1023936,WSe2,1.594336,0.175432,1.5378,0.056536,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2008,iterative_w035,primary_policy,7,mp-224,WS2,1.352884,0.4493,1.5656999999999996,0.212816,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2008,iterative_w035,primary_policy,8,mp-1028698,WSe2,1.353665,0.324751,1.1997000000000002,0.153965,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2008,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.61498,0.067504,1.07,0.54498,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2008,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.426579,0.180642,1.4311,0.004521,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2008,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.419549,0.080171,1.8091,0.389551,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2008,iterative_w015,diagnostic_ablation_only,4,mp-1023936,WSe2,1.498719,0.21173,1.5378,0.039081,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2008,iterative_w015,diagnostic_ablation_only,5,mp-9813,WS2,1.592944,0.677672,1.5593000000000004,0.033644,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2008,iterative_w015,diagnostic_ablation_only,6,mp-1025572,WSe2,1.48754,0.155412,1.2288999999999999,0.25864,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2008,iterative_w015,diagnostic_ablation_only,7,mp-1023925,WS2,1.625631,0.13103,1.697,0.071369,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2008,iterative_w015,diagnostic_ablation_only,8,mp-1023933,WSe2,1.532322,0.069256,1.5234,0.008922,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2008,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.134895,0.116843,1.4468000000000005,0.311905,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2008,pure_uncertainty,diagnostic_ablation_only,2,mp-1028698,WSe2,1.516111,0.324297,1.1997000000000002,0.316411,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2008,pure_uncertainty,diagnostic_ablation_only,3,mp-1023935,MoTe2,1.721937,0.175448,1.07,0.651937,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2008,pure_uncertainty,diagnostic_ablation_only,4,mp-1023936,WSe2,1.451556,0.33524,1.5378,0.086244,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2008,pure_uncertainty,diagnostic_ablation_only,5,mp-7459,MoTe2,1.011778,0.27204,0.0,1.011778,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2008,pure_uncertainty,diagnostic_ablation_only,6,mp-1023934,MoSe2,1.473052,0.15948,1.4311,0.041952,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2008,pure_uncertainty,diagnostic_ablation_only,7,mp-9813,WS2,1.383429,0.137589,1.5593000000000004,0.175871,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2008,pure_uncertainty,diagnostic_ablation_only,8,mp-1030319,MoTe2,1.223322,0.145999,0.5861999999999998,0.637122,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2009,random,required_baseline,1,mp-7581,MoSe2,1.328011,0.083039,1.3619999999999997,0.033989,False,D0,uniform random from the fixed validation pool,1,8
+2009,random,required_baseline,2,mp-1023940,MoSe2,1.516664,0.046551,1.4242,0.092464,False,D0,uniform random from the fixed validation pool,2,8
+2009,random,required_baseline,3,mp-1023937,WS2,1.594416,0.052031,1.8091,0.214684,True,D2,uniform random from the fixed validation pool,3,8
+2009,random,required_baseline,4,mp-1023938,MoTe2,1.579019,0.130857,1.0496999999999999,0.529319,False,D0,uniform random from the fixed validation pool,4,8
+2009,random,required_baseline,5,mp-1025571,WS2,1.25002,0.153311,1.6345,0.38448,True,D2,uniform random from the fixed validation pool,5,8
+2009,random,required_baseline,6,mp-602,MoTe2,1.21321,0.246232,0.9651000000000005,0.24811,False,D0,uniform random from the fixed validation pool,6,8
+2009,random,required_baseline,7,mp-1018807,MoSe2,1.245368,0.080172,1.2543999999999995,0.009032,False,D0,uniform random from the fixed validation pool,7,8
+2009,random,required_baseline,8,mp-1023936,WSe2,1.518406,0.109552,1.5378,0.019394,True,D2,uniform random from the fixed validation pool,8,8
+2009,static_topn,required_baseline,1,mp-1023937,WS2,1.603829,0.034612,1.8091,0.205271,True,D2,highest target score from the frozen development-only model,1,8
+2009,static_topn,required_baseline,2,mp-1023936,WSe2,1.557508,0.055634,1.5378,0.019708,True,D2,highest target score from the frozen development-only model,2,8
+2009,static_topn,required_baseline,3,mp-1023935,MoTe2,1.61498,0.067504,1.07,0.54498,False,D0,highest target score from the frozen development-only model,3,8
+2009,static_topn,required_baseline,4,mp-1023934,MoSe2,1.633658,0.042991,1.4311,0.202558,False,D0,highest target score from the frozen development-only model,4,8
+2009,static_topn,required_baseline,5,mp-1023940,MoSe2,1.493584,0.031228,1.4242,0.069384,False,D0,highest target score from the frozen development-only model,5,8
+2009,static_topn,required_baseline,6,mp-1023925,WS2,1.487467,0.031327,1.697,0.209533,True,D2,highest target score from the frozen development-only model,6,8
+2009,static_topn,required_baseline,7,mp-1023938,MoTe2,1.486631,0.057051,1.0496999999999999,0.436931,False,D0,highest target score from the frozen development-only model,7,8
+2009,static_topn,required_baseline,8,mp-1023933,WSe2,1.43171,0.05979,1.5234,0.09169,True,D2,highest target score from the frozen development-only model,8,8
+2009,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.742221,0.345604,1.07,0.672221,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2009,iterative_w035,primary_policy,2,mp-1023934,MoSe2,1.440718,0.166762,1.4311,0.009618,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2009,iterative_w035,primary_policy,3,mp-1023937,WS2,1.429232,0.066216,1.8091,0.379868,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2009,iterative_w035,primary_policy,4,mp-1028441,WS2,1.384818,0.71876,1.6559000000000001,0.271082,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2009,iterative_w035,primary_policy,5,mp-1821,WSe2,1.382547,0.456036,1.4468000000000005,0.064253,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2009,iterative_w035,primary_policy,6,mp-9813,WS2,1.463375,0.315097,1.5593000000000004,0.095925,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2009,iterative_w035,primary_policy,7,mp-1028698,WSe2,1.502653,0.165666,1.1997000000000002,0.302953,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2009,iterative_w035,primary_policy,8,mp-7581,MoSe2,1.361328,0.134858,1.3619999999999997,0.000672,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2009,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.742221,0.345604,1.07,0.672221,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2009,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.440718,0.166762,1.4311,0.009618,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2009,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.429232,0.066216,1.8091,0.379868,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2009,iterative_w015,diagnostic_ablation_only,4,mp-1025571,WS2,1.471496,0.555075,1.6345,0.163004,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2009,iterative_w015,diagnostic_ablation_only,5,mp-1023925,WS2,1.576562,0.178322,1.697,0.120438,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2009,iterative_w015,diagnostic_ablation_only,6,mp-1023933,WSe2,1.566618,0.236263,1.5234,0.043218,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2009,iterative_w015,diagnostic_ablation_only,7,mp-1023936,WSe2,1.508525,0.083739,1.5378,0.029275,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2009,iterative_w015,diagnostic_ablation_only,8,mp-1023940,MoSe2,1.561009,0.031065,1.4242,0.136809,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2009,pure_uncertainty,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.742221,0.345604,1.07,0.672221,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2009,pure_uncertainty,diagnostic_ablation_only,2,mp-1821,WSe2,0.635613,0.435965,1.4468000000000005,0.811187,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2009,pure_uncertainty,diagnostic_ablation_only,3,mp-7459,MoTe2,0.965082,0.419635,0.0,0.965082,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2009,pure_uncertainty,diagnostic_ablation_only,4,mp-1028698,WSe2,1.070559,0.38699,1.1997000000000002,0.129141,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2009,pure_uncertainty,diagnostic_ablation_only,5,mp-1023934,MoSe2,1.413675,0.145455,1.4311,0.017425,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2009,pure_uncertainty,diagnostic_ablation_only,6,mp-602,MoTe2,1.196931,0.231264,0.9651000000000005,0.231831,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2009,pure_uncertainty,diagnostic_ablation_only,7,mp-9813,WS2,1.259955,0.186937,1.5593000000000004,0.299345,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2009,pure_uncertainty,diagnostic_ablation_only,8,mp-1025572,WSe2,1.357542,0.199802,1.2288999999999999,0.128642,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2010,random,required_baseline,1,mp-1821,WSe2,0.935845,0.604188,1.4468000000000005,0.510955,False,D0,uniform random from the fixed validation pool,1,8
+2010,random,required_baseline,2,mp-1028698,WSe2,1.462794,0.135099,1.1997000000000002,0.263094,False,D0,uniform random from the fixed validation pool,2,8
+2010,random,required_baseline,3,mp-1023935,MoTe2,1.395715,0.853615,1.07,0.325715,False,D0,uniform random from the fixed validation pool,3,8
+2010,random,required_baseline,4,mp-9813,WS2,1.26679,0.284923,1.5593000000000004,0.29251,True,D2,uniform random from the fixed validation pool,4,8
+2010,random,required_baseline,5,mp-1018807,MoSe2,1.418824,0.049307,1.2543999999999995,0.164424,False,D0,uniform random from the fixed validation pool,5,8
+2010,random,required_baseline,6,mp-1634,MoSe2,1.356924,0.059961,1.4176000000000002,0.060676,False,D0,uniform random from the fixed validation pool,6,8
+2010,random,required_baseline,7,mp-7581,MoSe2,1.414256,0.068934,1.3619999999999997,0.052256,False,D0,uniform random from the fixed validation pool,7,8
+2010,random,required_baseline,8,mp-1025572,WSe2,1.42252,0.073441,1.2288999999999999,0.19362,False,D0,uniform random from the fixed validation pool,8,8
+2010,static_topn,required_baseline,1,mp-1023940,MoSe2,1.547748,0.12196,1.4242,0.123548,False,D0,highest target score from the frozen development-only model,1,8
+2010,static_topn,required_baseline,2,mp-1023938,MoTe2,1.565773,0.159796,1.0496999999999999,0.516073,False,D0,highest target score from the frozen development-only model,2,8
+2010,static_topn,required_baseline,3,mp-1023937,WS2,1.69114,0.270555,1.8091,0.11796,True,D2,highest target score from the frozen development-only model,3,8
+2010,static_topn,required_baseline,4,mp-1023936,WSe2,1.659116,0.259836,1.5378,0.121316,True,D2,highest target score from the frozen development-only model,4,8
+2010,static_topn,required_baseline,5,mp-1023935,MoTe2,1.742221,0.345604,1.07,0.672221,False,D0,highest target score from the frozen development-only model,5,8
+2010,static_topn,required_baseline,6,mp-1023934,MoSe2,1.735824,0.317601,1.4311,0.304724,False,D0,highest target score from the frozen development-only model,6,8
+2010,static_topn,required_baseline,7,mp-1023925,WS2,1.535677,0.105876,1.697,0.161323,True,D2,highest target score from the frozen development-only model,7,8
+2010,static_topn,required_baseline,8,mp-1023933,WSe2,1.495511,0.104052,1.5234,0.027889,True,D2,highest target score from the frozen development-only model,8,8
+2010,iterative_w035,primary_policy,1,mp-1023935,MoTe2,2.284152,2.340959,1.07,1.214152,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2010,iterative_w035,primary_policy,2,mp-1023934,MoSe2,1.454138,0.176802,1.4311,0.023038,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2010,iterative_w035,primary_policy,3,mp-1023937,WS2,1.491084,0.096586,1.8091,0.318016,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2010,iterative_w035,primary_policy,4,mp-1023925,WS2,1.404719,0.207085,1.697,0.292281,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2010,iterative_w035,primary_policy,5,mp-1821,WSe2,0.99083,0.409338,1.4468000000000005,0.45597,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2010,iterative_w035,primary_policy,6,mp-9813,WS2,1.349466,0.297518,1.5593000000000004,0.209834,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2010,iterative_w035,primary_policy,7,mp-1028441,WS2,1.382787,0.141257,1.6559000000000001,0.273113,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2010,iterative_w035,primary_policy,8,mp-1023936,WSe2,1.54701,0.132644,1.5378,0.00921,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2010,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,2.284152,2.340959,1.07,1.214152,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2010,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.454138,0.176802,1.4311,0.023038,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2010,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.491084,0.096586,1.8091,0.318016,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2010,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.404719,0.207085,1.697,0.292281,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2010,iterative_w015,diagnostic_ablation_only,5,mp-1023940,MoSe2,1.467771,0.104122,1.4242,0.043571,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2010,iterative_w015,diagnostic_ablation_only,6,mp-1023936,WSe2,1.384031,0.118105,1.5378,0.153769,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2010,iterative_w015,diagnostic_ablation_only,7,mp-1023933,WSe2,1.515771,0.072169,1.5234,0.007629,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2010,iterative_w015,diagnostic_ablation_only,8,mp-1025571,WS2,1.493123,0.038998,1.6345,0.141377,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2010,pure_uncertainty,diagnostic_ablation_only,1,mp-1023935,MoTe2,2.284152,2.340959,1.07,1.214152,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2010,pure_uncertainty,diagnostic_ablation_only,2,mp-1821,WSe2,0.801994,0.463195,1.4468000000000005,0.644806,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2010,pure_uncertainty,diagnostic_ablation_only,3,mp-7459,MoTe2,1.037512,0.468033,0.0,1.037512,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2010,pure_uncertainty,diagnostic_ablation_only,4,mp-1028698,WSe2,1.082937,0.377996,1.1997000000000002,0.116763,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2010,pure_uncertainty,diagnostic_ablation_only,5,mp-1023934,MoSe2,1.491195,0.18162,1.4311,0.060095,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2010,pure_uncertainty,diagnostic_ablation_only,6,mp-224,WS2,1.307606,0.203321,1.5656999999999996,0.258094,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2010,pure_uncertainty,diagnostic_ablation_only,7,mp-1023936,WSe2,1.437075,0.110508,1.5378,0.100725,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2010,pure_uncertainty,diagnostic_ablation_only,8,mp-1023937,WS2,1.51424,0.109908,1.8091,0.29486,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2011,random,required_baseline,1,mp-1023933,WSe2,1.481564,0.086627,1.5234,0.041836,True,D2,uniform random from the fixed validation pool,1,8
+2011,random,required_baseline,2,mp-1028698,WSe2,1.403107,0.095599,1.1997000000000002,0.203407,False,D0,uniform random from the fixed validation pool,2,8
+2011,random,required_baseline,3,mp-1028441,WS2,1.363833,0.063575,1.6559000000000001,0.292067,True,D2,uniform random from the fixed validation pool,3,8
+2011,random,required_baseline,4,mp-1023938,MoTe2,1.592705,0.15179,1.0496999999999999,0.543005,False,D0,uniform random from the fixed validation pool,4,8
+2011,random,required_baseline,5,mp-1634,MoSe2,1.304784,0.1456,1.4176000000000002,0.112816,False,D0,uniform random from the fixed validation pool,5,8
+2011,random,required_baseline,6,mp-1025572,WSe2,1.354824,0.072206,1.2288999999999999,0.125924,False,D0,uniform random from the fixed validation pool,6,8
+2011,random,required_baseline,7,mp-1025576,MoTe2,1.171088,0.089492,0.6230000000000002,0.548088,False,D0,uniform random from the fixed validation pool,7,8
+2011,random,required_baseline,8,mp-1018807,MoSe2,1.200361,0.09611,1.2543999999999995,0.054039,False,D0,uniform random from the fixed validation pool,8,8
+2011,static_topn,required_baseline,1,mp-1030319,MoTe2,1.502096,0.515796,0.5861999999999998,0.915896,False,D0,highest target score from the frozen development-only model,1,8
+2011,static_topn,required_baseline,2,mp-1025799,MoSe2,1.566398,0.502088,1.1603,0.406098,False,D0,highest target score from the frozen development-only model,2,8
+2011,static_topn,required_baseline,3,mp-1025576,MoTe2,1.613825,0.749752,0.6230000000000002,0.990825,False,D0,highest target score from the frozen development-only model,3,8
+2011,static_topn,required_baseline,4,mp-1023940,MoSe2,1.744544,0.888475,1.4242,0.320344,False,D0,highest target score from the frozen development-only model,4,8
+2011,static_topn,required_baseline,5,mp-1023938,MoTe2,1.829994,1.228646,1.0496999999999999,0.780294,False,D0,highest target score from the frozen development-only model,5,8
+2011,static_topn,required_baseline,6,mp-1023937,WS2,2.09691,1.712622,1.8091,0.28781,True,D2,highest target score from the frozen development-only model,6,8
+2011,static_topn,required_baseline,7,mp-1023936,WSe2,2.050013,1.731429,1.5378,0.512213,True,D2,highest target score from the frozen development-only model,7,8
+2011,static_topn,required_baseline,8,mp-1023935,MoTe2,2.284152,2.340959,1.07,1.214152,False,D0,highest target score from the frozen development-only model,8,8
+2011,iterative_w035,primary_policy,1,mp-1030319,MoTe2,1.445169,0.141476,0.5861999999999998,0.858969,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2011,iterative_w035,primary_policy,2,mp-1023935,MoTe2,1.210487,0.334256,1.07,0.140487,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2011,iterative_w035,primary_policy,3,mp-1023934,MoSe2,1.355299,0.098181,1.4311,0.075801,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2011,iterative_w035,primary_policy,4,mp-1821,WSe2,0.401308,0.428194,1.4468000000000005,1.045492,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2011,iterative_w035,primary_policy,5,mp-9813,WS2,1.304386,0.481149,1.5593000000000004,0.254914,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2011,iterative_w035,primary_policy,6,mp-224,WS2,1.251442,0.325262,1.5656999999999996,0.314258,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2011,iterative_w035,primary_policy,7,mp-1023933,WSe2,1.470148,0.207103,1.5234,0.053252,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2011,iterative_w035,primary_policy,8,mp-1028698,WSe2,1.05497,0.266833,1.1997000000000002,0.14473,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2011,iterative_w015,diagnostic_ablation_only,1,mp-1030319,MoTe2,1.445169,0.141476,0.5861999999999998,0.858969,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2011,iterative_w015,diagnostic_ablation_only,2,mp-1023937,WS2,1.437672,0.147233,1.8091,0.371428,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2011,iterative_w015,diagnostic_ablation_only,3,mp-1023935,MoTe2,1.56951,0.392296,1.07,0.49951,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2011,iterative_w015,diagnostic_ablation_only,4,mp-1023936,WSe2,1.481015,0.315921,1.5378,0.056785,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2011,iterative_w015,diagnostic_ablation_only,5,mp-1023925,WS2,1.49468,0.220818,1.697,0.20232,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2011,iterative_w015,diagnostic_ablation_only,6,mp-1023934,MoSe2,1.502534,0.069437,1.4311,0.071434,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2011,iterative_w015,diagnostic_ablation_only,7,mp-1023940,MoSe2,1.477328,0.086005,1.4242,0.053128,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2011,iterative_w015,diagnostic_ablation_only,8,mp-9813,WS2,1.283892,0.298015,1.5593000000000004,0.275408,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2011,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.23762,0.172609,1.4468000000000005,0.20918,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2011,pure_uncertainty,diagnostic_ablation_only,2,mp-1023935,MoTe2,1.715013,0.137047,1.07,0.645013,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2011,pure_uncertainty,diagnostic_ablation_only,3,mp-1028698,WSe2,1.179364,0.405429,1.1997000000000002,0.020336,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2011,pure_uncertainty,diagnostic_ablation_only,4,mp-1023934,MoSe2,1.449552,0.232343,1.4311,0.018452,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2011,pure_uncertainty,diagnostic_ablation_only,5,mp-9813,WS2,1.351074,0.229777,1.5593000000000004,0.208226,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2011,pure_uncertainty,diagnostic_ablation_only,6,mp-224,WS2,1.362542,0.196295,1.5656999999999996,0.203158,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2011,pure_uncertainty,diagnostic_ablation_only,7,mp-7459,MoTe2,0.901398,0.271006,0.0,0.901398,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2011,pure_uncertainty,diagnostic_ablation_only,8,mp-1023933,WSe2,1.537999,0.078915,1.5234,0.014599,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2012,random,required_baseline,1,mp-602,MoTe2,1.268717,0.105271,0.9651000000000005,0.303617,False,D0,uniform random from the fixed validation pool,1,8
+2012,random,required_baseline,2,mp-1018807,MoSe2,1.203148,0.10445,1.2543999999999995,0.051252,False,D0,uniform random from the fixed validation pool,2,8
+2012,random,required_baseline,3,mp-1028441,WS2,1.282588,0.07059,1.6559000000000001,0.373312,True,D2,uniform random from the fixed validation pool,3,8
+2012,random,required_baseline,4,mp-1023933,WSe2,1.51091,0.315685,1.5234,0.01249,True,D2,uniform random from the fixed validation pool,4,8
+2012,random,required_baseline,5,mp-9813,WS2,1.143627,0.068602,1.5593000000000004,0.415673,True,D2,uniform random from the fixed validation pool,5,8
+2012,random,required_baseline,6,mp-7581,MoSe2,1.269278,0.152825,1.3619999999999997,0.092722,False,D0,uniform random from the fixed validation pool,6,8
+2012,random,required_baseline,7,mp-1023940,MoSe2,1.480436,0.176975,1.4242,0.056236,False,D0,uniform random from the fixed validation pool,7,8
+2012,random,required_baseline,8,mp-7459,MoTe2,0.96093,0.431117,0.0,0.96093,False,D0,uniform random from the fixed validation pool,8,8
+2012,static_topn,required_baseline,1,mp-1023940,MoSe2,1.521164,0.049584,1.4242,0.096964,False,D0,highest target score from the frozen development-only model,1,8
+2012,static_topn,required_baseline,2,mp-1023938,MoTe2,1.534978,0.0819,1.0496999999999999,0.485278,False,D0,highest target score from the frozen development-only model,2,8
+2012,static_topn,required_baseline,3,mp-1023937,WS2,1.621099,0.032295,1.8091,0.188001,True,D2,highest target score from the frozen development-only model,3,8
+2012,static_topn,required_baseline,4,mp-1023936,WSe2,1.595416,0.060169,1.5378,0.057616,True,D2,highest target score from the frozen development-only model,4,8
+2012,static_topn,required_baseline,5,mp-1023935,MoTe2,1.659097,0.071919,1.07,0.589097,False,D0,highest target score from the frozen development-only model,5,8
+2012,static_topn,required_baseline,6,mp-1023934,MoSe2,1.655392,0.040863,1.4311,0.224292,False,D0,highest target score from the frozen development-only model,6,8
+2012,static_topn,required_baseline,7,mp-1023925,WS2,1.513251,0.048916,1.697,0.183749,True,D2,highest target score from the frozen development-only model,7,8
+2012,static_topn,required_baseline,8,mp-1023933,WSe2,1.481564,0.086627,1.5234,0.041836,True,D2,highest target score from the frozen development-only model,8,8
+2012,iterative_w035,primary_policy,1,mp-1821,WSe2,1.17678,0.13714,1.4468000000000005,0.27002,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2012,iterative_w035,primary_policy,2,mp-1023935,MoTe2,1.900768,0.300074,1.07,0.830768,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2012,iterative_w035,primary_policy,3,mp-1023934,MoSe2,1.438518,0.196041,1.4311,0.007418,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2012,iterative_w035,primary_policy,4,mp-1025572,WSe2,1.365439,0.299279,1.2288999999999999,0.136539,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2012,iterative_w035,primary_policy,5,mp-9813,WS2,1.316142,0.214238,1.5593000000000004,0.243158,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2012,iterative_w035,primary_policy,6,mp-602,MoTe2,1.205629,0.26811,0.9651000000000005,0.240529,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2012,iterative_w035,primary_policy,7,mp-1023933,WSe2,1.482072,0.089106,1.5234,0.041328,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2012,iterative_w035,primary_policy,8,mp-1023925,WS2,1.584748,0.074389,1.697,0.112252,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2012,iterative_w015,diagnostic_ablation_only,1,mp-1023938,MoTe2,1.496375,0.058599,1.0496999999999999,0.446675,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2012,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.473568,0.193144,1.4311,0.042468,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2012,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.397831,0.046176,1.8091,0.411269,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2012,iterative_w015,diagnostic_ablation_only,4,mp-1023935,MoTe2,1.457901,0.287714,1.07,0.387901,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2012,iterative_w015,diagnostic_ablation_only,5,mp-1023925,WS2,1.468189,0.15939,1.697,0.228811,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2012,iterative_w015,diagnostic_ablation_only,6,mp-1023940,MoSe2,1.447297,0.083267,1.4242,0.023097,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2012,iterative_w015,diagnostic_ablation_only,7,mp-1023933,WSe2,1.406261,0.235831,1.5234,0.117139,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2012,iterative_w015,diagnostic_ablation_only,8,mp-1023936,WSe2,1.397116,0.097751,1.5378,0.140684,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2012,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.17678,0.13714,1.4468000000000005,0.27002,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2012,pure_uncertainty,diagnostic_ablation_only,2,mp-1023935,MoTe2,1.900768,0.300074,1.07,0.830768,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2012,pure_uncertainty,diagnostic_ablation_only,3,mp-7459,MoTe2,1.119682,0.236018,0.0,1.119682,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2012,pure_uncertainty,diagnostic_ablation_only,4,mp-1030319,MoTe2,1.32498,0.254063,0.5861999999999998,0.73878,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2012,pure_uncertainty,diagnostic_ablation_only,5,mp-1023934,MoSe2,1.676122,1.100647,1.4311,0.245022,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2012,pure_uncertainty,diagnostic_ablation_only,6,mp-224,WS2,0.993152,0.445871,1.5656999999999996,0.572548,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2012,pure_uncertainty,diagnostic_ablation_only,7,mp-1028698,WSe2,1.120135,0.240444,1.1997000000000002,0.079565,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2012,pure_uncertainty,diagnostic_ablation_only,8,mp-9813,WS2,1.401837,0.284898,1.5593000000000004,0.157463,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2013,random,required_baseline,1,mp-1027692,MoSe2,1.40874,0.0445,1.1384,0.27034,False,D0,uniform random from the fixed validation pool,1,8
+2013,random,required_baseline,2,mp-1023934,MoSe2,1.524879,0.127481,1.4311,0.093779,False,D0,uniform random from the fixed validation pool,2,8
+2013,random,required_baseline,3,mp-224,WS2,1.010332,0.160306,1.5656999999999996,0.555368,True,D2,uniform random from the fixed validation pool,3,8
+2013,random,required_baseline,4,mp-1018807,MoSe2,1.251549,0.205354,1.2543999999999995,0.002851,False,D0,uniform random from the fixed validation pool,4,8
+2013,random,required_baseline,5,mp-7459,MoTe2,0.973702,0.103946,0.0,0.973702,False,D0,uniform random from the fixed validation pool,5,8
+2013,random,required_baseline,6,mp-9813,WS2,1.373577,0.249042,1.5593000000000004,0.185723,True,D2,uniform random from the fixed validation pool,6,8
+2013,random,required_baseline,7,mp-1025799,MoSe2,1.407017,0.106363,1.1603,0.246717,False,D0,uniform random from the fixed validation pool,7,8
+2013,random,required_baseline,8,mp-1023938,MoTe2,1.315132,0.219639,1.0496999999999999,0.265432,False,D0,uniform random from the fixed validation pool,8,8
+2013,static_topn,required_baseline,1,mp-1023937,WS2,1.601276,0.023214,1.8091,0.207824,True,D2,highest target score from the frozen development-only model,1,8
+2013,static_topn,required_baseline,2,mp-1023936,WSe2,1.56248,0.049502,1.5378,0.02468,True,D2,highest target score from the frozen development-only model,2,8
+2013,static_topn,required_baseline,3,mp-1023935,MoTe2,1.619561,0.050974,1.07,0.549561,False,D0,highest target score from the frozen development-only model,3,8
+2013,static_topn,required_baseline,4,mp-1023934,MoSe2,1.631172,0.025455,1.4311,0.200072,False,D0,highest target score from the frozen development-only model,4,8
+2013,static_topn,required_baseline,5,mp-1023940,MoSe2,1.497938,0.033548,1.4242,0.073738,False,D0,highest target score from the frozen development-only model,5,8
+2013,static_topn,required_baseline,6,mp-1023938,MoTe2,1.496375,0.058599,1.0496999999999999,0.446675,False,D0,highest target score from the frozen development-only model,6,8
+2013,static_topn,required_baseline,7,mp-1023925,WS2,1.490597,0.035622,1.697,0.206403,True,D2,highest target score from the frozen development-only model,7,8
+2013,static_topn,required_baseline,8,mp-1023933,WSe2,1.443363,0.067337,1.5234,0.080037,True,D2,highest target score from the frozen development-only model,8,8
+2013,iterative_w035,primary_policy,1,mp-1821,WSe2,1.194161,0.132366,1.4468000000000005,0.252639,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2013,iterative_w035,primary_policy,2,mp-1023935,MoTe2,1.709489,0.152799,1.07,0.639489,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2013,iterative_w035,primary_policy,3,mp-1028698,WSe2,1.111203,0.372694,1.1997000000000002,0.088497,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2013,iterative_w035,primary_policy,4,mp-1025572,WSe2,1.225302,0.265514,1.2288999999999999,0.003598,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2013,iterative_w035,primary_policy,5,mp-9813,WS2,1.319016,0.180537,1.5593000000000004,0.240284,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2013,iterative_w035,primary_policy,6,mp-1023934,MoSe2,1.511914,0.231806,1.4311,0.080814,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2013,iterative_w035,primary_policy,7,mp-1023925,WS2,1.552486,0.062535,1.697,0.144514,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2013,iterative_w035,primary_policy,8,mp-1023937,WS2,1.484226,0.101735,1.8091,0.324874,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2013,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.662523,0.063921,1.07,0.592523,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2013,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.450182,0.172639,1.4311,0.019082,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2013,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.409014,0.030889,1.8091,0.400086,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2013,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.54223,0.202671,1.697,0.15477,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2013,iterative_w015,diagnostic_ablation_only,5,mp-9813,WS2,1.381205,0.543852,1.5593000000000004,0.178095,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2013,iterative_w015,diagnostic_ablation_only,6,mp-1023933,WSe2,1.469544,0.271359,1.5234,0.053856,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2013,iterative_w015,diagnostic_ablation_only,7,mp-7581,MoSe2,1.522311,0.513128,1.3619999999999997,0.160311,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2013,iterative_w015,diagnostic_ablation_only,8,mp-1025572,WSe2,1.47566,0.095072,1.2288999999999999,0.24676,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2013,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.194161,0.132366,1.4468000000000005,0.252639,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2013,pure_uncertainty,diagnostic_ablation_only,2,mp-1023935,MoTe2,1.709489,0.152799,1.07,0.639489,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2013,pure_uncertainty,diagnostic_ablation_only,3,mp-1028698,WSe2,1.111203,0.372694,1.1997000000000002,0.088497,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2013,pure_uncertainty,diagnostic_ablation_only,4,mp-602,MoTe2,1.101057,0.291365,0.9651000000000005,0.135957,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2013,pure_uncertainty,diagnostic_ablation_only,5,mp-7459,MoTe2,0.861524,0.261963,0.0,0.861524,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2013,pure_uncertainty,diagnostic_ablation_only,6,mp-1023936,WSe2,1.430303,0.251859,1.5378,0.107497,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2013,pure_uncertainty,diagnostic_ablation_only,7,mp-9813,WS2,1.309998,0.243849,1.5593000000000004,0.249302,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2013,pure_uncertainty,diagnostic_ablation_only,8,mp-1023934,MoSe2,1.259866,0.538582,1.4311,0.171234,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2014,random,required_baseline,1,mp-1023935,MoTe2,1.653865,0.120924,1.07,0.583865,False,D0,uniform random from the fixed validation pool,1,8
+2014,random,required_baseline,2,mp-1025572,WSe2,1.041782,0.272074,1.2288999999999999,0.187118,False,D0,uniform random from the fixed validation pool,2,8
+2014,random,required_baseline,3,mp-1023938,MoTe2,1.280718,0.202271,1.0496999999999999,0.231018,False,D0,uniform random from the fixed validation pool,3,8
+2014,random,required_baseline,4,mp-1821,WSe2,0.625383,0.339847,1.4468000000000005,0.821417,False,D0,uniform random from the fixed validation pool,4,8
+2014,random,required_baseline,5,mp-1023936,WSe2,1.312741,0.307388,1.5378,0.225059,True,D2,uniform random from the fixed validation pool,5,8
+2014,random,required_baseline,6,mp-1027692,MoSe2,1.258375,0.146613,1.1384,0.119975,False,D0,uniform random from the fixed validation pool,6,8
+2014,random,required_baseline,7,mp-602,MoTe2,1.080306,0.225889,0.9651000000000005,0.115206,False,D0,uniform random from the fixed validation pool,7,8
+2014,random,required_baseline,8,mp-1025576,MoTe2,1.135518,0.036442,0.6230000000000002,0.512518,False,D0,uniform random from the fixed validation pool,8,8
+2014,static_topn,required_baseline,1,mp-1023940,MoSe2,1.512074,0.028911,1.4242,0.087874,False,D0,highest target score from the frozen development-only model,1,8
+2014,static_topn,required_baseline,2,mp-1023938,MoTe2,1.520608,0.049357,1.0496999999999999,0.470908,False,D0,highest target score from the frozen development-only model,2,8
+2014,static_topn,required_baseline,3,mp-1023937,WS2,1.627767,0.033718,1.8091,0.181333,True,D2,highest target score from the frozen development-only model,3,8
+2014,static_topn,required_baseline,4,mp-1023936,WSe2,1.595114,0.048972,1.5378,0.057314,True,D2,highest target score from the frozen development-only model,4,8
+2014,static_topn,required_baseline,5,mp-1023935,MoTe2,1.662523,0.063921,1.07,0.592523,False,D0,highest target score from the frozen development-only model,5,8
+2014,static_topn,required_baseline,6,mp-1023934,MoSe2,1.663634,0.044771,1.4311,0.232534,False,D0,highest target score from the frozen development-only model,6,8
+2014,static_topn,required_baseline,7,mp-1023925,WS2,1.501932,0.030298,1.697,0.195068,True,D2,highest target score from the frozen development-only model,7,8
+2014,static_topn,required_baseline,8,mp-1023933,WSe2,1.461299,0.056144,1.5234,0.062101,True,D2,highest target score from the frozen development-only model,8,8
+2014,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.653865,0.120924,1.07,0.583865,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2014,iterative_w035,primary_policy,2,mp-1023934,MoSe2,1.421284,0.17824,1.4311,0.009816,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2014,iterative_w035,primary_policy,3,mp-1023937,WS2,1.474844,0.131184,1.8091,0.334256,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2014,iterative_w035,primary_policy,4,mp-1023925,WS2,1.516703,0.136242,1.697,0.180297,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2014,iterative_w035,primary_policy,5,mp-1821,WSe2,1.171794,0.490662,1.4468000000000005,0.275006,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2014,iterative_w035,primary_policy,6,mp-9813,WS2,1.477264,0.22468,1.5593000000000004,0.082036,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2014,iterative_w035,primary_policy,7,mp-1028441,WS2,1.457304,0.111254,1.6559000000000001,0.198596,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2014,iterative_w035,primary_policy,8,mp-1023936,WSe2,1.531503,0.121485,1.5378,0.006297,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2014,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.653865,0.120924,1.07,0.583865,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2014,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.421284,0.17824,1.4311,0.009816,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2014,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.474844,0.131184,1.8091,0.334256,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2014,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.516703,0.136242,1.697,0.180297,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2014,iterative_w015,diagnostic_ablation_only,5,mp-1023933,WSe2,1.497638,0.260505,1.5234,0.025762,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2014,iterative_w015,diagnostic_ablation_only,6,mp-1025571,WS2,1.502078,0.064755,1.6345,0.132422,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2014,iterative_w015,diagnostic_ablation_only,7,mp-1023936,WSe2,1.463906,0.130148,1.5378,0.073894,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2014,iterative_w015,diagnostic_ablation_only,8,mp-9813,WS2,1.474101,0.376359,1.5593000000000004,0.085199,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2014,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.123193,0.142247,1.4468000000000005,0.323607,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2014,pure_uncertainty,diagnostic_ablation_only,2,mp-1023935,MoTe2,1.798872,0.228826,1.07,0.728872,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2014,pure_uncertainty,diagnostic_ablation_only,3,mp-7459,MoTe2,1.267356,0.313067,0.0,1.267356,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2014,pure_uncertainty,diagnostic_ablation_only,4,mp-1028698,WSe2,1.113212,0.396774,1.1997000000000002,0.086488,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2014,pure_uncertainty,diagnostic_ablation_only,5,mp-1023934,MoSe2,1.234718,0.348537,1.4311,0.196382,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2014,pure_uncertainty,diagnostic_ablation_only,6,mp-1028441,WS2,1.538944,0.779285,1.6559000000000001,0.116956,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2014,pure_uncertainty,diagnostic_ablation_only,7,mp-1025572,WSe2,1.311217,0.291778,1.2288999999999999,0.082317,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2014,pure_uncertainty,diagnostic_ablation_only,8,mp-1023936,WSe2,1.312332,0.253194,1.5378,0.225468,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2015,random,required_baseline,1,mp-1023935,MoTe2,1.65441,0.081223,1.07,0.58441,False,D0,uniform random from the fixed validation pool,1,8
+2015,random,required_baseline,2,mp-1025576,MoTe2,1.038445,0.203444,0.6230000000000002,0.415445,False,D0,uniform random from the fixed validation pool,2,8
+2015,random,required_baseline,3,mp-1023937,WS2,1.317275,0.110548,1.8091,0.491825,True,D2,uniform random from the fixed validation pool,3,8
+2015,random,required_baseline,4,mp-1023936,WSe2,1.328308,0.25426,1.5378,0.209492,True,D2,uniform random from the fixed validation pool,4,8
+2015,random,required_baseline,5,mp-1027692,MoSe2,0.845098,0.342681,1.1384,0.293302,False,D0,uniform random from the fixed validation pool,5,8
+2015,random,required_baseline,6,mp-224,WS2,0.632362,0.285269,1.5656999999999996,0.933338,True,D2,uniform random from the fixed validation pool,6,8
+2015,random,required_baseline,7,mp-1023933,WSe2,1.537018,0.229923,1.5234,0.013618,True,D2,uniform random from the fixed validation pool,7,8
+2015,random,required_baseline,8,mp-7581,MoSe2,1.38153,0.184548,1.3619999999999997,0.01953,False,D0,uniform random from the fixed validation pool,8,8
+2015,static_topn,required_baseline,1,mp-1023938,MoTe2,1.502142,0.071102,1.0496999999999999,0.452442,False,D0,highest target score from the frozen development-only model,1,8
+2015,static_topn,required_baseline,2,mp-1023937,WS2,1.622219,0.075345,1.8091,0.186881,True,D2,highest target score from the frozen development-only model,2,8
+2015,static_topn,required_baseline,3,mp-1023936,WSe2,1.580017,0.088063,1.5378,0.042217,True,D2,highest target score from the frozen development-only model,3,8
+2015,static_topn,required_baseline,4,mp-1023935,MoTe2,1.653865,0.120924,1.07,0.583865,False,D0,highest target score from the frozen development-only model,4,8
+2015,static_topn,required_baseline,5,mp-1023934,MoSe2,1.661162,0.094649,1.4311,0.230062,False,D0,highest target score from the frozen development-only model,5,8
+2015,static_topn,required_baseline,6,mp-1023940,MoSe2,1.498534,0.037921,1.4242,0.074334,False,D0,highest target score from the frozen development-only model,6,8
+2015,static_topn,required_baseline,7,mp-1023925,WS2,1.487246,0.031974,1.697,0.209754,True,D2,highest target score from the frozen development-only model,7,8
+2015,static_topn,required_baseline,8,mp-1023933,WSe2,1.43503,0.062561,1.5234,0.08837,True,D2,highest target score from the frozen development-only model,8,8
+2015,iterative_w035,primary_policy,1,mp-1030319,MoTe2,1.403533,0.121775,0.5861999999999998,0.817333,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2015,iterative_w035,primary_policy,2,mp-1023935,MoTe2,1.112395,0.386653,1.07,0.042395,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2015,iterative_w035,primary_policy,3,mp-1023934,MoSe2,1.315417,0.162753,1.4311,0.115683,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2015,iterative_w035,primary_policy,4,mp-1023937,WS2,1.411384,0.080362,1.8091,0.397716,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2015,iterative_w035,primary_policy,5,mp-1023925,WS2,1.361568,0.160037,1.697,0.335432,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2015,iterative_w035,primary_policy,6,mp-1023933,WSe2,1.308819,0.240555,1.5234,0.214581,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2015,iterative_w035,primary_policy,7,mp-1821,WSe2,1.055633,0.611525,1.4468000000000005,0.391167,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2015,iterative_w035,primary_policy,8,mp-9813,WS2,1.471358,0.168272,1.5593000000000004,0.087942,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2015,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.65441,0.081223,1.07,0.58441,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2015,iterative_w015,diagnostic_ablation_only,2,mp-1023937,WS2,1.407551,0.115206,1.8091,0.401549,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2015,iterative_w015,diagnostic_ablation_only,3,mp-1023934,MoSe2,1.507778,0.177285,1.4311,0.076678,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2015,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.483886,0.255601,1.697,0.213114,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2015,iterative_w015,diagnostic_ablation_only,5,mp-1023933,WSe2,1.446927,0.258833,1.5234,0.076473,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2015,iterative_w015,diagnostic_ablation_only,6,mp-1023936,WSe2,1.495402,0.088234,1.5378,0.042398,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2015,iterative_w015,diagnostic_ablation_only,7,mp-1025571,WS2,1.484834,0.098504,1.6345,0.149666,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2015,iterative_w015,diagnostic_ablation_only,8,mp-1025572,WSe2,1.505486,0.070466,1.2288999999999999,0.276586,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2015,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.183832,0.16209,1.4468000000000005,0.262968,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2015,pure_uncertainty,diagnostic_ablation_only,2,mp-1023935,MoTe2,1.787822,0.159497,1.07,0.717822,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2015,pure_uncertainty,diagnostic_ablation_only,3,mp-602,MoTe2,1.193801,0.362577,0.9651000000000005,0.228701,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2015,pure_uncertainty,diagnostic_ablation_only,4,mp-7459,MoTe2,0.879816,0.52154,0.0,0.879816,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2015,pure_uncertainty,diagnostic_ablation_only,5,mp-1028698,WSe2,1.030757,0.346166,1.1997000000000002,0.168943,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2015,pure_uncertainty,diagnostic_ablation_only,6,mp-9813,WS2,1.352521,0.159954,1.5593000000000004,0.206779,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2015,pure_uncertainty,diagnostic_ablation_only,7,mp-1023934,MoSe2,1.142771,0.840205,1.4311,0.288329,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2015,pure_uncertainty,diagnostic_ablation_only,8,mp-1023936,WSe2,1.345034,0.278622,1.5378,0.192766,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2016,random,required_baseline,1,mp-1023925,WS2,1.503343,0.034708,1.697,0.193657,True,D2,uniform random from the fixed validation pool,1,8
+2016,random,required_baseline,2,mp-1025576,MoTe2,1.588132,0.146569,0.6230000000000002,0.965132,False,D0,uniform random from the fixed validation pool,2,8
+2016,random,required_baseline,3,mp-1025799,MoSe2,1.136327,0.19368,1.1603,0.023973,False,D0,uniform random from the fixed validation pool,3,8
+2016,random,required_baseline,4,mp-1023937,WS2,1.416046,0.264899,1.8091,0.393054,True,D2,uniform random from the fixed validation pool,4,8
+2016,random,required_baseline,5,mp-9813,WS2,1.10211,0.394493,1.5593000000000004,0.45719,True,D2,uniform random from the fixed validation pool,5,8
+2016,random,required_baseline,6,mp-7459,MoTe2,0.407879,0.632725,0.0,0.407879,False,D0,uniform random from the fixed validation pool,6,8
+2016,random,required_baseline,7,mp-1023940,MoSe2,1.425553,0.135794,1.4242,0.001353,False,D0,uniform random from the fixed validation pool,7,8
+2016,random,required_baseline,8,mp-1821,WSe2,1.074966,0.257533,1.4468000000000005,0.371834,False,D0,uniform random from the fixed validation pool,8,8
+2016,static_topn,required_baseline,1,mp-1023940,MoSe2,1.508275,0.045523,1.4242,0.084075,False,D0,highest target score from the frozen development-only model,1,8
+2016,static_topn,required_baseline,2,mp-1023938,MoTe2,1.515679,0.07794,1.0496999999999999,0.465979,False,D0,highest target score from the frozen development-only model,2,8
+2016,static_topn,required_baseline,3,mp-1023937,WS2,1.621948,0.040873,1.8091,0.187152,True,D2,highest target score from the frozen development-only model,3,8
+2016,static_topn,required_baseline,4,mp-1023936,WSe2,1.587854,0.065785,1.5378,0.050054,True,D2,highest target score from the frozen development-only model,4,8
+2016,static_topn,required_baseline,5,mp-1023935,MoTe2,1.65441,0.081223,1.07,0.58441,False,D0,highest target score from the frozen development-only model,5,8
+2016,static_topn,required_baseline,6,mp-1023934,MoSe2,1.657331,0.051202,1.4311,0.226231,False,D0,highest target score from the frozen development-only model,6,8
+2016,static_topn,required_baseline,7,mp-1023925,WS2,1.499057,0.044302,1.697,0.197943,True,D2,highest target score from the frozen development-only model,7,8
+2016,static_topn,required_baseline,8,mp-1023933,WSe2,1.457002,0.080649,1.5234,0.066398,True,D2,highest target score from the frozen development-only model,8,8
+2016,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.621527,0.133482,1.07,0.551527,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2016,iterative_w035,primary_policy,2,mp-1023936,WSe2,1.449473,0.249533,1.5378,0.088327,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2016,iterative_w035,primary_policy,3,mp-1821,WSe2,1.227245,0.462836,1.4468000000000005,0.219555,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2016,iterative_w035,primary_policy,4,mp-1028441,WS2,1.525033,0.517358,1.6559000000000001,0.130867,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2016,iterative_w035,primary_policy,5,mp-1028698,WSe2,1.646871,0.483021,1.1997000000000002,0.447171,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2016,iterative_w035,primary_policy,6,mp-1023934,MoSe2,1.457032,0.156431,1.4311,0.025932,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2016,iterative_w035,primary_policy,7,mp-1025572,WSe2,1.385903,0.223858,1.2288999999999999,0.157003,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2016,iterative_w035,primary_policy,8,mp-7459,MoTe2,1.17723,0.232356,0.0,1.17723,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2016,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.621527,0.133482,1.07,0.551527,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2016,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.548646,0.165777,1.4311,0.117546,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2016,iterative_w015,diagnostic_ablation_only,3,mp-1023937,WS2,1.374816,0.039847,1.8091,0.434284,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2016,iterative_w015,diagnostic_ablation_only,4,mp-1023925,WS2,1.520683,0.123777,1.697,0.176317,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2016,iterative_w015,diagnostic_ablation_only,5,mp-1023936,WSe2,1.513604,0.191113,1.5378,0.024196,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2016,iterative_w015,diagnostic_ablation_only,6,mp-1023933,WSe2,1.50976,0.196014,1.5234,0.01364,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2016,iterative_w015,diagnostic_ablation_only,7,mp-9813,WS2,1.421841,0.246696,1.5593000000000004,0.137459,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2016,iterative_w015,diagnostic_ablation_only,8,mp-1025572,WSe2,1.492676,0.236912,1.2288999999999999,0.263776,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2016,pure_uncertainty,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.621527,0.133482,1.07,0.551527,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2016,pure_uncertainty,diagnostic_ablation_only,2,mp-1821,WSe2,1.00194,0.495576,1.4468000000000005,0.44486,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2016,pure_uncertainty,diagnostic_ablation_only,3,mp-1028698,WSe2,1.305478,0.32135,1.1997000000000002,0.105778,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2016,pure_uncertainty,diagnostic_ablation_only,4,mp-7459,MoTe2,1.083731,0.326514,0.0,1.083731,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2016,pure_uncertainty,diagnostic_ablation_only,5,mp-1023934,MoSe2,1.247795,0.360309,1.4311,0.183305,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2016,pure_uncertainty,diagnostic_ablation_only,6,mp-9813,WS2,1.305507,0.257833,1.5593000000000004,0.253793,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2016,pure_uncertainty,diagnostic_ablation_only,7,mp-1030319,MoTe2,1.207569,0.120092,0.5861999999999998,0.621369,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2016,pure_uncertainty,diagnostic_ablation_only,8,mp-1023936,WSe2,1.280406,0.340428,1.5378,0.257394,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2017,random,required_baseline,1,mp-1023925,WS2,1.503861,0.034482,1.697,0.193139,True,D2,uniform random from the fixed validation pool,1,8
+2017,random,required_baseline,2,mp-1030319,MoTe2,1.680627,0.200445,0.5861999999999998,1.094427,False,D0,uniform random from the fixed validation pool,2,8
+2017,random,required_baseline,3,mp-1821,WSe2,0.939585,0.680414,1.4468000000000005,0.507215,False,D0,uniform random from the fixed validation pool,3,8
+2017,random,required_baseline,4,mp-1023937,WS2,1.644542,0.281835,1.8091,0.164558,True,D2,uniform random from the fixed validation pool,4,8
+2017,random,required_baseline,5,mp-1025799,MoSe2,1.351378,0.180277,1.1603,0.191078,False,D0,uniform random from the fixed validation pool,5,8
+2017,random,required_baseline,6,mp-7581,MoSe2,1.445333,0.268559,1.3619999999999997,0.083333,False,D0,uniform random from the fixed validation pool,6,8
+2017,random,required_baseline,7,mp-1025576,MoTe2,1.074498,0.126651,0.6230000000000002,0.451498,False,D0,uniform random from the fixed validation pool,7,8
+2017,random,required_baseline,8,mp-1028441,WS2,1.04743,0.200483,1.6559000000000001,0.60847,True,D2,uniform random from the fixed validation pool,8,8
+2017,static_topn,required_baseline,1,mp-1023940,MoSe2,1.509603,0.0383,1.4242,0.085403,False,D0,highest target score from the frozen development-only model,1,8
+2017,static_topn,required_baseline,2,mp-1023938,MoTe2,1.516834,0.057149,1.0496999999999999,0.467134,False,D0,highest target score from the frozen development-only model,2,8
+2017,static_topn,required_baseline,3,mp-1023937,WS2,1.595677,0.104015,1.8091,0.213423,True,D2,highest target score from the frozen development-only model,3,8
+2017,static_topn,required_baseline,4,mp-1023936,WSe2,1.571028,0.101055,1.5378,0.033228,True,D2,highest target score from the frozen development-only model,4,8
+2017,static_topn,required_baseline,5,mp-1023935,MoTe2,1.621527,0.133482,1.07,0.551527,False,D0,highest target score from the frozen development-only model,5,8
+2017,static_topn,required_baseline,6,mp-1023934,MoSe2,1.622649,0.12219,1.4311,0.191549,False,D0,highest target score from the frozen development-only model,6,8
+2017,static_topn,required_baseline,7,mp-1023925,WS2,1.503343,0.034708,1.697,0.193657,True,D2,highest target score from the frozen development-only model,7,8
+2017,static_topn,required_baseline,8,mp-1023933,WSe2,1.47313,0.047817,1.5234,0.05027,True,D2,highest target score from the frozen development-only model,8,8
+2017,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.668986,0.088435,1.07,0.598986,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2017,iterative_w035,primary_policy,2,mp-1821,WSe2,0.591305,0.606151,1.4468000000000005,0.855495,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2017,iterative_w035,primary_policy,3,mp-1023934,MoSe2,1.526144,0.246507,1.4311,0.095044,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2017,iterative_w035,primary_policy,4,mp-1028698,WSe2,1.023106,0.48371,1.1997000000000002,0.176594,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2017,iterative_w035,primary_policy,5,mp-9813,WS2,1.321256,0.25014,1.5593000000000004,0.238044,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2017,iterative_w035,primary_policy,6,mp-1028441,WS2,1.370305,0.118585,1.6559000000000001,0.285595,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2017,iterative_w035,primary_policy,7,mp-7459,MoTe2,1.027901,0.254709,0.0,1.027901,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2017,iterative_w035,primary_policy,8,mp-1023933,WSe2,1.54032,0.092768,1.5234,0.01692,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2017,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.668986,0.088435,1.07,0.598986,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2017,iterative_w015,diagnostic_ablation_only,2,mp-1023937,WS2,1.400123,0.140911,1.8091,0.408977,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2017,iterative_w015,diagnostic_ablation_only,3,mp-1023936,WSe2,1.525746,0.291227,1.5378,0.012054,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2017,iterative_w015,diagnostic_ablation_only,4,mp-1028441,WS2,1.490347,0.574604,1.6559000000000001,0.165553,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2017,iterative_w015,diagnostic_ablation_only,5,mp-1821,WSe2,1.453569,0.320329,1.4468000000000005,0.006769,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2017,iterative_w015,diagnostic_ablation_only,6,mp-1025572,WSe2,1.502312,0.322084,1.2288999999999999,0.273412,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2017,iterative_w015,diagnostic_ablation_only,7,mp-1023934,MoSe2,1.523572,0.133837,1.4311,0.092472,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2017,iterative_w015,diagnostic_ablation_only,8,mp-1025571,WS2,1.534742,0.077395,1.6345,0.099758,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2017,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.192042,0.129618,1.4468000000000005,0.254758,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2017,pure_uncertainty,diagnostic_ablation_only,2,mp-7459,MoTe2,1.345719,0.139739,0.0,1.345719,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2017,pure_uncertainty,diagnostic_ablation_only,3,mp-1023935,MoTe2,1.192159,0.46546,1.07,0.122159,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2017,pure_uncertainty,diagnostic_ablation_only,4,mp-1028698,WSe2,0.915601,0.412535,1.1997000000000002,0.284099,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2017,pure_uncertainty,diagnostic_ablation_only,5,mp-9813,WS2,1.400389,0.133008,1.5593000000000004,0.158911,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2017,pure_uncertainty,diagnostic_ablation_only,6,mp-1023934,MoSe2,1.146893,0.897777,1.4311,0.284207,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2017,pure_uncertainty,diagnostic_ablation_only,7,mp-1023936,WSe2,1.417672,0.136679,1.5378,0.120128,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2017,pure_uncertainty,diagnostic_ablation_only,8,mp-224,WS2,1.369704,0.17752,1.5656999999999996,0.195996,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2018,random,required_baseline,1,mp-1030319,MoTe2,1.394312,0.068286,0.5861999999999998,0.808112,False,D0,uniform random from the fixed validation pool,1,8
+2018,random,required_baseline,2,mp-1023933,WSe2,0.982611,0.325312,1.5234,0.540789,True,D2,uniform random from the fixed validation pool,2,8
+2018,random,required_baseline,3,mp-1023934,MoSe2,1.321709,0.25357,1.4311,0.109391,False,D0,uniform random from the fixed validation pool,3,8
+2018,random,required_baseline,4,mp-1023925,WS2,1.556702,0.135554,1.697,0.140298,True,D2,uniform random from the fixed validation pool,4,8
+2018,random,required_baseline,5,mp-9813,WS2,1.23468,0.213948,1.5593000000000004,0.32462,True,D2,uniform random from the fixed validation pool,5,8
+2018,random,required_baseline,6,mp-1025572,WSe2,1.260775,0.250086,1.2288999999999999,0.031875,False,D0,uniform random from the fixed validation pool,6,8
+2018,random,required_baseline,7,mp-1821,WSe2,0.988034,0.470488,1.4468000000000005,0.458766,False,D0,uniform random from the fixed validation pool,7,8
+2018,random,required_baseline,8,mp-1027692,MoSe2,1.049791,0.185493,1.1384,0.088609,False,D0,uniform random from the fixed validation pool,8,8
+2018,static_topn,required_baseline,1,mp-1023940,MoSe2,1.512769,0.036385,1.4242,0.088569,False,D0,highest target score from the frozen development-only model,1,8
+2018,static_topn,required_baseline,2,mp-1023938,MoTe2,1.527159,0.061927,1.0496999999999999,0.477459,False,D0,highest target score from the frozen development-only model,2,8
+2018,static_topn,required_baseline,3,mp-1023937,WS2,1.627699,0.050118,1.8091,0.181401,True,D2,highest target score from the frozen development-only model,3,8
+2018,static_topn,required_baseline,4,mp-1023936,WSe2,1.597954,0.06808,1.5378,0.060154,True,D2,highest target score from the frozen development-only model,4,8
+2018,static_topn,required_baseline,5,mp-1023935,MoTe2,1.668986,0.088435,1.07,0.598986,False,D0,highest target score from the frozen development-only model,5,8
+2018,static_topn,required_baseline,6,mp-1023934,MoSe2,1.665886,0.063109,1.4311,0.234786,False,D0,highest target score from the frozen development-only model,6,8
+2018,static_topn,required_baseline,7,mp-1023925,WS2,1.503861,0.034482,1.697,0.193139,True,D2,highest target score from the frozen development-only model,7,8
+2018,static_topn,required_baseline,8,mp-1023933,WSe2,1.467183,0.061049,1.5234,0.056217,True,D2,highest target score from the frozen development-only model,8,8
+2018,iterative_w035,primary_policy,1,mp-1821,WSe2,1.175602,0.140867,1.4468000000000005,0.271198,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2018,iterative_w035,primary_policy,2,mp-1028698,WSe2,1.428076,0.144683,1.1997000000000002,0.228376,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2018,iterative_w035,primary_policy,3,mp-1023935,MoTe2,1.446217,0.628424,1.07,0.376217,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2018,iterative_w035,primary_policy,4,mp-1025572,WSe2,1.269198,0.298299,1.2288999999999999,0.040298,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2018,iterative_w035,primary_policy,5,mp-9813,WS2,1.332266,0.24368,1.5593000000000004,0.227034,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2018,iterative_w035,primary_policy,6,mp-1023934,MoSe2,1.418249,0.158177,1.4311,0.012851,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2018,iterative_w035,primary_policy,7,mp-1023936,WSe2,1.458102,0.138817,1.5378,0.079698,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2018,iterative_w035,primary_policy,8,mp-7459,MoTe2,0.919106,0.295195,0.0,0.919106,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2018,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.64701,0.071437,1.07,0.57701,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2018,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,1.448006,0.194306,1.4311,0.016906,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2018,iterative_w015,diagnostic_ablation_only,3,mp-1027692,MoSe2,1.498129,1.094576,1.1384,0.359729,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2018,iterative_w015,diagnostic_ablation_only,4,mp-1028441,WS2,1.385018,1.058631,1.6559000000000001,0.270882,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2018,iterative_w015,diagnostic_ablation_only,5,mp-1023925,WS2,1.467635,0.168048,1.697,0.229365,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2018,iterative_w015,diagnostic_ablation_only,6,mp-1023933,WSe2,1.506459,0.236659,1.5234,0.016941,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2018,iterative_w015,diagnostic_ablation_only,7,mp-1023937,WS2,1.498207,0.091765,1.8091,0.310893,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2018,iterative_w015,diagnostic_ablation_only,8,mp-1025571,WS2,1.508776,0.102375,1.6345,0.125724,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2018,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.175602,0.140867,1.4468000000000005,0.271198,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2018,pure_uncertainty,diagnostic_ablation_only,2,mp-1028698,WSe2,1.428076,0.144683,1.1997000000000002,0.228376,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2018,pure_uncertainty,diagnostic_ablation_only,3,mp-1023935,MoTe2,1.446217,0.628424,1.07,0.376217,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2018,pure_uncertainty,diagnostic_ablation_only,4,mp-602,MoTe2,1.160252,0.301015,0.9651000000000005,0.195152,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2018,pure_uncertainty,diagnostic_ablation_only,5,mp-7459,MoTe2,0.893643,0.344016,0.0,0.893643,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2018,pure_uncertainty,diagnostic_ablation_only,6,mp-224,WS2,1.229594,0.22817,1.5656999999999996,0.336106,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2018,pure_uncertainty,diagnostic_ablation_only,7,mp-1023934,MoSe2,1.157087,0.563843,1.4311,0.274013,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2018,pure_uncertainty,diagnostic_ablation_only,8,mp-1030319,MoTe2,1.025706,0.306415,0.5861999999999998,0.439506,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2019,random,required_baseline,1,mp-1023934,MoSe2,1.61932,0.103894,1.4311,0.18822,False,D0,uniform random from the fixed validation pool,1,8
+2019,random,required_baseline,2,mp-1023935,MoTe2,1.462577,0.188021,1.07,0.392577,False,D0,uniform random from the fixed validation pool,2,8
+2019,random,required_baseline,3,mp-1030319,MoTe2,0.903471,0.390321,0.5861999999999998,0.317271,False,D0,uniform random from the fixed validation pool,3,8
+2019,random,required_baseline,4,mp-1023936,WSe2,1.119154,0.061152,1.5378,0.418646,True,D2,uniform random from the fixed validation pool,4,8
+2019,random,required_baseline,5,mp-1821,WSe2,0.853251,0.553683,1.4468000000000005,0.593549,False,D0,uniform random from the fixed validation pool,5,8
+2019,random,required_baseline,6,mp-1025571,WS2,1.600688,0.886652,1.6345,0.033812,True,D2,uniform random from the fixed validation pool,6,8
+2019,random,required_baseline,7,mp-224,WS2,1.432077,0.038474,1.5656999999999996,0.133623,True,D2,uniform random from the fixed validation pool,7,8
+2019,random,required_baseline,8,mp-1023925,WS2,1.673292,0.057925,1.697,0.023708,True,D2,uniform random from the fixed validation pool,8,8
+2019,static_topn,required_baseline,1,mp-1023940,MoSe2,1.504017,0.024964,1.4242,0.079817,False,D0,highest target score from the frozen development-only model,1,8
+2019,static_topn,required_baseline,2,mp-1023938,MoTe2,1.507963,0.044362,1.0496999999999999,0.458263,False,D0,highest target score from the frozen development-only model,2,8
+2019,static_topn,required_baseline,3,mp-1023937,WS2,1.617071,0.047858,1.8091,0.192029,True,D2,highest target score from the frozen development-only model,3,8
+2019,static_topn,required_baseline,4,mp-1023936,WSe2,1.580625,0.050533,1.5378,0.042825,True,D2,highest target score from the frozen development-only model,4,8
+2019,static_topn,required_baseline,5,mp-1023935,MoTe2,1.64701,0.071437,1.07,0.57701,False,D0,highest target score from the frozen development-only model,5,8
+2019,static_topn,required_baseline,6,mp-1023934,MoSe2,1.65209,0.061067,1.4311,0.22099,False,D0,highest target score from the frozen development-only model,6,8
+2019,static_topn,required_baseline,7,mp-1023925,WS2,1.493071,0.026468,1.697,0.203929,True,D2,highest target score from the frozen development-only model,7,8
+2019,static_topn,required_baseline,8,mp-1023933,WSe2,1.447636,0.052879,1.5234,0.075764,True,D2,highest target score from the frozen development-only model,8,8
+2019,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.609009,0.128786,1.07,0.539009,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2019,iterative_w035,primary_policy,2,mp-1027692,MoSe2,1.494541,0.828606,1.1384,0.356141,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2019,iterative_w035,primary_policy,3,mp-1023934,MoSe2,1.410072,0.11157,1.4311,0.021028,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2019,iterative_w035,primary_policy,4,mp-1023937,WS2,1.397778,0.034662,1.8091,0.411322,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2019,iterative_w035,primary_policy,5,mp-1821,WSe2,1.133327,0.501565,1.4468000000000005,0.313473,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2019,iterative_w035,primary_policy,6,mp-1028698,WSe2,1.574989,1.301505,1.1997000000000002,0.375289,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2019,iterative_w035,primary_policy,7,mp-1023936,WSe2,1.521754,0.146348,1.5378,0.016046,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2019,iterative_w035,primary_policy,8,mp-9813,WS2,1.473365,0.19778,1.5593000000000004,0.085935,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2019,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.609009,0.128786,1.07,0.539009,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2019,iterative_w015,diagnostic_ablation_only,2,mp-1027692,MoSe2,1.494541,0.828606,1.1384,0.356141,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2019,iterative_w015,diagnostic_ablation_only,3,mp-1023934,MoSe2,1.410072,0.11157,1.4311,0.021028,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2019,iterative_w015,diagnostic_ablation_only,4,mp-1023937,WS2,1.397778,0.034662,1.8091,0.411322,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2019,iterative_w015,diagnostic_ablation_only,5,mp-1023933,WSe2,1.488762,0.256637,1.5234,0.034638,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2019,iterative_w015,diagnostic_ablation_only,6,mp-1023925,WS2,1.522974,0.139187,1.697,0.174026,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2019,iterative_w015,diagnostic_ablation_only,7,mp-1023940,MoSe2,1.515024,0.053166,1.4242,0.090824,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2019,iterative_w015,diagnostic_ablation_only,8,mp-1023936,WSe2,1.401764,0.088954,1.5378,0.136036,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2019,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.208089,0.135863,1.4468000000000005,0.238711,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2019,pure_uncertainty,diagnostic_ablation_only,2,mp-1028698,WSe2,1.445188,0.14773,1.1997000000000002,0.245488,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2019,pure_uncertainty,diagnostic_ablation_only,3,mp-1023935,MoTe2,1.558421,0.195824,1.07,0.488421,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2019,pure_uncertainty,diagnostic_ablation_only,4,mp-9813,WS2,1.354997,0.158445,1.5593000000000004,0.204303,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2019,pure_uncertainty,diagnostic_ablation_only,5,mp-7459,MoTe2,1.054157,0.285981,0.0,1.054157,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2019,pure_uncertainty,diagnostic_ablation_only,6,mp-1030319,MoTe2,1.087898,0.236021,0.5861999999999998,0.501698,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2019,pure_uncertainty,diagnostic_ablation_only,7,mp-1023934,MoSe2,1.231788,0.505162,1.4311,0.199312,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2019,pure_uncertainty,diagnostic_ablation_only,8,mp-224,WS2,1.323444,0.278429,1.5656999999999996,0.242256,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8
+2020,random,required_baseline,1,mp-1025572,WSe2,1.344573,0.066819,1.2288999999999999,0.115673,False,D0,uniform random from the fixed validation pool,1,8
+2020,random,required_baseline,2,mp-1023937,WS2,2.115424,1.828231,1.8091,0.306324,True,D2,uniform random from the fixed validation pool,2,8
+2020,random,required_baseline,3,mp-602,MoTe2,1.345654,0.269348,0.9651000000000005,0.380554,False,D0,uniform random from the fixed validation pool,3,8
+2020,random,required_baseline,4,mp-1025799,MoSe2,1.403003,0.100296,1.1603,0.242703,False,D0,uniform random from the fixed validation pool,4,8
+2020,random,required_baseline,5,mp-1821,WSe2,1.031894,0.304317,1.4468000000000005,0.414906,False,D0,uniform random from the fixed validation pool,5,8
+2020,random,required_baseline,6,mp-1027692,MoSe2,1.272697,0.177647,1.1384,0.134297,False,D0,uniform random from the fixed validation pool,6,8
+2020,random,required_baseline,7,mp-1634,MoSe2,1.222425,0.126643,1.4176000000000002,0.195175,False,D0,uniform random from the fixed validation pool,7,8
+2020,random,required_baseline,8,mp-1023938,MoTe2,1.234457,0.323007,1.0496999999999999,0.184757,False,D0,uniform random from the fixed validation pool,8,8
+2020,static_topn,required_baseline,1,mp-1023937,WS2,1.592079,0.087271,1.8091,0.217021,True,D2,highest target score from the frozen development-only model,1,8
+2020,static_topn,required_baseline,2,mp-1023936,WSe2,1.556983,0.101767,1.5378,0.019183,True,D2,highest target score from the frozen development-only model,2,8
+2020,static_topn,required_baseline,3,mp-1023935,MoTe2,1.609009,0.128786,1.07,0.539009,False,D0,highest target score from the frozen development-only model,3,8
+2020,static_topn,required_baseline,4,mp-1023934,MoSe2,1.61932,0.103894,1.4311,0.18822,False,D0,highest target score from the frozen development-only model,4,8
+2020,static_topn,required_baseline,5,mp-1023940,MoSe2,1.498867,0.054514,1.4242,0.074667,False,D0,highest target score from the frozen development-only model,5,8
+2020,static_topn,required_baseline,6,mp-1023938,MoTe2,1.497486,0.085239,1.0496999999999999,0.447786,False,D0,highest target score from the frozen development-only model,6,8
+2020,static_topn,required_baseline,7,mp-1023925,WS2,1.491928,0.052619,1.697,0.205072,True,D2,highest target score from the frozen development-only model,7,8
+2020,static_topn,required_baseline,8,mp-1023933,WSe2,1.449107,0.079666,1.5234,0.074293,True,D2,highest target score from the frozen development-only model,8,8
+2020,iterative_w035,primary_policy,1,mp-1023935,MoTe2,1.632225,0.074439,1.07,0.562225,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,1,8
+2020,iterative_w035,primary_policy,2,mp-1023934,MoSe2,2.155841,2.224609,1.4311,0.724741,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,2,8
+2020,iterative_w035,primary_policy,3,mp-1027692,MoSe2,1.416319,1.050064,1.1384,0.277919,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,3,8
+2020,iterative_w035,primary_policy,4,mp-1023937,WS2,1.416482,0.087518,1.8091,0.392618,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,4,8
+2020,iterative_w035,primary_policy,5,mp-1023925,WS2,1.501554,0.146874,1.697,0.195446,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,5,8
+2020,iterative_w035,primary_policy,6,mp-1023933,WSe2,1.37328,0.163683,1.5234,0.15012,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,6,8
+2020,iterative_w035,primary_policy,7,mp-1821,WSe2,1.148438,0.176199,1.4468000000000005,0.298362,False,D0,target score plus normalized uncertainty; w=0.35; retrained after feedback,7,8
+2020,iterative_w035,primary_policy,8,mp-9813,WS2,1.372204,0.174913,1.5593000000000004,0.187096,True,D2,target score plus normalized uncertainty; w=0.35; retrained after feedback,8,8
+2020,iterative_w015,diagnostic_ablation_only,1,mp-1023935,MoTe2,1.632225,0.074439,1.07,0.562225,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,1,8
+2020,iterative_w015,diagnostic_ablation_only,2,mp-1023934,MoSe2,2.155841,2.224609,1.4311,0.724741,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,2,8
+2020,iterative_w015,diagnostic_ablation_only,3,mp-1027692,MoSe2,1.416319,1.050064,1.1384,0.277919,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,3,8
+2020,iterative_w015,diagnostic_ablation_only,4,mp-1023937,WS2,1.416482,0.087518,1.8091,0.392618,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,4,8
+2020,iterative_w015,diagnostic_ablation_only,5,mp-1023925,WS2,1.501554,0.146874,1.697,0.195446,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,5,8
+2020,iterative_w015,diagnostic_ablation_only,6,mp-1023940,MoSe2,1.471948,0.080797,1.4242,0.047748,False,D0,target score plus normalized uncertainty; w=0.15; retrained after feedback,6,8
+2020,iterative_w015,diagnostic_ablation_only,7,mp-1023936,WSe2,1.420759,0.156157,1.5378,0.117041,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,7,8
+2020,iterative_w015,diagnostic_ablation_only,8,mp-1023933,WSe2,1.436633,0.120468,1.5234,0.086767,True,D2,target score plus normalized uncertainty; w=0.15; retrained after feedback,8,8
+2020,pure_uncertainty,diagnostic_ablation_only,1,mp-1821,WSe2,1.155312,0.115216,1.4468000000000005,0.291488,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,1,8
+2020,pure_uncertainty,diagnostic_ablation_only,2,mp-1030319,MoTe2,2.785312,4.311123,0.5861999999999998,2.199112,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,2,8
+2020,pure_uncertainty,diagnostic_ablation_only,3,mp-1023935,MoTe2,1.248661,0.52863,1.07,0.178661,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,3,8
+2020,pure_uncertainty,diagnostic_ablation_only,4,mp-602,MoTe2,0.959736,0.44521,0.9651000000000005,0.005364,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,4,8
+2020,pure_uncertainty,diagnostic_ablation_only,5,mp-1023934,MoSe2,1.183643,0.620905,1.4311,0.247457,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,5,8
+2020,pure_uncertainty,diagnostic_ablation_only,6,mp-9813,WS2,1.319251,0.330372,1.5593000000000004,0.240049,True,D2,target score plus normalized uncertainty; w=1.0; retrained after feedback,6,8
+2020,pure_uncertainty,diagnostic_ablation_only,7,mp-1028698,WSe2,0.977309,0.184392,1.1997000000000002,0.222391,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,7,8
+2020,pure_uncertainty,diagnostic_ablation_only,8,mp-7459,MoTe2,0.568616,0.19603,0.0,0.568616,False,D0,target score plus normalized uncertainty; w=1.0; retrained after feedback,8,8

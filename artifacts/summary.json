@@ -1,0 +1,35 @@
+{
+  "strategy_results": [
+    {
+      "policy": "random",
+      "queries": 20,
+      "target_hits": 11,
+      "hit_rate": 0.55,
+      "mean_absolute_error_ev": 0.4128,
+      "all_selected_stable": true
+    },
+    {
+      "policy": "static_topn",
+      "queries": 20,
+      "target_hits": 14,
+      "hit_rate": 0.7,
+      "mean_absolute_error_ev": 0.3977,
+      "all_selected_stable": true
+    },
+    {
+      "policy": "iterative",
+      "queries": 20,
+      "target_hits": 12,
+      "hit_rate": 0.6,
+      "mean_absolute_error_ev": 0.3224,
+      "all_selected_stable": true
+    }
+  ],
+  "dimensionality_audit": {
+    "confirmed_2d_count": 138,
+    "uncertain_2d_count": 13,
+    "non_2d_count": 9,
+    "excluded_from_training_count": 22,
+    "uncertain_policy": "audit and include in deviation statistics; exclude from training until manual confirmation"
+  }
+}

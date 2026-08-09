@@ -1,0 +1,24 @@
+{
+  "attempted_at_utc": "2026-08-07T17:30:39.164634+00:00",
+  "source_database": "Materials Project",
+  "mapping_path": "config/materials_project_mapping_list.json",
+  "raw_response_path": ".local-data/materials_project_probe.json (git-ignored)",
+  "canonical_output_path": ".local-data/materials_project_mapped.json (git-ignored)",
+  "status": "mapped_pending_audit",
+  "records_mapped": 12,
+  "missing_field_counts": {
+    "material_id": 0,
+    "formula": 0,
+    "chemical_system": 0,
+    "structure": 0,
+    "band_gap_ev": 0,
+    "formation_energy_ev_atom": 0,
+    "energy_above_hull_ev_atom": 0,
+    "is_stable_mp_flag": 0,
+    "source_database_version": 0,
+    "source_calculation_method": 12,
+    "source_last_updated": 0
+  },
+  "training_eligible_count": 0,
+  "interpretation": "Direct fields were mapped; all records remain quarantined until 2D and method audits pass."
+}

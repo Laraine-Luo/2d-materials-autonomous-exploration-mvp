@@ -1,0 +1,215 @@
+{
+  "attempted_at_utc": "2026-08-07T17:34:11.741342+00:00",
+  "source": ".local-data/materials_project_mapped.json (git-ignored)",
+  "credential_recorded": false,
+  "status": "updated_pending_manual_review",
+  "database_version": "2026.04.13",
+  "records_updated": 12,
+  "changes": [
+    {
+      "material_id": "mp-1434",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-1018809",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-1023924",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-1023939",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-1025874",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-1027525",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-1042086",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-1238797",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-1405065",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-2815",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-558544",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    },
+    {
+      "material_id": "mp-990083",
+      "before": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "after": {
+        "training_eligible": false,
+        "discovery_level": "D0",
+        "promotion_decision": "blocked"
+      },
+      "blocking_reasons": [
+        "dimensionality_not_confirmed",
+        "calculation_method_not_verified"
+      ]
+    }
+  ],
+  "interpretation": "API evidence was applied; human 2D/method review remains authoritative."
+}

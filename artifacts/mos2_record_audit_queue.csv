@@ -1,0 +1,13 @@
+material_id,formula,api_identity_match,database_version_frozen,dimensionality_review,dimensionality_evidence,calculation_method_review,source_calculation_method,method_task_id,required_property_check,formation_energy_ev_atom,energy_above_hull_ev_atom,is_stable_mp_flag,band_gap_ev,exploration_status_training_eligible,exploration_status_query_state,exploration_status_discovery_level,exploration_status_manual_review_required,blocking_reasons,reviewer_conclusion
+mp-1434,MoS2,pending,pending,pending,,pending,,,pending,,0,,1.38,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-2815,MoS2,pending,pending,pending,,pending,,,pending,,<0.01,,1.46,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-1018809,MoS2,pending,pending,pending,,pending,,,pending,,<0.01,,1.34,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-1027525,MoS2,pending,pending,pending,,pending,,,pending,,<0.01,,1.46,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-1025874,MoS2,pending,pending,pending,,pending,,,pending,,<0.01,,1.51,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-1023939,MoS2,pending,pending,pending,,pending,,,pending,,<0.01,,1.55,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-1023924,MoS2,pending,pending,pending,,pending,,,pending,,0.01,,1.66,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-990083,MoS2,pending,pending,pending,,pending,,,pending,,0.17,,0,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-1405065,MoS2,pending,pending,pending,,pending,,,pending,,0.27,,0,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-558544,MoS2,pending,pending,pending,,pending,,,pending,,0.28,,0,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-1238797,MoS2,pending,pending,pending,,pending,,,pending,,0.30,,0,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,
+mp-1042086,MoS2,pending,pending,pending,,pending,,,pending,,0.65,,0,False,manual_review,D0,True,api_identity;dimensionality;calculation_method;required_properties,

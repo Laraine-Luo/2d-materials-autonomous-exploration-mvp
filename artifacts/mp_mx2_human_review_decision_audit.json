@@ -1,0 +1,399 @@
+{
+  "recorded_at_utc": "2026-08-08T13:14:20.154444+00:00",
+  "actor": "project_owner_user",
+  "authority": "project_owner_human_review",
+  "decision_text": "批准24条建议，mp-1120746继续隔离。",
+  "source_proposal": "artifacts/mp_mx2_combined_review_proposal.json",
+  "approved_validation_candidate_count": 24,
+  "approved_material_ids": [
+    "mp-1018807",
+    "mp-1023925",
+    "mp-1023933",
+    "mp-1023934",
+    "mp-1023935",
+    "mp-1023936",
+    "mp-1023937",
+    "mp-1023938",
+    "mp-1023940",
+    "mp-1025571",
+    "mp-1025572",
+    "mp-1025576",
+    "mp-1025799",
+    "mp-1027692",
+    "mp-1028441",
+    "mp-1028698",
+    "mp-1030319",
+    "mp-1634",
+    "mp-1821",
+    "mp-224",
+    "mp-602",
+    "mp-7459",
+    "mp-7581",
+    "mp-9813"
+  ],
+  "quarantined_material_ids": [
+    "mp-1120746"
+  ],
+  "training_eligible_count": 0,
+  "label_isolation": {
+    "agent_observation_file": "artifacts/mx2_validation_agent_observations.csv",
+    "oracle_file": ".local-data/mx2_validation_oracle.csv (git-ignored)",
+    "forbidden_agent_columns": [
+      "band_gap_ev"
+    ],
+    "public_passport_label_storage": "sha256 commitment only"
+  },
+  "transitions": [
+    {
+      "material_id": "mp-1018807",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1023925",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1023933",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1023934",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1023935",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1023936",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1023937",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1023938",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1023940",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1025571",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1025572",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1025576",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1025799",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1027692",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1028441",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1028698",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1030319",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1120746",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "method_attention_quarantine",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1634",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-1821",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-224",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-602",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-7459",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-7581",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    },
+    {
+      "material_id": "mp-9813",
+      "before": {
+        "human_decision": "pending",
+        "validation_eligible": false,
+        "training_eligible": false
+      },
+      "after": {
+        "human_decision": "approved_validation_candidate",
+        "validation_eligible": true,
+        "training_eligible": false
+      },
+      "reason": "signed_project_owner_decision"
+    }
+  ],
+  "interpretation": "Human approval grants validation-candidate status only; it does not permit training use or expose Band Gap through the agent observation interface."
+}

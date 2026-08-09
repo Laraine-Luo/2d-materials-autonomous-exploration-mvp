@@ -1,0 +1,64 @@
+{
+  "retrieved_at_utc": "2026-08-08T03:33:41.134772+00:00",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "credential_recorded": false,
+  "records_requested": 3,
+  "records_returned": 3,
+  "records": [
+    {
+      "material_id": "mp-1023939",
+      "robocrys_dimensionality": 2,
+      "robocrys_version": "0.87.0rc7",
+      "description": "MoS₂ is Molybdenite-like structured and crystallizes in the trigonal P̅3m1 space group. The structure is two-dimensional and consists of two MoS₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. Mo⁴⁺ is bonded to six equivalent S²⁻ atoms to form distorted edge-sharing MoS₆ pentagonal pyramids. There are three shorter (2.40 Å) and three longer (2.41 Å) Mo-S bond lengths. S²⁻ is bonded in a 3-coordinate geometry to three equivalent Mo⁴⁺ atoms.",
+      "larsen_dimensionality": 2,
+      "gorai_dimensionality": 1,
+      "component_dimensions": [
+        2,
+        2
+      ],
+      "recommendation": "recommended_confirmed_2d",
+      "rationale": "robocrys_and_larsen_support_2d; all_components_2d; gorai_disagrees",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1025874",
+      "robocrys_dimensionality": 2,
+      "robocrys_version": "0.87.0rc7",
+      "description": "MoS₂ is Molybdenite-like structured and crystallizes in the hexagonal P̅6m2 space group. The structure is two-dimensional and consists of three MoS₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. Mo⁴⁺ is bonded to six equivalent S²⁻ atoms to form distorted edge-sharing MoS₆ pentagonal pyramids. All Mo-S bond lengths are 2.41 Å. S²⁻ is bonded in a 3-coordinate geometry to three equivalent Mo⁴⁺ atoms.",
+      "larsen_dimensionality": 2,
+      "gorai_dimensionality": 1,
+      "component_dimensions": [
+        2,
+        2,
+        2
+      ],
+      "recommendation": "recommended_confirmed_2d",
+      "rationale": "robocrys_and_larsen_support_2d; all_components_2d; gorai_disagrees",
+      "human_decision": "pending",
+      "training_eligible": false
+    },
+    {
+      "material_id": "mp-1027525",
+      "robocrys_dimensionality": 2,
+      "robocrys_version": "0.87.0rc7",
+      "description": "MoS₂ is Molybdenite-like structured and crystallizes in the trigonal P̅3m1 space group. The structure is two-dimensional and consists of four MoS₂ sheets oriented in the (np.int64(0), np.int64(0), np.int64(1)) direction. Mo⁴⁺ is bonded to six equivalent S²⁻ atoms to form distorted edge-sharing MoS₆ pentagonal pyramids. All Mo-S bond lengths are 2.41 Å. S²⁻ is bonded in a 3-coordinate geometry to three equivalent Mo⁴⁺ atoms.",
+      "larsen_dimensionality": 2,
+      "gorai_dimensionality": 1,
+      "component_dimensions": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "recommendation": "recommended_confirmed_2d",
+      "rationale": "robocrys_and_larsen_support_2d; all_components_2d; gorai_disagrees",
+      "human_decision": "pending",
+      "training_eligible": false
+    }
+  ],
+  "recommended_confirmed_2d_count": 3,
+  "remain_uncertain_count": 0,
+  "interpretation": "Robocrystallographer is independent MP-generated review evidence. Recommendations do not change human decisions or training eligibility."
+}

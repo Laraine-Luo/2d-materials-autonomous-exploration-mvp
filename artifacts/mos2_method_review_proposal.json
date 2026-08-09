@@ -1,0 +1,216 @@
+{
+  "generated_at_utc": "2026-08-07T17:44:30.474406+00:00",
+  "database_version": "2026.04.13",
+  "frozen_method_cohort": {
+    "band_gap_run_type": "GGA",
+    "stability_thermo_type": "GGA_GGA+U_R2SCAN",
+    "band_gap_task_type_policy": "NSCF Line is normal; other task types require individual attention"
+  },
+  "automatic_approval": false,
+  "recommended_pass_count": 10,
+  "attention_required_count": 2,
+  "recommended_fail_count": 0,
+  "records": [
+    {
+      "material_id": "mp-1434",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "r2SCAN",
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "recommended_pass",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-2815",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "r2SCAN",
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "recommended_pass",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-1018809",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "r2SCAN",
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "recommended_pass",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-1027525",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "r2SCAN",
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "recommended_pass",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-1025874",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "r2SCAN",
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "recommended_pass",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-1023939",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "r2SCAN",
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "recommended_pass",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-1023924",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "r2SCAN",
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "recommended_pass",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-990083",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "Static"
+      ],
+      "matching_thermo_types": [
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "attention_required",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-1405065",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Uniform"
+      ],
+      "matching_thermo_types": [
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "attention_required",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-558544",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "recommended_pass",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-1238797",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "r2SCAN",
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "recommended_pass",
+      "human_decision": "pending"
+    },
+    {
+      "material_id": "mp-1042086",
+      "band_gap_run_types": [
+        "GGA"
+      ],
+      "band_gap_task_types": [
+        "NSCF Line"
+      ],
+      "matching_thermo_types": [
+        "GGA_GGA+U_R2SCAN"
+      ],
+      "frozen_stability_cohort": "GGA_GGA+U_R2SCAN",
+      "summary_stability_matches_frozen_cohort": true,
+      "recommendation": "recommended_pass",
+      "human_decision": "pending"
+    }
+  ],
+  "interpretation": "This is a review proposal, not a signed human decision or training promotion."
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "mp-mos2-3plus3plus1-v1",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "eligible_passport_count_required": 7,
+  "initial_samples": 3,
+  "query_budget": 3,
+  "batch_size": 1,
+  "seed": 42,
+  "target_band_gap_min_ev": 1.5,
+  "target_band_gap_max_ev": 2.5,
+  "stability_max_formation_energy_ev_atom": -0.2,
+  "stability_max_energy_above_hull_ev_atom": 0.1,
+  "dimensionality_training_status": "confirmed_2d",
+  "ridge_alpha": 0.1,
+  "bootstrap_models": 12,
+  "uncertainty_weight": 0.35,
+  "feature_names": [
+    "n_sites",
+    "volume_per_atom_angstrom3",
+    "density_g_cm3",
+    "lattice_anisotropy",
+    "layer_component_count"
+  ],
+  "initial_selection": "deterministic farthest-point sampling on standardized structure features; no Band Gap labels",
+  "policies": ["random", "static_topn", "iterative"],
+  "claim_limit": "single seven-record stable MoS2 micro-run with one holdout; operability and traceability only; no D3 or general strategy-superiority claim"
+}

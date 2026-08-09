@@ -1,0 +1,136 @@
+{
+  "evaluation_id": "mp-mx2-cross-formula-24pool-8query-20seed-v1",
+  "status": "completed",
+  "source_database": "Materials Project",
+  "database_version": "2026.04.13",
+  "development_label_count": 7,
+  "validation_pool_size": 24,
+  "validation_training_eligible_count": 0,
+  "query_budget_per_policy": 8,
+  "unrevealed_per_run": 16,
+  "seed_count": 20,
+  "aggregate_results": {
+    "random": {
+      "confirmatory_role": "required_baseline",
+      "mean_d2_hits": 2.6,
+      "mean_hit_rate": 0.325,
+      "mean_absolute_error_ev": 0.302825,
+      "mean_first_d2_budget": 2.8,
+      "mean_formula_coverage": 3.85,
+      "total_stability_violations": 0
+    },
+    "static_topn": {
+      "confirmatory_role": "required_baseline",
+      "mean_d2_hits": 3.85,
+      "mean_hit_rate": 0.48125,
+      "mean_absolute_error_ev": 0.256835,
+      "mean_first_d2_budget": 2.7,
+      "mean_formula_coverage": 4.0,
+      "total_stability_violations": 0
+    },
+    "iterative_w035": {
+      "confirmatory_role": "primary_policy",
+      "mean_d2_hits": 3.4,
+      "mean_hit_rate": 0.425,
+      "mean_absolute_error_ev": 0.3021,
+      "mean_first_d2_budget": 4.0,
+      "mean_formula_coverage": 4.0,
+      "total_stability_violations": 0
+    },
+    "iterative_w015": {
+      "confirmatory_role": "diagnostic_ablation_only",
+      "mean_d2_hits": 4.7,
+      "mean_hit_rate": 0.5875,
+      "mean_absolute_error_ev": 0.223376,
+      "mean_first_d2_budget": 2.9,
+      "mean_formula_coverage": 4.0,
+      "total_stability_violations": 0
+    },
+    "pure_uncertainty": {
+      "confirmatory_role": "diagnostic_ablation_only",
+      "mean_d2_hits": 1.85,
+      "mean_hit_rate": 0.23125,
+      "mean_absolute_error_ev": 0.403236,
+      "mean_first_d2_budget": 5.6,
+      "mean_formula_coverage": 3.95,
+      "total_stability_violations": 0
+    }
+  },
+  "mean_cumulative_d2_by_budget": {
+    "random": [
+      0.25,
+      0.45,
+      0.85,
+      1.4,
+      1.85,
+      2.2,
+      2.4,
+      2.6
+    ],
+    "static_topn": [
+      0.2,
+      0.45,
+      1.2,
+      1.9,
+      1.9,
+      2.0,
+      2.95,
+      3.85
+    ],
+    "iterative_w035": [
+      0.0,
+      0.05,
+      0.4,
+      0.95,
+      1.5,
+      2.1,
+      2.75,
+      3.4
+    ],
+    "iterative_w015": [
+      0.0,
+      0.25,
+      0.9,
+      1.8,
+      2.7,
+      3.35,
+      4.1,
+      4.7
+    ],
+    "pure_uncertainty": [
+      0.0,
+      0.0,
+      0.0,
+      0.15,
+      0.4,
+      0.9,
+      1.3,
+      1.85
+    ]
+  },
+  "primary_comparisons": {
+    "iterative_w035_minus_random": {
+      "paired_mean_d2_difference": 0.8,
+      "paired_bootstrap_95_ci": [
+        0.1,
+        1.6
+      ],
+      "minimum_meaningful_gain_d2": 0.26,
+      "positive_advantage_gate_pass": true,
+      "minimum_advantage_excluded": false
+    },
+    "iterative_w035_minus_static_topn": {
+      "paired_mean_d2_difference": -0.45,
+      "paired_bootstrap_95_ci": [
+        -0.9,
+        0.0
+      ],
+      "minimum_meaningful_gain_d2": 0.385,
+      "positive_advantage_gate_pass": false,
+      "minimum_advantage_excluded": true
+    }
+  },
+  "discovery_signal_classification": "D3_negative_no_preregistered_cross_formula_advantage",
+  "anti_cherry_pick_rule_respected": true,
+  "scope_limit": "cross-formula behavior inside this fixed MP MX2 validation cohort; no experimental, causal or universal active-learning claim"
+}
